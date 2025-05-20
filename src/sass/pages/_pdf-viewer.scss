@@ -1,0 +1,114 @@
+.pdf-viewer {
+  .pdf-viewer__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #323639;
+    border-bottom: 1px solid #ffffff34;
+    padding: 16px 36px;
+    height: 67px;
+
+    @media screen and (max-width: 800px) {
+      display: none;
+    }
+
+    .pdf-viewer__logo {
+      max-width: 200px;
+
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+    }
+  }
+
+  .pdf-viewer__main {
+    display: flex;
+    height: calc(100vh - 67px);
+    background-color: #323639;
+    overflow-y: hidden;
+
+    @media screen and (max-width: 800px) {
+      flex-direction: column;
+      height: 100dvh;
+    }
+
+    .pdf-viewer__sidebar {
+      padding: clamp(30px, 4vw, 60px) clamp(15px, 2vw, 30px);
+      width: clamp(250px, 25vw, 500px);
+      position: relative;
+
+      .pdf-viewer__close-button {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        // left: 15px;
+        left: clamp(10px, 2vw, 15px);
+        background-color: #323639b0;
+        border: none;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        line-height: 1.1;
+        display: none;
+        font-size: clamp(14px, 3.5vw, 20px);
+        width: clamp(20px, 5vw, 30px);
+        height: clamp(20px, 5vw, 30px);
+
+        @media screen and (max-width: 800px) {
+          display: flex;
+        }
+      }
+
+      @media screen and (max-width: 800px) {
+        padding: 0;
+        width: 100%;
+      }
+
+      img {
+        max-width: 100%;
+
+        &.desktop {
+          display: block;
+        }
+        &.mobile {
+          display: none;
+        }
+
+        @media screen and (max-width: 800px) {
+          &.desktop {
+            display: none;
+          }
+          &.mobile {
+            display: block;
+          }
+        }
+      }
+    }
+
+    .pdf-viewer__iframe-wrapper {
+      flex: 1;
+    }
+  }
+}
+
+.pdf-viewer__close-button {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  font-size: 24px;
+  cursor: pointer;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+
+  &:hover {
+    background-color: #fff;
+    color: #323639;
+  }
+}

@@ -1,0 +1,22 @@
+.primary-btn {
+  display: flex;
+  padding: 0 clamp(16px, 1.5vw, 24px);
+  min-width: 131px;
+  height: 48px;
+  justify-content: center;
+  align-items: center;
+  background-color: #31a0f2;
+  border-radius: 8px;
+
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.14;
+  letter-spacing: 0.75px;
+  text-transform: uppercase;
+  color: white;
+  transition: all 0.25s linear;
+
+  &:hover {
+    box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.25);
+  }
+}

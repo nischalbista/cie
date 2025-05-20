@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <url>
+        <loc>https://www.ciepastpapers.com/a-levels/</loc>
+        <priority>1.00</priority>
+    </url>
+
+    <url>
+        <loc>https://www.ciepastpapers.com/a-levels/accounting-9706/sitemap.xml</loc>
+        <priority>0.90</priority>
+    </url>
+
+    <url>
+        <loc>https://www.ciepastpapers.com/a-levels/biology-9700/sitemap.xml</loc>
+        <priority>0.90</priority>
+    </url>
+
+    <url>
+        <loc>https://www.ciepastpapers.com/a-levels/chemistry-9701/sitemap.xml</loc>
+        <priority>0.90</priority>
+    </url>
+
+    <url>
+        <loc>https://www.ciepastpapers.com/a-levels/economics-9708/sitemap.xml</loc>
+        <priority>0.90</priority>
+    </url>
+
+    <url>
+        <loc>https://www.ciepastpapers.com/a-levels/maths-9709/sitemap.xml</loc>
+        <priority>0.90</priority>
+    </url>
+
+    <url>
+        <loc>https://www.ciepastpapers.com/a-levels/physics-9702/sitemap.xml</loc>
+        <priority>0.90</priority>
+    </url>
+
+</urlset>

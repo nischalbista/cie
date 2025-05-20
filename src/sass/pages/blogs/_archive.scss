@@ -1,0 +1,115 @@
+.archive {
+  padding: 75px 0;
+  .section__heading {
+    text-align: center;
+    font-weight: 600;
+  }
+  .btn {
+    background-color: var(--color-white);
+    padding: clamp(10px, 1.5vw, 16px) clamp(13px, 1.5vw, 32px);
+    cursor: pointer;
+    &:hover {
+      background-color: var(--color-highlight);
+    }
+  }
+
+  .btn.view__more {
+    margin-top: clamp(30px, 4.5vw, 75px);
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  .btns__container {
+    margin-top: 30px;
+    display: flex;
+    gap: clamp(10px, 2.5vw, 16px);
+    justify-content: center;
+
+    .btn.active {
+      background-color: var(--color-highlight);
+      color: var(--color-white);
+    }
+  }
+}
+
+.archive__list {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 20px;
+  margin-top: 75px;
+  row-gap: clamp(30px, 2.5vw, 60px);
+
+  @media (min-width: 575px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  @media (min-width: 991px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .item {
+    position: relative;
+    a {
+      position: absolute;
+      inset: 0;
+      z-index: 1;
+    }
+    &:hover {
+      .item__image {
+        img {
+          scale: 1.05;
+        }
+      }
+      .content {
+        .date {
+          color: var(--color-primary);
+        }
+        .title {
+          color: var(--color-highlight);
+        }
+      }
+    }
+    .item__image {
+      width: 100%;
+      border-radius: clamp(12px, 2.5vw, 18px);
+      overflow: hidden;
+      aspect-ratio: 2.17 / 0.8;
+      max-height: 276px;
+      margin-bottom: 16px;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        display: block;
+        transition: scale 0.25s linear;
+      }
+    }
+
+    .content {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+
+      .date {
+        margin-bottom: 4px;
+        transition: color 0.25s linear;
+        .post__type {
+          color: var(--color-white);
+          background-color: var(--color-highlight);
+          padding: 3px 8px;
+          border-radius: 3px;
+          display: inline-block;
+          margin-right: 7px;
+        }
+      }
+      .title {
+        font-family: var(--font-regular);
+        font-weight: 500;
+        line-height: 1.2;
+        letter-spacing: -0.72px;
+        color: var(--color-primary);
+        font-size: clamp(18px, 2.5vw, 20px);
+        transition: color 0.25s linear;
+      }
+    }
+  }
+}

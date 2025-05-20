@@ -1,0 +1,31 @@
+// Helper
+@import "./helper/fonts";
+@import "./helper/global";
+@import "./helper/container";
+@import "./helper/reset";
+
+// Components
+// @import "./components/prefooter";
+@import "./components/image-banner";
+@import "./components/header";
+@import "./components/footer";
+@import "./components/animations";
+@import "./components/faq";
+@import "./components/404";
+@import "./components/buttons";
+@import "./components/popup";
+@import "./components/timetable-filter";
+
+// Pages
+@import "./pages/home";
+@import "./pages/past-papers";
+@import "./pages/knowledge-hub";
+@import "./pages/level";
+@import "./pages/syllabus";
+@import "./pages/pdf-viewer";
+@import "./pages/blogs/archive";
+@import "./pages/blogs/single";
+
+// body {
+//   font-family: $font-poppins;
+// }

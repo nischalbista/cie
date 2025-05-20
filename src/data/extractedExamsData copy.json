@@ -1,0 +1,7274 @@
+[
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Islamiyat",
+    "Code": "0493/12",
+    "Duration": "1h 30m",
+    "Session": "AM",
+    "Date": "Friday 25 April",
+    "Page": "3"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "French",
+    "Code": "0520/42",
+    "Duration": "1h",
+    "Session": "AM",
+    "Date": "Friday 25 April",
+    "Page": "3"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Bahasa Indonesia",
+    "Code": "0538/01",
+    "Duration": "1h 45m",
+    "Session": "AM",
+    "Date": "Friday 25 April",
+    "Page": "3"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Mandarin Chinese",
+    "Code": "0547/42",
+    "Duration": "1h 15m",
+    "Session": "AM",
+    "Date": "Friday 25 April",
+    "Page": "3"
+  },
+  {
+    "Level": "OL",
+    "Syllabus/Component": "Islamiyat",
+    "Code": "2058/12",
+    "Duration": "1h 30m",
+    "Session": "AM",
+    "Date": "Friday 25 April",
+    "Page": "3"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Swahili",
+    "Code": "0262/01",
+    "Duration": "2h",
+    "Session": "PM",
+    "Date": "Friday 25 April",
+    "Page": "3"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "First Language French",
+    "Code": "0501/01",
+    "Duration": "2h",
+    "Session": "PM",
+    "Date": "Friday 25 April",
+    "Page": "3"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "First Language Chinese",
+    "Code": "0509/12",
+    "Duration": "2h 15m",
+    "Session": "PM",
+    "Date": "Friday 25 April",
+    "Page": "3"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "First Language Turkish",
+    "Code": "0513/01",
+    "Duration": "2h",
+    "Session": "PM",
+    "Date": "Friday 25 April",
+    "Page": "3"
+  },
+  {
+    "Level": "OL",
+    "Syllabus/Component": "Islamic Studies",
+    "Code": "2068/12",
+    "Duration": "1h 30m",
+    "Session": "PM",
+    "Date": "Friday 25 April",
+    "Page": "3"
+  },
+  {
+    "Level": "OL",
+    "Syllabus/Component": "Bengali",
+    "Code": "3204/01",
+    "Duration": "2h",
+    "Session": "PM",
+    "Date": "Friday 25 April",
+    "Page": "3"
+  },
+  {
+    "Level": "OL",
+    "Syllabus/Component": "Sinhala",
+    "Code": "3205/01",
+    "Duration": "1h 30m",
+    "Session": "PM",
+    "Date": "Friday 25 April",
+    "Page": "3"
+  },
+  {
+    "Level": "OL",
+    "Syllabus/Component": "Tamil",
+    "Code": "3226/01",
+    "Duration": "1h 30m",
+    "Session": "PM",
+    "Date": "Friday 25 April",
+    "Page": "3"
+  },
+  {
+    "Level": "AS",
+    "Syllabus/Component": "French Language",
+    "Code": "8028/32",
+    "Duration": "1h 30m",
+    "Session": "PM",
+    "Date": "Friday 25 April",
+    "Page": "3"
+  },
+  {
+    "Level": "AS",
+    "Syllabus/Component": "Tamil Language",
+    "Code": "8689/22",
+    "Duration": "1h 45m",
+    "Session": "PM",
+    "Date": "Friday 25 April",
+    "Page": "3"
+  },
+  {
+    "Level": "AS",
+    "Syllabus/Component": "Islamic Studies",
+    "Code": "9488/12",
+    "Duration": "1h 30m",
+    "Session": "PM",
+    "Date": "Friday 25 April",
+    "Page": "3"
+  },
+  {
+    "Level": "AS",
+    "Syllabus/Component": "Marine Science",
+    "Code": "9693/12",
+    "Duration": "1h 45m",
+    "Session": "PM",
+    "Date": "Friday 25 April",
+    "Page": "3"
+  },
+  {
+    "Level": "AL",
+    "Syllabus/Component": "Tamil",
+    "Code": "9689/22",
+    "Duration": "1h 45m",
+    "Session": "PM",
+    "Date": "Friday 25 April",
+    "Page": "3"
+  },
+  {
+    "Level": "AL",
+    "Syllabus/Component": "French Language & Literature",
+    "Code": "9898/22",
+    "Duration": "2h",
+    "Session": "PM",
+    "Date": "Friday 25 April",
+    "Page": "3"
+  },
+  {
+    "Level": "AS",
+    "Syllabus/Component": "Hinduism",
+    "Code": "9487/01",
+    "Duration": "1h 30m",
+    "Session": "EV",
+    "Date": "Friday 25 April",
+    "Page": "3"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "First Language Malay",
+    "Code": "0696/01",
+    "Duration": "2h",
+    "Session": "AM",
+    "Date": "Monday 28 April",
+    "Page": "4"
+  },
+  {
+    "Level": "OL",
+    "Syllabus/Component": "English Language",
+    "Code": "1123/22",
+    "Duration": "2h",
+    "Session": "AM",
+    "Date": "Monday 28 April",
+    "Page": "4"
+  },
+  {
+    "Level": "AS",
+    "Syllabus/Component": "Language & Literature in English",
+    "Code": "8695/22",
+    "Duration": "2h",
+    "Session": "AM",
+    "Date": "Monday 28 April",
+    "Page": "4"
+  },
+  {
+    "Level": "AS",
+    "Syllabus/Component": "Literature in English",
+    "Code": "9695/12",
+    "Duration": "2h",
+    "Session": "AM",
+    "Date": "Monday 28 April",
+    "Page": "4"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Sanskrit",
+    "Code": "0499/12",
+    "Duration": "1h 30m",
+    "Session": "PM",
+    "Date": "Monday 28 April",
+    "Page": "4"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "First Language Chinese",
+    "Code": "0509/22",
+    "Duration": "2h",
+    "Session": "PM",
+    "Date": "Monday 28 April",
+    "Page": "4"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Italian (Listening - Multiple Choice)",
+    "Code": "0535/12",
+    "Duration": "50m",
+    "Session": "PM",
+    "Date": "Monday 28 April",
+    "Page": "4"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Italian",
+    "Code": "0535/42",
+    "Duration": "1h",
+    "Session": "PM",
+    "Date": "Monday 28 April",
+    "Page": "4"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Arabic",
+    "Code": "0544/22",
+    "Duration": "1h",
+    "Session": "PM",
+    "Date": "Monday 28 April",
+    "Page": "4"
+  },
+  {
+    "Level": "OL",
+    "Syllabus/Component": "Tamil",
+    "Code": "3226/02",
+    "Duration": "1h 30m",
+    "Session": "PM",
+    "Date": "Monday 28 April",
+    "Page": "4"
+  },
+  {
+    "Level": "OL",
+    "Syllabus/Component": "First Language Urdu",
+    "Code": "3247/01",
+    "Duration": "1h 30m",
+    "Session": "PM",
+    "Date": "Monday 28 April",
+    "Page": "4"
+  },
+  {
+    "Level": "OL",
+    "Syllabus/Component": "Second Language Urdu",
+    "Code": "3248/01",
+    "Duration": "1h 45m",
+    "Session": "PM",
+    "Date": "Monday 28 April",
+    "Page": "4"
+  },
+  {
+    "Level": "AS",
+    "Syllabus/Component": "Islamic Studies",
+    "Code": "9488/22",
+    "Duration": "1h 30m",
+    "Session": "PM",
+    "Date": "Monday 28 April",
+    "Page": "4"
+  },
+  {
+    "Level": "AS",
+    "Syllabus/Component": "Thinking Skills",
+    "Code": "9694/12",
+    "Duration": "1h 30m",
+    "Session": "PM",
+    "Date": "Monday 28 April",
+    "Page": "4"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Literature in Spanish",
+    "Code": "0474/12",
+    "Duration": "1h 30m",
+    "Session": "AM",
+    "Date": "Monday 28 April",
+    "Page": "4"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Chinese as a Second Language",
+    "Code": "0523/01",
+    "Duration": "2h",
+    "Session": "AM",
+    "Date": "Monday 28 April",
+    "Page": "4"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Mandarin Chinese (Listening - Multiple Choice)",
+    "Code": "0547/12",
+    "Duration": "40m",
+    "Session": "AM",
+    "Date": "Monday 28 April",
+    "Page": "4"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Cambridge International Mathematics (Core)",
+    "Code": "0607/12",
+    "Duration": "1h 15m",
+    "Session": "AM",
+    "Date": "Monday 28 April",
+    "Page": "4"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Cambridge International Mathematics (Extended)",
+    "Code": "0607/22",
+    "Duration": "1h 30m",
+    "Session": "AM",
+    "Date": "Monday 28 April",
+    "Page": "4"
+  },
+  {
+    "Level": "AS",
+    "Syllabus/Component": "English General Paper",
+    "Code": "8021/12",
+    "Duration": "1h 15m",
+    "Session": "AM",
+    "Date": "Monday 28 April",
+    "Page": "4"
+  },
+  {
+    "Level": "AS",
+    "Syllabus/Component": "Physics (Practical - Advanced)",
+    "Code": "9702/33",
+    "Duration": "2h",
+    "Session": "AM",
+    "Date": "Monday 28 April",
+    "Page": "4"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Pakistan Studies",
+    "Code": "0448/01",
+    "Duration": "1h 30m",
+    "Session": "PM",
+    "Date": "Monday 28 April",
+    "Page": "4"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "German (Listening - Multiple Choice)",
+    "Code": "0525/12",
+    "Duration": "50m",
+    "Session": "PM",
+    "Date": "Monday 28 April",
+    "Page": "4"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "German",
+    "Code": "0525/42",
+    "Duration": "1h",
+    "Session": "PM",
+    "Date": "Monday 28 April",
+    "Page": "4"
+  },
+  {
+    "Level": "OL",
+    "Syllabus/Component": "Pakistan Studies",
+    "Code": "2059/01",
+    "Duration": "1h 30m",
+    "Session": "PM",
+    "Date": "Monday 28 April",
+    "Page": "4"
+  },
+  {
+    "Level": "OL",
+    "Syllabus/Component": "Bengali",
+    "Code": "3204/02",
+    "Duration": "1h 30m",
+    "Session": "PM",
+    "Date": "Monday 28 April",
+    "Page": "4"
+  },
+  {
+    "Level": "OL",
+    "Syllabus/Component": "Sinhala",
+    "Code": "3205/02",
+    "Duration": "1h 30m",
+    "Session": "PM",
+    "Date": "Monday 28 April",
+    "Page": "4"
+  },
+  {
+    "Level": "AS",
+    "Syllabus/Component": "Environmental Management",
+    "Code": "8291/12",
+    "Duration": "1h 45m",
+    "Session": "PM",
+    "Date": "Monday 28 April",
+    "Page": "4"
+  },
+  {
+    "Level": "AS",
+    "Syllabus/Component": "Marine Science",
+    "Code": "9693/22",
+    "Duration": "1h 45m",
+    "Session": "PM",
+    "Date": "Monday 28 April",
+    "Page": "4"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Chemistry (Core)",
+    "Code": "0620/32",
+    "Duration": "1h 15m",
+    "Session": "AM",
+    "Date": "Monday 28 April",
+    "Page": "4"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Chemistry (Extended)",
+    "Code": "0620/42",
+    "Duration": "1h 15m",
+    "Session": "AM",
+    "Date": "Monday 28 April",
+    "Page": "4"
+  },
+  {
+    "Level": "OL",
+    "Syllabus/Component": "Chemistry",
+    "Code": "5070/22",
+    "Duration": "1h 45m",
+    "Session": "AM",
+    "Date": "Monday 28 April",
+    "Page": "4"
+  },
+  {
+    "Level": "OL",
+    "Syllabus/Component": "Combined Science",
+    "Code": "5129/22",
+    "Duration": "1h 45m",
+    "Session": "AM",
+    "Date": "Monday 28 April",
+    "Page": "4"
+  },
+  {
+    "Level": "AS",
+    "Syllabus/Component": "Chinese Language",
+    "Code": "8238/32",
+    "Duration": "1h 30m",
+    "Session": "AM",
+    "Date": "Monday 28 April",
+    "Page": "4"
+  },
+  {
+    "Level": "AS",
+    "Syllabus/Component": "English Language",
+    "Code": "9093/12",
+    "Duration": "2h 15m",
+    "Session": "AM",
+    "Date": "Monday 28 April",
+    "Page": "4"
+  },
+  {
+    "Level": "AS",
+    "Syllabus/Component": "Psychology",
+    "Code": "9990/12",
+    "Duration": "1h 30m",
+    "Session": "AM",
+    "Date": "Monday 28 April",
+    "Page": "4"
+  },
+  {
+    "Level": "AL",
+    "Syllabus/Component": "Chinese Language & Literature",
+    "Code": "9868/22",
+    "Duration": "2h",
+    "Session": "AM",
+    "Date": "Monday 28 April",
+    "Page": "4"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Sanskrit",
+    "Code": "0499/22",
+    "Duration": "1h 30m",
+    "Session": "PM",
+    "Date": "Monday 28 April",
+    "Page": "4"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Italian",
+    "Code": "0535/22",
+    "Duration": "1h",
+    "Session": "PM",
+    "Date": "Monday 28 April",
+    "Page": "4"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Urdu as a Second Language (Listening)",
+    "Code": "0539/02",
+    "Duration": "45m",
+    "Session": "PM",
+    "Date": "Monday 28 April",
+    "Page": "4"
+  },
+  {
+    "Level": "OL",
+    "Syllabus/Component": "First Language Urdu",
+    "Code": "3247/02",
+    "Duration": "2h",
+    "Session": "PM",
+    "Date": "Monday 28 April",
+    "Page": "4"
+  },
+  {
+    "Level": "OL",
+    "Syllabus/Component": "Second Language Urdu",
+    "Code": "3248/02",
+    "Duration": "1h 30m",
+    "Session": "PM",
+    "Date": "Monday 28 April",
+    "Page": "4"
+  },
+  {
+    "Level": "AS",
+    "Syllabus/Component": "Urdu Language",
+    "Code": "8686/02",
+    "Duration": "1h 45m",
+    "Session": "PM",
+    "Date": "Monday 28 April",
+    "Page": "4"
+  },
+  {
+    "Level": "AS",
+    "Syllabus/Component": "Design & Technology",
+    "Code": "9705/12",
+    "Duration": "2h 15m",
+    "Session": "PM",
+    "Date": "Monday 28 April",
+    "Page": "4"
+  },
+  {
+    "Level": "AL",
+    "Syllabus/Component": "Urdu",
+    "Code": "9686/02",
+    "Duration": "1h 45m",
+    "Session": "PM",
+    "Date": "Monday 28 April",
+    "Page": "4"
+  },
+  {
+    "Level": "AL",
+    "Syllabus/Component": "Tamil",
+    "Code": "9689/42",
+    "Duration": "2h 30m",
+    "Session": "PM",
+    "Date": "Monday 28 April",
+    "Page": "4"
+  },
+  {
+    "Level": "AL",
+    "Syllabus/Component": "Spanish Language & Literature",
+    "Code": "9844/22",
+    "Duration": "2h",
+    "Session": "PM",
+    "Date": "Monday 28 April",
+    "Page": "4"
+  },
+  {
+    "Level": "AS",
+    "Syllabus/Component": "Global Perspectives & Research",
+    "Code": "9239/12",
+    "Duration": "1h 30m",
+    "Session": "AM",
+    "Date": "Monday 28 April",
+    "Page": "4"
+  },
+  {
+    "Level": "AS",
+    "Syllabus/Component": "Spanish Language",
+    "Code": "8022/32",
+    "Duration": "1h 30m",
+    "Session": "PM",
+    "Date": "Monday 28 April",
+    "Page": "4"
+  },
+  {
+    "Level": "AS",
+    "Syllabus/Component": "Thinking Skills",
+    "Code": "9694/22",
+    "Duration": "1h 45m",
+    "Session": "PM",
+    "Date": "Monday 28 April",
+    "Page": "4"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Mathematics (Without Coursework) (Core)",
+    "Code": "0580/12",
+    "Duration": "1h 30m",
+    "Session": "PM",
+    "Date": "Monday 28 April",
+    "Page": "4"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Mathematics (Without Coursework) (Extended)",
+    "Code": "0580/22",
+    "Duration": "2h",
+    "Session": "PM",
+    "Date": "Monday 28 April",
+    "Page": "4"
+  },
+  {
+    "Level": "OL",
+    "Syllabus/Component": "Mathematics Syllabus D",
+    "Code": "4024/12",
+    "Duration": "2h",
+    "Session": "PM",
+    "Date": "Monday 28 April",
+    "Page": "4"
+  },
+  {
+    "Level": "AS",
+    "Syllabus/Component": "Tamil Language",
+    "Code": "8689/32",
+    "Duration": "1h 30m",
+    "Session": "PM",
+    "Date": "Monday 28 April",
+    "Page": "4"
+  },
+  {
+    "Level": "AS",
+    "Syllabus/Component": "Travel & Tourism",
+    "Code": "9395/12",
+    "Duration": "2h",
+    "Session": "PM",
+    "Date": "Monday 28 April",
+    "Page": "4"
+  },
+  {
+    "Level": "AS",
+    "Syllabus/Component": "Mathematics (Pure Mathematics 1)",
+    "Code": "9709/12",
+    "Duration": "1h 50m",
+    "Session": "PM",
+    "Date": "Monday 28 April",
+    "Page": "4"
+  },
+  {
+    "Level": "AL",
+    "Syllabus/Component": "Tamil",
+    "Code": "9689/32",
+    "Duration": "1h 30m",
+    "Session": "PM",
+    "Date": "Monday 28 April",
+    "Page": "4"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Cambridge International Mathematics (Core)",
+    "Code": "0607/32",
+    "Duration": "1h 15m",
+    "Session": "AM",
+    "Date": "Monday 05 May",
+    "Page": "5"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Cambridge International Mathematics (Extended)",
+    "Code": "0607/42",
+    "Duration": "1h 30m",
+    "Session": "AM",
+    "Date": "Monday 05 May",
+    "Page": "5"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "First Language Malay",
+    "Code": "0696/02",
+    "Duration": "2h",
+    "Session": "AM",
+    "Date": "Monday 05 May",
+    "Page": "5"
+  },
+  {
+    "Level": "OL",
+    "Syllabus/Component": "Physics",
+    "Code": "5054/22",
+    "Duration": "1h 45m",
+    "Session": "AM",
+    "Date": "Monday 05 May",
+    "Page": "5"
+  },
+  {
+    "Level": "AS",
+    "Syllabus/Component": "English General Paper",
+    "Code": "8021/22",
+    "Duration": "1h 45m",
+    "Session": "AM",
+    "Date": "Monday 05 May",
+    "Page": "5"
+  },
+  {
+    "Level": "AS",
+    "Syllabus/Component": "Language & Literature in English",
+    "Code": "8695/12",
+    "Duration": "2h",
+    "Session": "AM",
+    "Date": "Monday 05 May",
+    "Page": "5"
+  },
+  {
+    "Level": "AS",
+    "Syllabus/Component": "English Language",
+    "Code": "9093/22",
+    "Duration": "2h",
+    "Session": "AM",
+    "Date": "Monday 05 May",
+    "Page": "5"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Swahili (Listening)",
+    "Code": "0262/02",
+    "Duration": "45m",
+    "Session": "PM",
+    "Date": "Monday 05 May",
+    "Page": "5"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Pakistan Studies",
+    "Code": "0448/02",
+    "Duration": "1h 30m",
+    "Session": "PM",
+    "Date": "Monday 05 May",
+    "Page": "5"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "First Language Thai",
+    "Code": "0518/01",
+    "Duration": "2h",
+    "Session": "PM",
+    "Date": "Monday 05 May",
+    "Page": "5"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Malay",
+    "Code": "0546/22",
+    "Duration": "1h",
+    "Session": "PM",
+    "Date": "Monday 05 May",
+    "Page": "5"
+  },
+  {
+    "Level": "9-1",
+    "Syllabus/Component": "Arabic",
+    "Code": "7180/01",
+    "Duration": "1h 30m",
+    "Session": "PM",
+    "Date": "Monday 05 May",
+    "Page": "5"
+  },
+  {
+    "Level": "OL",
+    "Syllabus/Component": "Pakistan Studies",
+    "Code": "2059/02",
+    "Duration": "1h 30m",
+    "Session": "PM",
+    "Date": "Monday 05 May",
+    "Page": "5"
+  },
+  {
+    "Level": "OL",
+    "Syllabus/Component": "Islamic Studies",
+    "Code": "2068/22",
+    "Duration": "1h 30m",
+    "Session": "PM",
+    "Date": "Monday 05 May",
+    "Page": "5"
+  },
+  {
+    "Level": "OL",
+    "Syllabus/Component": "Arabic",
+    "Code": "3180/01",
+    "Duration": "1h 30m",
+    "Session": "PM",
+    "Date": "Monday 05 May",
+    "Page": "5"
+  },
+  {
+    "Level": "AS",
+    "Syllabus/Component": "Environmental Management",
+    "Code": "8291/22",
+    "Duration": "1h 45m",
+    "Session": "PM",
+    "Date": "Monday 05 May",
+    "Page": "5"
+  },
+  {
+    "Level": "AL",
+    "Syllabus/Component": "Islamic Studies",
+    "Code": "9488/32",
+    "Duration": "1h 30m",
+    "Session": "PM",
+    "Date": "Monday 05 May",
+    "Page": "5"
+  },
+  {
+    "Level": "AL",
+    "Syllabus/Component": "Marine Science",
+    "Code": "9693/32",
+    "Duration": "1h 45m",
+    "Session": "PM",
+    "Date": "Monday 05 May",
+    "Page": "5"
+  },
+  {
+    "Level": "AS",
+    "Syllabus/Component": "Portuguese Language",
+    "Code": "8684/02",
+    "Duration": "1h 45m",
+    "Session": "EV",
+    "Date": "Monday 05 May",
+    "Page": "5"
+  },
+  {
+    "Level": "AL",
+    "Syllabus/Component": "Portuguese",
+    "Code": "9718/02",
+    "Duration": "1h 45m",
+    "Session": "EV",
+    "Date": "Monday 05 May",
+    "Page": "5"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Literature in Spanish",
+    "Code": "0474/22",
+    "Duration": "2h",
+    "Session": "AM",
+    "Date": "Monday 05 May",
+    "Page": "5"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Biology (Core)",
+    "Code": "0610/32",
+    "Duration": "1h 15m",
+    "Session": "AM",
+    "Date": "Monday 05 May",
+    "Page": "5"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Biology (Extended)",
+    "Code": "0610/42",
+    "Duration": "1h 15m",
+    "Session": "AM",
+    "Date": "Monday 05 May",
+    "Page": "5"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Combined Science (Core)",
+    "Code": "0653/32",
+    "Duration": "1h 15m",
+    "Session": "AM",
+    "Date": "Monday 05 May",
+    "Page": "5"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Combined Science (Extended)",
+    "Code": "0653/42",
+    "Duration": "1h 15m",
+    "Session": "AM",
+    "Date": "Monday 05 May",
+    "Page": "5"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Co-ordinated Sciences (Double Award) (Core)",
+    "Code": "0654/32",
+    "Duration": "2h",
+    "Session": "AM",
+    "Date": "Monday 05 May",
+    "Page": "5"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Co-ordinated Sciences (Double Award) (Extended)",
+    "Code": "0654/42",
+    "Duration": "2h",
+    "Session": "AM",
+    "Date": "Monday 05 May",
+    "Page": "5"
+  },
+  {
+    "Level": "OL",
+    "Syllabus/Component": "Biology",
+    "Code": "5090/22",
+    "Duration": "1h 45m",
+    "Session": "AM",
+    "Date": "Monday 05 May",
+    "Page": "5"
+  },
+  {
+    "Level": "OL",
+    "Syllabus/Component": "Combined Science",
+    "Code": "5129/32",
+    "Duration": "1h",
+    "Session": "AM",
+    "Date": "Monday 05 May",
+    "Page": "5"
+  },
+  {
+    "Level": "AS",
+    "Syllabus/Component": "Chemistry (Practical - Advanced)",
+    "Code": "9701/33",
+    "Duration": "2h",
+    "Session": "AM",
+    "Date": "Monday 05 May",
+    "Page": "5"
+  },
+  {
+    "Level": "AS",
+    "Syllabus/Component": "Psychology",
+    "Code": "9990/22",
+    "Duration": "1h 30m",
+    "Session": "AM",
+    "Date": "Monday 05 May",
+    "Page": "5"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Geography",
+    "Code": "0460/12",
+    "Duration": "1h 45m",
+    "Session": "PM",
+    "Date": "Monday 05 May",
+    "Page": "5"
+  },
+  {
+    "Level": "OL",
+    "Syllabus/Component": "Geography",
+    "Code": "2217/12",
+    "Duration": "1h 45m",
+    "Session": "PM",
+    "Date": "Monday 05 May",
+    "Page": "5"
+  },
+  {
+    "Level": "OL",
+    "Syllabus/Component": "Fashion & Textiles",
+    "Code": "6130/01",
+    "Duration": "2h",
+    "Session": "PM",
+    "Date": "Monday 05 May",
+    "Page": "5"
+  },
+  {
+    "Level": "AS",
+    "Syllabus/Component": "History",
+    "Code": "9489/12",
+    "Duration": "1h 15m",
+    "Session": "PM",
+    "Date": "Monday 05 May",
+    "Page": "5"
+  },
+  {
+    "Level": "AS",
+    "Syllabus/Component": "Business",
+    "Code": "9609/12",
+    "Duration": "1h 15m",
+    "Session": "PM",
+    "Date": "Monday 05 May",
+    "Page": "5"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Islamiyat",
+    "Code": "0493/22",
+    "Duration": "1h 30m",
+    "Session": "AM",
+    "Date": "Monday 05 May",
+    "Page": "5"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "French",
+    "Code": "0520/22",
+    "Duration": "1h",
+    "Session": "AM",
+    "Date": "Monday 05 May",
+    "Page": "5"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Chinese as a Second Language (Listening)",
+    "Code": "0523/02",
+    "Duration": "45m",
+    "Session": "AM",
+    "Date": "Monday 05 May",
+    "Page": "5"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Cambridge International Mathematics (Core)",
+    "Code": "0607/52",
+    "Duration": "1h 15m",
+    "Session": "AM",
+    "Date": "Monday 05 May",
+    "Page": "5"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Cambridge International Mathematics (Extended)",
+    "Code": "0607/62",
+    "Duration": "1h 30m",
+    "Session": "AM",
+    "Date": "Monday 05 May",
+    "Page": "5"
+  },
+  {
+    "Level": "OL",
+    "Syllabus/Component": "Islamiyat",
+    "Code": "2058/22",
+    "Duration": "1h 30m",
+    "Session": "AM",
+    "Date": "Monday 05 May",
+    "Page": "5"
+  },
+  {
+    "Level": "AS",
+    "Syllabus/Component": "Media Studies",
+    "Code": "9607/22",
+    "Duration": "2h",
+    "Session": "AM",
+    "Date": "Monday 05 May",
+    "Page": "5"
+  },
+  {
+    "Level": "AS",
+    "Syllabus/Component": "Geography (Core)",
+    "Code": "9696/12",
+    "Duration": "1h 30m",
+    "Session": "AM",
+    "Date": "Monday 05 May",
+    "Page": "5"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Mathematics (Without Coursework) (Core)",
+    "Code": "0580/32",
+    "Duration": "1h 30m",
+    "Session": "PM",
+    "Date": "Monday 05 May",
+    "Page": "5"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Mathematics (Without Coursework) (Extended)",
+    "Code": "0580/42",
+    "Duration": "2h",
+    "Session": "PM",
+    "Date": "Monday 05 May",
+    "Page": "5"
+  },
+  {
+    "Level": "OL",
+    "Syllabus/Component": "Mathematics Syllabus D",
+    "Code": "4024/22",
+    "Duration": "2h",
+    "Session": "PM",
+    "Date": "Monday 05 May",
+    "Page": "5"
+  },
+  {
+    "Level": "AS",
+    "Syllabus/Component": "Mathematics (Pure Mathematics 2)",
+    "Code": "9709/22",
+    "Duration": "1h 15m",
+    "Session": "PM",
+    "Date": "Monday 05 May",
+    "Page": "5"
+  },
+  {
+    "Level": "AS",
+    "Syllabus/Component": "Mathematics (Mechanics)",
+    "Code": "9709/42",
+    "Duration": "1h 15m",
+    "Session": "PM",
+    "Date": "Monday 05 May",
+    "Page": "5"
+  },
+  {
+    "Level": "AL",
+    "Syllabus/Component": "Thinking Skills",
+    "Code": "9694/32",
+    "Duration": "2h",
+    "Session": "PM",
+    "Date": "Monday 05 May",
+    "Page": "5"
+  },
+  {
+    "Level": "AL",
+    "Syllabus/Component": "Mathematics (Probability & Statistics 2)",
+    "Code": "9709/62",
+    "Duration": "1h 15m",
+    "Session": "PM",
+    "Date": "Monday 05 May",
+    "Page": "5"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "English (as an Additional Language)",
+    "Code": "0472/22",
+    "Duration": "1h",
+    "Session": "AM",
+    "Date": "Monday 05 May",
+    "Page": "5"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "English (as an Additional Language)",
+    "Code": "0472/42",
+    "Duration": "1h",
+    "Session": "AM",
+    "Date": "Monday 05 May",
+    "Page": "5"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "First Language English (Oral Endorsement)",
+    "Code": "0500/12",
+    "Duration": "2h",
+    "Session": "AM",
+    "Date": "Monday 05 May",
+    "Page": "5"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "English as a Second Language (Speaking Endorsement)",
+    "Code": "0510/12",
+    "Duration": "2h",
+    "Session": "AM",
+    "Date": "Monday 05 May",
+    "Page": "5"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "English as a Second Language (Count-in Speaking)",
+    "Code": "0511/12",
+    "Duration": "2h",
+    "Session": "AM",
+    "Date": "Monday 05 May",
+    "Page": "5"
+  },
+  {
+    "Level": "OL",
+    "Syllabus/Component": "English Language",
+    "Code": "1123/12",
+    "Duration": "2h",
+    "Session": "AM",
+    "Date": "Monday 05 May",
+    "Page": "5"
+  },
+  {
+    "Level": "AS",
+    "Syllabus/Component": "Biology (Practical - Advanced)",
+    "Code": "9700/33",
+    "Duration": "2h",
+    "Session": "AM",
+    "Date": "Monday 05 May",
+    "Page": "5"
+  },
+  {
+    "Level": "AL",
+    "Syllabus/Component": "Chinese Language & Literature",
+    "Code": "9868/32",
+    "Duration": "2h",
+    "Session": "AM",
+    "Date": "Monday 05 May",
+    "Page": "5"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Information & Communication Technology",
+    "Code": "0417/12",
+    "Duration": "1h 30m",
+    "Session": "PM",
+    "Date": "Monday 05 May",
+    "Page": "5"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Global Perspectives",
+    "Code": "0457/12",
+    "Duration": "1h 25m",
+    "Session": "PM",
+    "Date": "Monday 05 May",
+    "Page": "5"
+  },
+  {
+    "Level": "OL",
+    "Syllabus/Component": "Global Perspectives",
+    "Code": "2069/12",
+    "Duration": "1h 25m",
+    "Session": "PM",
+    "Date": "Monday 05 May",
+    "Page": "5"
+  },
+  {
+    "Level": "AS",
+    "Syllabus/Component": "Further Mathematics",
+    "Code": "9231/12",
+    "Duration": "2h",
+    "Session": "PM",
+    "Date": "Monday 05 May",
+    "Page": "5"
+  },
+  {
+    "Level": "AS",
+    "Syllabus/Component": "History",
+    "Code": "9489/22",
+    "Duration": "1h 45m",
+    "Session": "PM",
+    "Date": "Monday 05 May",
+    "Page": "5"
+  },
+  {
+    "Level": "AL",
+    "Syllabus/Component": "Islamic Studies",
+    "Code": "9488/42",
+    "Duration": "1h 30m",
+    "Session": "PM",
+    "Date": "Monday 05 May",
+    "Page": "5"
+  },
+  {
+    "Level": "AL",
+    "Syllabus/Component": "Urdu",
+    "Code": "9686/04",
+    "Duration": "2h 30m",
+    "Session": "PM",
+    "Date": "Monday 05 May",
+    "Page": "5"
+  },
+  {
+    "Level": "AL",
+    "Syllabus/Component": "Marine Science",
+    "Code": "9693/42",
+    "Duration": "1h 45m",
+    "Session": "PM",
+    "Date": "Monday 05 May",
+    "Page": "5"
+  },
+  {
+    "Level": "AL",
+    "Syllabus/Component": "Design & Technology",
+    "Code": "9705/32",
+    "Duration": "2h 30m",
+    "Session": "PM",
+    "Date": "Monday 05 May",
+    "Page": "5"
+  },
+  {
+    "Level": "AS",
+    "Syllabus/Component": "Portuguese Language",
+    "Code": "8684/03",
+    "Duration": "1h 30m",
+    "Session": "EV",
+    "Date": "Monday 05 May",
+    "Page": "5"
+  },
+  {
+    "Level": "AL",
+    "Syllabus/Component": "Portuguese",
+    "Code": "9718/03",
+    "Duration": "1h 30m",
+    "Session": "EV",
+    "Date": "Monday 05 May",
+    "Page": "5"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Physics (Core)",
+    "Code": "0625/32",
+    "Duration": "1h 15m",
+    "Session": "AM",
+    "Date": "Monday 05 May",
+    "Page": "5"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Physics (Extended)",
+    "Code": "0625/42",
+    "Duration": "1h 15m",
+    "Session": "AM",
+    "Date": "Monday 05 May",
+    "Page": "5"
+  },
+  {
+    "Level": "AL",
+    "Syllabus/Component": "Chemistry",
+    "Code": "9701/42",
+    "Duration": "2h",
+    "Session": "AM",
+    "Date": "Monday 05 May",
+    "Page": "5"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "History",
+    "Code": "0470/12",
+    "Duration": "2h",
+    "Session": "PM",
+    "Date": "Monday 05 May",
+    "Page": "5"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Travel & Tourism",
+    "Code": "0471/12",
+    "Duration": "1h 30m",
+    "Session": "PM",
+    "Date": "Monday 05 May",
+    "Page": "5"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Latin",
+    "Code": "0480/12",
+    "Duration": "1h 30m",
+    "Session": "PM",
+    "Date": "Monday 05 May",
+    "Page": "5"
+  },
+  {
+    "Level": "OL",
+    "Syllabus/Component": "History",
+    "Code": "2147/12",
+    "Duration": "2h",
+    "Session": "PM",
+    "Date": "Monday 05 May",
+    "Page": "5"
+  },
+  {
+    "Level": "AS",
+    "Syllabus/Component": "Spanish Language (Listening - Multiple Choice)",
+    "Code": "8022/12",
+    "Duration": "1h",
+    "Session": "PM",
+    "Date": "Monday 05 May",
+    "Page": "5"
+  },
+  {
+    "Level": "AS",
+    "Syllabus/Component": "Computer Science",
+    "Code": "9618/12",
+    "Duration": "1h 30m",
+    "Session": "PM",
+    "Date": "Monday 05 May",
+    "Page": "5"
+  },
+  {
+    "Level": "AS",
+    "Syllabus/Component": "Information Technology",
+    "Code": "9626/12",
+    "Duration": "1h 45m",
+    "Session": "PM",
+    "Date": "Monday 05 May",
+    "Page": "5"
+  },
+  {
+    "Level": "AL",
+    "Syllabus/Component": "Spanish Language & Literature",
+    "Code": "9844/32",
+    "Duration": "2h",
+    "Session": "PM",
+    "Date": "Monday 05 May",
+    "Page": "5"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "World Literature",
+    "Code": "0408/22",
+    "Duration": "1h 15m",
+    "Session": "AM",
+    "Date": "Monday 12 May",
+    "Page": "6"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Computer Science",
+    "Code": "0478/12",
+    "Duration": "1h 45m",
+    "Session": "AM",
+    "Date": "Monday 12 May",
+    "Page": "6"
+  },
+  {
+    "Level": "OL",
+    "Syllabus/Component": "Computer Science",
+    "Code": "2210/12",
+    "Duration": "1h 45m",
+    "Session": "AM",
+    "Date": "Monday 12 May",
+    "Page": "6"
+  },
+  {
+    "Level": "AL",
+    "Syllabus/Component": "English Language",
+    "Code": "9093/32",
+    "Duration": "2h 15m",
+    "Session": "AM",
+    "Date": "Monday 12 May",
+    "Page": "6"
+  },
+  {
+    "Level": "AL",
+    "Syllabus/Component": "Biology",
+    "Code": "9700/42",
+    "Duration": "2h",
+    "Session": "AM",
+    "Date": "Monday 12 May",
+    "Page": "6"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Literature in English",
+    "Code": "0475/12",
+    "Duration": "1h 30m",
+    "Session": "PM",
+    "Date": "Monday 12 May",
+    "Page": "6"
+  },
+  {
+    "Level": "OL",
+    "Syllabus/Component": "Literature in English",
+    "Code": "2010/12",
+    "Duration": "1h 30m",
+    "Session": "PM",
+    "Date": "Monday 12 May",
+    "Page": "6"
+  },
+  {
+    "Level": "AS",
+    "Syllabus/Component": "Spanish Language (Multiple Choice)",
+    "Code": "8022/22",
+    "Duration": "1h 30m",
+    "Session": "PM",
+    "Date": "Monday 12 May",
+    "Page": "6"
+  },
+  {
+    "Level": "AS",
+    "Syllabus/Component": "Business",
+    "Code": "9609/22",
+    "Duration": "1h 30m",
+    "Session": "PM",
+    "Date": "Monday 12 May",
+    "Page": "6"
+  },
+  {
+    "Level": "AL",
+    "Syllabus/Component": "Thinking Skills",
+    "Code": "9694/42",
+    "Duration": "1h 45m",
+    "Session": "PM",
+    "Date": "Monday 12 May",
+    "Page": "6"
+  },
+  {
+    "Level": "AL",
+    "Syllabus/Component": "Spanish Language & Literature (Multiple Choice)",
+    "Code": "9844/12",
+    "Duration": "1h 30m",
+    "Session": "PM",
+    "Date": "Monday 12 May",
+    "Page": "6"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Biology (Practical)",
+    "Code": "0610/52",
+    "Duration": "1h 15m",
+    "Session": "AM",
+    "Date": "Monday 12 May",
+    "Page": "6"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Biology (Alternative to Practical)",
+    "Code": "0610/62",
+    "Duration": "1h",
+    "Session": "AM",
+    "Date": "Monday 12 May",
+    "Page": "6"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Combined Science (Practical)",
+    "Code": "0653/52",
+    "Duration": "1h 15m",
+    "Session": "AM",
+    "Date": "Monday 12 May",
+    "Page": "6"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Combined Science (Alternative to Practical)",
+    "Code": "0653/62",
+    "Duration": "1h",
+    "Session": "AM",
+    "Date": "Monday 12 May",
+    "Page": "6"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Co-ordinated Sciences (Double Award) (Practical)",
+    "Code": "0654/52",
+    "Duration": "2h",
+    "Session": "AM",
+    "Date": "Monday 12 May",
+    "Page": "6"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Co-ordinated Sciences (Double Award) (Alternative to Practical)",
+    "Code": "0654/62",
+    "Duration": "1h 30m",
+    "Session": "AM",
+    "Date": "Monday 12 May",
+    "Page": "6"
+  },
+  {
+    "Level": "OL",
+    "Syllabus/Component": "Biology (Practical)",
+    "Code": "5090/32",
+    "Duration": "1h 30m",
+    "Session": "AM",
+    "Date": "Monday 12 May",
+    "Page": "6"
+  },
+  {
+    "Level": "OL",
+    "Syllabus/Component": "Biology (Alternative to Practical)",
+    "Code": "5090/42",
+    "Duration": "1h",
+    "Session": "AM",
+    "Date": "Monday 12 May",
+    "Page": "6"
+  },
+  {
+    "Level": "AS",
+    "Syllabus/Component": "Literature in English",
+    "Code": "9695/22",
+    "Duration": "2h",
+    "Session": "AM",
+    "Date": "Monday 12 May",
+    "Page": "6"
+  },
+  {
+    "Level": "AL",
+    "Syllabus/Component": "Psychology",
+    "Code": "9990/32",
+    "Duration": "1h 30m",
+    "Session": "AM",
+    "Date": "Monday 12 May",
+    "Page": "6"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Design & Technology",
+    "Code": "0445/12",
+    "Duration": "1h 15m",
+    "Session": "PM",
+    "Date": "Monday 12 May",
+    "Page": "6"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Latin",
+    "Code": "0480/22",
+    "Duration": "1h 30m",
+    "Session": "PM",
+    "Date": "Monday 12 May",
+    "Page": "6"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "First Language French",
+    "Code": "0501/02",
+    "Duration": "2h",
+    "Session": "PM",
+    "Date": "Monday 12 May",
+    "Page": "6"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "First Language Arabic",
+    "Code": "0508/01",
+    "Duration": "2h",
+    "Session": "PM",
+    "Date": "Monday 12 May",
+    "Page": "6"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "First Language Turkish",
+    "Code": "0513/02",
+    "Duration": "2h",
+    "Session": "PM",
+    "Date": "Monday 12 May",
+    "Page": "6"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "First Language Thai",
+    "Code": "0518/02",
+    "Duration": "2h",
+    "Session": "PM",
+    "Date": "Monday 12 May",
+    "Page": "6"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Urdu as a Second Language",
+    "Code": "0539/01",
+    "Duration": "2h",
+    "Session": "PM",
+    "Date": "Monday 12 May",
+    "Page": "6"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Malay",
+    "Code": "0546/42",
+    "Duration": "1h",
+    "Session": "PM",
+    "Date": "Monday 12 May",
+    "Page": "6"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Marine Science",
+    "Code": "0697/12",
+    "Duration": "1h 45m",
+    "Session": "PM",
+    "Date": "Monday 12 May",
+    "Page": "6"
+  },
+  {
+    "Level": "9-1",
+    "Syllabus/Component": "Arabic",
+    "Code": "7180/02",
+    "Duration": "1h 30m",
+    "Session": "PM",
+    "Date": "Monday 12 May",
+    "Page": "6"
+  },
+  {
+    "Level": "OL",
+    "Syllabus/Component": "Arabic",
+    "Code": "3180/02",
+    "Duration": "1h 30m",
+    "Session": "PM",
+    "Date": "Monday 12 May",
+    "Page": "6"
+  },
+  {
+    "Level": "AS",
+    "Syllabus/Component": "Sociology",
+    "Code": "9699/12",
+    "Duration": "1h 30m",
+    "Session": "PM",
+    "Date": "Monday 12 May",
+    "Page": "6"
+  },
+  {
+    "Level": "AS",
+    "Syllabus/Component": "Accounting",
+    "Code": "9706/22",
+    "Duration": "1h 45m",
+    "Session": "PM",
+    "Date": "Monday 12 May",
+    "Page": "6"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "First Language English (Oral Endorsement)",
+    "Code": "0500/22",
+    "Duration": "2h",
+    "Session": "AM",
+    "Date": "Monday 12 May",
+    "Page": "6"
+  },
+  {
+    "Level": "AS",
+    "Syllabus/Component": "Geography (Core)",
+    "Code": "9696/22",
+    "Duration": "1h 30m",
+    "Session": "AM",
+    "Date": "Monday 12 May",
+    "Page": "6"
+  },
+  {
+    "Level": "AS",
+    "Syllabus/Component": "Economics",
+    "Code": "9708/22",
+    "Duration": "2h",
+    "Session": "AM",
+    "Date": "Monday 12 May",
+    "Page": "6"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Literature in English",
+    "Code": "0475/22",
+    "Duration": "1h 30m",
+    "Session": "PM",
+    "Date": "Monday 12 May",
+    "Page": "6"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Literature in English",
+    "Code": "0475/32",
+    "Duration": "45m",
+    "Session": "PM",
+    "Date": "Monday 12 May",
+    "Page": "6"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Literature in English",
+    "Code": "0475/42",
+    "Duration": "1h 15m",
+    "Session": "PM",
+    "Date": "Monday 12 May",
+    "Page": "6"
+  },
+  {
+    "Level": "OL",
+    "Syllabus/Component": "Literature in English",
+    "Code": "2010/22",
+    "Duration": "1h 30m",
+    "Session": "PM",
+    "Date": "Monday 12 May",
+    "Page": "6"
+  },
+  {
+    "Level": "AS",
+    "Syllabus/Component": "Mathematics (Probability & Statistics 1)",
+    "Code": "9709/52",
+    "Duration": "1h 15m",
+    "Session": "PM",
+    "Date": "Monday 12 May",
+    "Page": "6"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "World Literature",
+    "Code": "0408/32",
+    "Duration": "1h 30m",
+    "Session": "AM",
+    "Date": "Monday 12 May",
+    "Page": "6"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Chemistry (Practical)",
+    "Code": "0620/52",
+    "Duration": "1h 15m",
+    "Session": "AM",
+    "Date": "Monday 12 May",
+    "Page": "6"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Chemistry (Alternative to Practical)",
+    "Code": "0620/62",
+    "Duration": "1h",
+    "Session": "AM",
+    "Date": "Monday 12 May",
+    "Page": "6"
+  },
+  {
+    "Level": "OL",
+    "Syllabus/Component": "Chemistry (Practical)",
+    "Code": "5070/32",
+    "Duration": "1h 30m",
+    "Session": "AM",
+    "Date": "Monday 12 May",
+    "Page": "6"
+  },
+  {
+    "Level": "OL",
+    "Syllabus/Component": "Chemistry (Alternative to Practical)",
+    "Code": "5070/42",
+    "Duration": "1h",
+    "Session": "AM",
+    "Date": "Monday 12 May",
+    "Page": "6"
+  },
+  {
+    "Level": "AS",
+    "Syllabus/Component": "Biology",
+    "Code": "9700/22",
+    "Duration": "1h 15m",
+    "Session": "AM",
+    "Date": "Monday 12 May",
+    "Page": "6"
+  },
+  {
+    "Level": "AL",
+    "Syllabus/Component": "Biology",
+    "Code": "9700/52",
+    "Duration": "1h 15m",
+    "Session": "AM",
+    "Date": "Monday 12 May",
+    "Page": "6"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Geography",
+    "Code": "0460/22",
+    "Duration": "1h 30m",
+    "Session": "PM",
+    "Date": "Monday 12 May",
+    "Page": "6"
+  },
+  {
+    "Level": "OL",
+    "Syllabus/Component": "Geography",
+    "Code": "2217/22",
+    "Duration": "1h 30m",
+    "Session": "PM",
+    "Date": "Monday 12 May",
+    "Page": "6"
+  },
+  {
+    "Level": "AS",
+    "Syllabus/Component": "Arabic Language",
+    "Code": "8680/22",
+    "Duration": "1h 45m",
+    "Session": "PM",
+    "Date": "Monday 12 May",
+    "Page": "6"
+  },
+  {
+    "Level": "AS",
+    "Syllabus/Component": "Computer Science",
+    "Code": "9618/22",
+    "Duration": "2h",
+    "Session": "PM",
+    "Date": "Monday 12 May",
+    "Page": "6"
+  },
+  {
+    "Level": "AL",
+    "Syllabus/Component": "History",
+    "Code": "9489/32",
+    "Duration": "1h 15m",
+    "Session": "PM",
+    "Date": "Monday 12 May",
+    "Page": "6"
+  },
+  {
+    "Level": "AL",
+    "Syllabus/Component": "Arabic",
+    "Code": "9680/22",
+    "Duration": "1h 45m",
+    "Session": "PM",
+    "Date": "Monday 12 May",
+    "Page": "6"
+  },
+  {
+    "Level": "AL",
+    "Syllabus/Component": "Accounting",
+    "Code": "9706/32",
+    "Duration": "1h 30m",
+    "Session": "PM",
+    "Date": "Monday 12 May",
+    "Page": "6"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Business Studies",
+    "Code": "0450/12",
+    "Duration": "1h 30m",
+    "Session": "AM",
+    "Date": "Monday 12 May",
+    "Page": "6"
+  },
+  {
+    "Level": "OL",
+    "Syllabus/Component": "Business Studies",
+    "Code": "7115/12",
+    "Duration": "1h 30m",
+    "Session": "AM",
+    "Date": "Monday 12 May",
+    "Page": "6"
+  },
+  {
+    "Level": "AL",
+    "Syllabus/Component": "Physics",
+    "Code": "9702/42",
+    "Duration": "2h",
+    "Session": "AM",
+    "Date": "Monday 12 May",
+    "Page": "6"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "History",
+    "Code": "0470/22",
+    "Duration": "1h 45m",
+    "Session": "PM",
+    "Date": "Monday 12 May",
+    "Page": "6"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "First Language German",
+    "Code": "0505/01",
+    "Duration": "2h",
+    "Session": "PM",
+    "Date": "Monday 12 May",
+    "Page": "6"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "German",
+    "Code": "0525/22",
+    "Duration": "1h",
+    "Session": "PM",
+    "Date": "Monday 12 May",
+    "Page": "6"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Marine Science",
+    "Code": "0697/22",
+    "Duration": "1h 45m",
+    "Session": "PM",
+    "Date": "Monday 12 May",
+    "Page": "6"
+  },
+  {
+    "Level": "OL",
+    "Syllabus/Component": "History",
+    "Code": "2147/22",
+    "Duration": "1h 45m",
+    "Session": "PM",
+    "Date": "Monday 12 May",
+    "Page": "6"
+  },
+  {
+    "Level": "AS",
+    "Syllabus/Component": "Sociology",
+    "Code": "9699/22",
+    "Duration": "1h 30m",
+    "Session": "PM",
+    "Date": "Monday 12 May",
+    "Page": "6"
+  },
+  {
+    "Level": "AL",
+    "Syllabus/Component": "Business",
+    "Code": "9609/32",
+    "Duration": "1h 45m",
+    "Session": "PM",
+    "Date": "Monday 12 May",
+    "Page": "6"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Business Studies",
+    "Code": "0450/22",
+    "Duration": "1h 30m",
+    "Session": "AM",
+    "Date": "Monday 19 May",
+    "Page": "7"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Additional Mathematics",
+    "Code": "0606/12",
+    "Duration": "2h",
+    "Session": "AM",
+    "Date": "Monday 19 May",
+    "Page": "7"
+  },
+  {
+    "Level": "OL",
+    "Syllabus/Component": "Additional Mathematics",
+    "Code": "4037/12",
+    "Duration": "2h",
+    "Session": "AM",
+    "Date": "Monday 19 May",
+    "Page": "7"
+  },
+  {
+    "Level": "OL",
+    "Syllabus/Component": "Business Studies",
+    "Code": "7115/22",
+    "Duration": "1h 30m",
+    "Session": "AM",
+    "Date": "Monday 19 May",
+    "Page": "7"
+  },
+  {
+    "Level": "AS",
+    "Syllabus/Component": "Chemistry",
+    "Code": "9701/22",
+    "Duration": "1h 15m",
+    "Session": "AM",
+    "Date": "Monday 19 May",
+    "Page": "7"
+  },
+  {
+    "Level": "AL",
+    "Syllabus/Component": "Media Studies",
+    "Code": "9607/42",
+    "Duration": "2h",
+    "Session": "AM",
+    "Date": "Monday 19 May",
+    "Page": "7"
+  },
+  {
+    "Level": "AL",
+    "Syllabus/Component": "Chemistry",
+    "Code": "9701/52",
+    "Duration": "1h 15m",
+    "Session": "AM",
+    "Date": "Monday 19 May",
+    "Page": "7"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "History",
+    "Code": "0470/42",
+    "Duration": "1h",
+    "Session": "PM",
+    "Date": "Monday 19 May",
+    "Page": "7"
+  },
+  {
+    "Level": "OL",
+    "Syllabus/Component": "Hinduism",
+    "Code": "2055/01",
+    "Duration": "1h 30m",
+    "Session": "PM",
+    "Date": "Monday 19 May",
+    "Page": "7"
+  },
+  {
+    "Level": "AS",
+    "Syllabus/Component": "French Language (Listening - Multiple Choice)",
+    "Code": "8028/12",
+    "Duration": "1h",
+    "Session": "PM",
+    "Date": "Monday 19 May",
+    "Page": "7"
+  },
+  {
+    "Level": "AS",
+    "Syllabus/Component": "Sport & Physical Education",
+    "Code": "8386/12",
+    "Duration": "1h 45m",
+    "Session": "PM",
+    "Date": "Monday 19 May",
+    "Page": "7"
+  },
+  {
+    "Level": "AL",
+    "Syllabus/Component": "Mathematics (Pure Mathematics 3)",
+    "Code": "9709/32",
+    "Duration": "1h 50m",
+    "Session": "PM",
+    "Date": "Monday 19 May",
+    "Page": "7"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Physics (Practical)",
+    "Code": "0625/52",
+    "Duration": "1h 15m",
+    "Session": "AM",
+    "Date": "Monday 19 May",
+    "Page": "7"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Physics (Alternative to Practical)",
+    "Code": "0625/62",
+    "Duration": "1h",
+    "Session": "AM",
+    "Date": "Monday 19 May",
+    "Page": "7"
+  },
+  {
+    "Level": "OL",
+    "Syllabus/Component": "Physics (Practical)",
+    "Code": "5054/32",
+    "Duration": "1h 30m",
+    "Session": "AM",
+    "Date": "Monday 19 May",
+    "Page": "7"
+  },
+  {
+    "Level": "OL",
+    "Syllabus/Component": "Physics (Alternative to Practical)",
+    "Code": "5054/42",
+    "Duration": "1h",
+    "Session": "AM",
+    "Date": "Monday 19 May",
+    "Page": "7"
+  },
+  {
+    "Level": "AS",
+    "Syllabus/Component": "Physics",
+    "Code": "9702/22",
+    "Duration": "1h 15m",
+    "Session": "AM",
+    "Date": "Monday 19 May",
+    "Page": "7"
+  },
+  {
+    "Level": "AL",
+    "Syllabus/Component": "Physics",
+    "Code": "9702/52",
+    "Duration": "1h 15m",
+    "Session": "AM",
+    "Date": "Monday 19 May",
+    "Page": "7"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Physical Education",
+    "Code": "0413/12",
+    "Duration": "1h 45m",
+    "Session": "PM",
+    "Date": "Monday 19 May",
+    "Page": "7"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Geography",
+    "Code": "0460/42",
+    "Duration": "1h 30m",
+    "Session": "PM",
+    "Date": "Monday 19 May",
+    "Page": "7"
+  },
+  {
+    "Level": "OL",
+    "Syllabus/Component": "Geography",
+    "Code": "2217/32",
+    "Duration": "1h 30m",
+    "Session": "PM",
+    "Date": "Monday 19 May",
+    "Page": "7"
+  },
+  {
+    "Level": "AS",
+    "Syllabus/Component": "Music (Listening)",
+    "Code": "9483/12",
+    "Duration": "2h",
+    "Session": "PM",
+    "Date": "Monday 19 May",
+    "Page": "7"
+  },
+  {
+    "Level": "AL",
+    "Syllabus/Component": "Travel & Tourism",
+    "Code": "9395/32",
+    "Duration": "1h 30m",
+    "Session": "PM",
+    "Date": "Monday 19 May",
+    "Page": "7"
+  },
+  {
+    "Level": "AL",
+    "Syllabus/Component": "History",
+    "Code": "9489/42",
+    "Duration": "1h 45m",
+    "Session": "PM",
+    "Date": "Monday 19 May",
+    "Page": "7"
+  },
+  {
+    "Level": "AL",
+    "Syllabus/Component": "Business",
+    "Code": "9609/42",
+    "Duration": "1h 15m",
+    "Session": "PM",
+    "Date": "Monday 19 May",
+    "Page": "7"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Accounting",
+    "Code": "0452/22",
+    "Duration": "1h 45m",
+    "Session": "AM",
+    "Date": "Monday 19 May",
+    "Page": "7"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Computer Science",
+    "Code": "0478/22",
+    "Duration": "1h 45m",
+    "Session": "AM",
+    "Date": "Monday 19 May",
+    "Page": "7"
+  },
+  {
+    "Level": "OL",
+    "Syllabus/Component": "Computer Science",
+    "Code": "2210/22",
+    "Duration": "1h 45m",
+    "Session": "AM",
+    "Date": "Monday 19 May",
+    "Page": "7"
+  },
+  {
+    "Level": "OL",
+    "Syllabus/Component": "Accounting",
+    "Code": "7707/22",
+    "Duration": "1h 45m",
+    "Session": "AM",
+    "Date": "Monday 19 May",
+    "Page": "7"
+  },
+  {
+    "Level": "AL",
+    "Syllabus/Component": "Literature in English",
+    "Code": "9695/32",
+    "Duration": "2h",
+    "Session": "AM",
+    "Date": "Monday 19 May",
+    "Page": "7"
+  },
+  {
+    "Level": "AL",
+    "Syllabus/Component": "Geography (Advanced)",
+    "Code": "9696/32",
+    "Duration": "1h 30m",
+    "Session": "AM",
+    "Date": "Monday 19 May",
+    "Page": "7"
+  },
+  {
+    "Level": "AL",
+    "Syllabus/Component": "Psychology",
+    "Code": "9990/42",
+    "Duration": "1h 30m",
+    "Session": "AM",
+    "Date": "Monday 19 May",
+    "Page": "7"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "First Language German",
+    "Code": "0505/02",
+    "Duration": "2h",
+    "Session": "PM",
+    "Date": "Monday 19 May",
+    "Page": "7"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "First Language Arabic",
+    "Code": "0508/02",
+    "Duration": "2h",
+    "Session": "PM",
+    "Date": "Monday 19 May",
+    "Page": "7"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Spanish",
+    "Code": "0530/22",
+    "Duration": "1h",
+    "Session": "PM",
+    "Date": "Monday 19 May",
+    "Page": "7"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Arabic (Listening - Multiple Choice)",
+    "Code": "0544/12",
+    "Duration": "50m",
+    "Session": "PM",
+    "Date": "Monday 19 May",
+    "Page": "7"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Arabic",
+    "Code": "0544/42",
+    "Duration": "1h",
+    "Session": "PM",
+    "Date": "Monday 19 May",
+    "Page": "7"
+  },
+  {
+    "Level": "AS",
+    "Syllabus/Component": "Urdu Language",
+    "Code": "8686/03",
+    "Duration": "1h 30m",
+    "Session": "PM",
+    "Date": "Monday 19 May",
+    "Page": "7"
+  },
+  {
+    "Level": "AS",
+    "Syllabus/Component": "Drama",
+    "Code": "9482/12",
+    "Duration": "2h",
+    "Session": "PM",
+    "Date": "Monday 19 May",
+    "Page": "7"
+  },
+  {
+    "Level": "AL",
+    "Syllabus/Component": "Computer Science (Advanced)",
+    "Code": "9618/32",
+    "Duration": "1h 30m",
+    "Session": "PM",
+    "Date": "Monday 19 May",
+    "Page": "7"
+  },
+  {
+    "Level": "AL",
+    "Syllabus/Component": "Information Technology (Advanced)",
+    "Code": "9626/32",
+    "Duration": "1h 45m",
+    "Session": "PM",
+    "Date": "Monday 19 May",
+    "Page": "7"
+  },
+  {
+    "Level": "AL",
+    "Syllabus/Component": "Urdu",
+    "Code": "9686/03",
+    "Duration": "1h 30m",
+    "Session": "PM",
+    "Date": "Monday 19 May",
+    "Page": "7"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "English (as an Additional Language) (Listening - Multiple Choice)",
+    "Code": "0472/12",
+    "Duration": "50m",
+    "Session": "AM",
+    "Date": "Monday 19 May",
+    "Page": "7"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "English as a Second Language (Speaking Endorsement)\n(Listening)",
+    "Code": "0510/22",
+    "Duration": "50m",
+    "Session": "AM",
+    "Date": "Monday 19 May",
+    "Page": "7"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "English as a Second Language (Count-in Speaking) (Listening)",
+    "Code": "0511/22",
+    "Duration": "50m",
+    "Session": "AM",
+    "Date": "Monday 19 May",
+    "Page": "7"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Mandarin Chinese",
+    "Code": "0547/22",
+    "Duration": "1h 15m",
+    "Session": "AM",
+    "Date": "Monday 19 May",
+    "Page": "7"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Environmental Management",
+    "Code": "0680/12",
+    "Duration": "1h 45m",
+    "Session": "AM",
+    "Date": "Monday 19 May",
+    "Page": "7"
+  },
+  {
+    "Level": "OL",
+    "Syllabus/Component": "Environmental Management",
+    "Code": "5014/12",
+    "Duration": "1h 45m",
+    "Session": "AM",
+    "Date": "Monday 19 May",
+    "Page": "7"
+  },
+  {
+    "Level": "AS",
+    "Syllabus/Component": "Physics (Practical - Advanced)",
+    "Code": "9702/34",
+    "Duration": "2h",
+    "Session": "AM",
+    "Date": "Monday 19 May",
+    "Page": "7"
+  },
+  {
+    "Level": "AL",
+    "Syllabus/Component": "Economics",
+    "Code": "9708/42",
+    "Duration": "2h",
+    "Session": "AM",
+    "Date": "Monday 19 May",
+    "Page": "7"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Music (Listening)",
+    "Code": "0410/12",
+    "Duration": "1h 15m",
+    "Session": "PM",
+    "Date": "Monday 19 May",
+    "Page": "7"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Travel & Tourism",
+    "Code": "0471/22",
+    "Duration": "2h",
+    "Session": "PM",
+    "Date": "Monday 19 May",
+    "Page": "7"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Sociology",
+    "Code": "0495/12",
+    "Duration": "2h",
+    "Session": "PM",
+    "Date": "Monday 19 May",
+    "Page": "7"
+  },
+  {
+    "Level": "OL",
+    "Syllabus/Component": "Sociology",
+    "Code": "2251/12",
+    "Duration": "2h",
+    "Session": "PM",
+    "Date": "Monday 19 May",
+    "Page": "7"
+  },
+  {
+    "Level": "AS",
+    "Syllabus/Component": "French Language (Multiple Choice)",
+    "Code": "8028/22",
+    "Duration": "1h 30m",
+    "Session": "PM",
+    "Date": "Monday 19 May",
+    "Page": "7"
+  },
+  {
+    "Level": "AL",
+    "Syllabus/Component": "Travel & Tourism",
+    "Code": "9395/42",
+    "Duration": "1h 30m",
+    "Session": "PM",
+    "Date": "Monday 19 May",
+    "Page": "7"
+  },
+  {
+    "Level": "AL",
+    "Syllabus/Component": "Accounting",
+    "Code": "9706/42",
+    "Duration": "1h",
+    "Session": "PM",
+    "Date": "Monday 19 May",
+    "Page": "7"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Economics",
+    "Code": "0455/22",
+    "Duration": "2h 15m",
+    "Session": "AM",
+    "Date": "Monday 19 May",
+    "Page": "7"
+  },
+  {
+    "Level": "OL",
+    "Syllabus/Component": "Economics",
+    "Code": "2281/22",
+    "Duration": "2h 15m",
+    "Session": "AM",
+    "Date": "Monday 19 May",
+    "Page": "7"
+  },
+  {
+    "Level": "AL",
+    "Syllabus/Component": "English Language",
+    "Code": "9093/42",
+    "Duration": "2h 15m",
+    "Session": "AM",
+    "Date": "Monday 19 May",
+    "Page": "7"
+  },
+  {
+    "Level": "AL",
+    "Syllabus/Component": "Literature in English",
+    "Code": "9695/42",
+    "Duration": "2h",
+    "Session": "AM",
+    "Date": "Monday 19 May",
+    "Page": "7"
+  },
+  {
+    "Level": "AL",
+    "Syllabus/Component": "Geography (Advanced)",
+    "Code": "9696/42",
+    "Duration": "1h 30m",
+    "Session": "AM",
+    "Date": "Monday 19 May",
+    "Page": "7"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Spanish (Listening - Multiple Choice)",
+    "Code": "0530/12",
+    "Duration": "50m",
+    "Session": "PM",
+    "Date": "Monday 19 May",
+    "Page": "7"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Spanish",
+    "Code": "0530/42",
+    "Duration": "1h",
+    "Session": "PM",
+    "Date": "Monday 19 May",
+    "Page": "7"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Bahasa Indonesia",
+    "Code": "0538/02",
+    "Duration": "1h 45m",
+    "Session": "AM",
+    "Date": "Monday 26 May",
+    "Page": "8"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "First Language Vietnamese",
+    "Code": "0695/01",
+    "Duration": "2h",
+    "Session": "AM",
+    "Date": "Monday 26 May",
+    "Page": "8"
+  },
+  {
+    "Level": "AS",
+    "Syllabus/Component": "Chinese Language (Listening - Multiple Choice)",
+    "Code": "8238/12",
+    "Duration": "1h",
+    "Session": "AM",
+    "Date": "Monday 26 May",
+    "Page": "8"
+  },
+  {
+    "Level": "AL",
+    "Syllabus/Component": "Chinese Language & Literature (Multiple Choice)",
+    "Code": "9868/12",
+    "Duration": "1h 30m",
+    "Session": "AM",
+    "Date": "Monday 26 May",
+    "Page": "8"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Malay (Listening - Multiple Choice)",
+    "Code": "0546/12",
+    "Duration": "50m",
+    "Session": "PM",
+    "Date": "Monday 26 May",
+    "Page": "8"
+  },
+  {
+    "Level": "OL",
+    "Syllabus/Component": "Bangladesh Studies",
+    "Code": "7094/01",
+    "Duration": "1h 30m",
+    "Session": "PM",
+    "Date": "Monday 26 May",
+    "Page": "8"
+  },
+  {
+    "Level": "AS",
+    "Syllabus/Component": "German Language",
+    "Code": "8027/32",
+    "Duration": "1h 30m",
+    "Session": "PM",
+    "Date": "Monday 26 May",
+    "Page": "8"
+  },
+  {
+    "Level": "AS",
+    "Syllabus/Component": "Further Mathematics",
+    "Code": "9231/32",
+    "Duration": "1h 30m",
+    "Session": "PM",
+    "Date": "Monday 26 May",
+    "Page": "8"
+  },
+  {
+    "Level": "AS",
+    "Syllabus/Component": "Biblical Studies",
+    "Code": "9484/12",
+    "Duration": "1h 30m",
+    "Session": "PM",
+    "Date": "Monday 26 May",
+    "Page": "8"
+  },
+  {
+    "Level": "AL",
+    "Syllabus/Component": "German Language & Literature",
+    "Code": "9897/22",
+    "Duration": "2h",
+    "Session": "PM",
+    "Date": "Monday 26 May",
+    "Page": "8"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "First Language Spanish",
+    "Code": "0502/12",
+    "Duration": "2h",
+    "Session": "AM",
+    "Date": "Monday 26 May",
+    "Page": "8"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Additional Mathematics",
+    "Code": "0606/22",
+    "Duration": "2h",
+    "Session": "AM",
+    "Date": "Monday 26 May",
+    "Page": "8"
+  },
+  {
+    "Level": "OL",
+    "Syllabus/Component": "Additional Mathematics",
+    "Code": "4037/22",
+    "Duration": "2h",
+    "Session": "AM",
+    "Date": "Monday 26 May",
+    "Page": "8"
+  },
+  {
+    "Level": "AS",
+    "Syllabus/Component": "Law",
+    "Code": "9084/12",
+    "Duration": "1h 30m",
+    "Session": "AM",
+    "Date": "Monday 26 May",
+    "Page": "8"
+  },
+  {
+    "Level": "AS",
+    "Syllabus/Component": "Biology (Practical - Advanced)",
+    "Code": "9700/34",
+    "Duration": "2h",
+    "Session": "AM",
+    "Date": "Monday 26 May",
+    "Page": "8"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Sociology",
+    "Code": "0495/22",
+    "Duration": "1h 45m",
+    "Session": "PM",
+    "Date": "Monday 26 May",
+    "Page": "8"
+  },
+  {
+    "Level": "OL",
+    "Syllabus/Component": "Sociology",
+    "Code": "2251/22",
+    "Duration": "1h 45m",
+    "Session": "PM",
+    "Date": "Monday 26 May",
+    "Page": "8"
+  },
+  {
+    "Level": "AL",
+    "Syllabus/Component": "Sociology",
+    "Code": "9699/32",
+    "Duration": "1h 15m",
+    "Session": "PM",
+    "Date": "Monday 26 May",
+    "Page": "8"
+  },
+  {
+    "Level": "AL",
+    "Syllabus/Component": "French Language & Literature",
+    "Code": "9898/32",
+    "Duration": "2h",
+    "Session": "PM",
+    "Date": "Monday 26 May",
+    "Page": "8"
+  },
+  {
+    "Level": "AS",
+    "Syllabus/Component": "Chinese Language (Multiple Choice)",
+    "Code": "8238/22",
+    "Duration": "1h 30m",
+    "Session": "AM",
+    "Date": "Monday 26 May",
+    "Page": "8"
+  },
+  {
+    "Level": "OL",
+    "Syllabus/Component": "Biblical Studies",
+    "Code": "2035/12",
+    "Duration": "1h 30m",
+    "Session": "PM",
+    "Date": "Monday 26 May",
+    "Page": "8"
+  },
+  {
+    "Level": "OL",
+    "Syllabus/Component": "Bangladesh Studies",
+    "Code": "7094/02",
+    "Duration": "1h 30m",
+    "Session": "PM",
+    "Date": "Monday 26 May",
+    "Page": "8"
+  },
+  {
+    "Level": "AL",
+    "Syllabus/Component": "Further Mathematics",
+    "Code": "9231/22",
+    "Duration": "2h",
+    "Session": "PM",
+    "Date": "Monday 26 May",
+    "Page": "8"
+  },
+  {
+    "Level": "AL",
+    "Syllabus/Component": "Arabic",
+    "Code": "9680/42",
+    "Duration": "2h 30m",
+    "Session": "PM",
+    "Date": "Monday 26 May",
+    "Page": "8"
+  },
+  {
+    "Level": "AL",
+    "Syllabus/Component": "German Language & Literature",
+    "Code": "9897/32",
+    "Duration": "2h",
+    "Session": "PM",
+    "Date": "Monday 26 May",
+    "Page": "8"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Accounting (Multiple Choice)",
+    "Code": "0452/12",
+    "Duration": "1h 15m",
+    "Session": "AM",
+    "Date": "Monday 26 May",
+    "Page": "8"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "First Language Spanish",
+    "Code": "0502/22",
+    "Duration": "2h",
+    "Session": "AM",
+    "Date": "Monday 26 May",
+    "Page": "8"
+  },
+  {
+    "Level": "OL",
+    "Syllabus/Component": "Accounting (Multiple Choice)",
+    "Code": "7707/12",
+    "Duration": "1h 15m",
+    "Session": "AM",
+    "Date": "Monday 26 May",
+    "Page": "8"
+  },
+  {
+    "Level": "AS",
+    "Syllabus/Component": "Law",
+    "Code": "9084/22",
+    "Duration": "1h 30m",
+    "Session": "AM",
+    "Date": "Monday 26 May",
+    "Page": "8"
+  },
+  {
+    "Level": "AS",
+    "Syllabus/Component": "Chemistry (Practical - Advanced)",
+    "Code": "9701/34",
+    "Duration": "2h",
+    "Session": "AM",
+    "Date": "Monday 26 May",
+    "Page": "8"
+  },
+  {
+    "Level": "OL",
+    "Syllabus/Component": "Commerce",
+    "Code": "7100/22",
+    "Duration": "2h",
+    "Session": "PM",
+    "Date": "Monday 26 May",
+    "Page": "8"
+  },
+  {
+    "Level": "AL",
+    "Syllabus/Component": "Sociology",
+    "Code": "9699/42",
+    "Duration": "1h 45m",
+    "Session": "PM",
+    "Date": "Monday 26 May",
+    "Page": "8"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "First Language Vietnamese",
+    "Code": "0695/02",
+    "Duration": "2h",
+    "Session": "AM",
+    "Date": "Monday 26 May",
+    "Page": "8"
+  },
+  {
+    "Level": "OL",
+    "Syllabus/Component": "Biblical Studies",
+    "Code": "2035/22",
+    "Duration": "1h 30m",
+    "Session": "PM",
+    "Date": "Monday 26 May",
+    "Page": "8"
+  },
+  {
+    "Level": "AS",
+    "Syllabus/Component": "Arabic Language",
+    "Code": "8680/32",
+    "Duration": "1h 30m",
+    "Session": "PM",
+    "Date": "Monday 26 May",
+    "Page": "8"
+  },
+  {
+    "Level": "AS",
+    "Syllabus/Component": "Further Mathematics",
+    "Code": "9231/42",
+    "Duration": "1h 30m",
+    "Session": "PM",
+    "Date": "Monday 26 May",
+    "Page": "8"
+  },
+  {
+    "Level": "AL",
+    "Syllabus/Component": "Arabic",
+    "Code": "9680/32",
+    "Duration": "1h 30m",
+    "Session": "PM",
+    "Date": "Monday 26 May",
+    "Page": "8"
+  },
+  {
+    "Level": "AL",
+    "Syllabus/Component": "French Language & Literature (Multiple Choice)",
+    "Code": "9898/12",
+    "Duration": "1h 30m",
+    "Session": "PM",
+    "Date": "Monday 26 May",
+    "Page": "8"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Environmental Management",
+    "Code": "0680/22",
+    "Duration": "1h 45m",
+    "Session": "AM",
+    "Date": "Monday 02 June",
+    "Page": "9"
+  },
+  {
+    "Level": "OL",
+    "Syllabus/Component": "Environmental Management",
+    "Code": "5014/22",
+    "Duration": "1h 45m",
+    "Session": "AM",
+    "Date": "Monday 02 June",
+    "Page": "9"
+  },
+  {
+    "Level": "OL",
+    "Syllabus/Component": "Hinduism",
+    "Code": "2055/02",
+    "Duration": "1h 30m",
+    "Session": "PM",
+    "Date": "Monday 02 June",
+    "Page": "9"
+  },
+  {
+    "Level": "AS",
+    "Syllabus/Component": "Biblical Studies",
+    "Code": "9484/22",
+    "Duration": "1h 30m",
+    "Session": "PM",
+    "Date": "Monday 02 June",
+    "Page": "9"
+  },
+  {
+    "Level": "AS",
+    "Syllabus/Component": "Hinduism",
+    "Code": "9487/02",
+    "Duration": "1h 30m",
+    "Session": "EV",
+    "Date": "Monday 02 June",
+    "Page": "9"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "French (Listening - Multiple Choice)",
+    "Code": "0520/12",
+    "Duration": "50m",
+    "Session": "AM",
+    "Date": "Monday 02 June",
+    "Page": "9"
+  },
+  {
+    "Level": "AL",
+    "Syllabus/Component": "Law",
+    "Code": "9084/32",
+    "Duration": "1h 30m",
+    "Session": "AM",
+    "Date": "Monday 02 June",
+    "Page": "9"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Drama",
+    "Code": "0411/12",
+    "Duration": "2h 30m",
+    "Session": "PM",
+    "Date": "Monday 02 June",
+    "Page": "9"
+  },
+  {
+    "Level": "AS",
+    "Syllabus/Component": "German Language (Listening - Multiple Choice)",
+    "Code": "8027/12",
+    "Duration": "1h",
+    "Session": "PM",
+    "Date": "Monday 02 June",
+    "Page": "9"
+  },
+  {
+    "Level": "AL",
+    "Syllabus/Component": "Arabic",
+    "Code": "9680/52",
+    "Duration": "45m",
+    "Session": "PM",
+    "Date": "Monday 02 June",
+    "Page": "9"
+  },
+  {
+    "Level": "AL",
+    "Syllabus/Component": "Tamil",
+    "Code": "9689/52",
+    "Duration": "45m",
+    "Session": "PM",
+    "Date": "Monday 02 June",
+    "Page": "9"
+  },
+  {
+    "Level": "AL",
+    "Syllabus/Component": "German Language & Literature (Multiple Choice)",
+    "Code": "9897/12",
+    "Duration": "1h 30m",
+    "Session": "PM",
+    "Date": "Monday 02 June",
+    "Page": "9"
+  },
+  {
+    "Level": "AL",
+    "Syllabus/Component": "Portuguese",
+    "Code": "9718/04",
+    "Duration": "2h 30m",
+    "Session": "EV",
+    "Date": "Monday 02 June",
+    "Page": "9"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Physics (Multiple Choice - Core)",
+    "Code": "0625/12",
+    "Duration": "45m",
+    "Session": "AM",
+    "Date": "Monday 02 June",
+    "Page": "9"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Physics (Multiple Choice - Extended)",
+    "Code": "0625/22",
+    "Duration": "45m",
+    "Session": "AM",
+    "Date": "Monday 02 June",
+    "Page": "9"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Combined Science (Multiple Choice - Core)",
+    "Code": "0653/12",
+    "Duration": "45m",
+    "Session": "AM",
+    "Date": "Monday 02 June",
+    "Page": "9"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Combined Science (Multiple Choice - Extended)",
+    "Code": "0653/22",
+    "Duration": "45m",
+    "Session": "AM",
+    "Date": "Monday 02 June",
+    "Page": "9"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Co-ordinated Sciences (Double Award) (Multiple Choice - Core)",
+    "Code": "0654/12",
+    "Duration": "45m",
+    "Session": "AM",
+    "Date": "Monday 02 June",
+    "Page": "9"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Co-ordinated Sciences (Double Award) (Multiple Choice -\nExtended)",
+    "Code": "0654/22",
+    "Duration": "45m",
+    "Session": "AM",
+    "Date": "Monday 02 June",
+    "Page": "9"
+  },
+  {
+    "Level": "OL",
+    "Syllabus/Component": "Physics (Multiple Choice)",
+    "Code": "5054/12",
+    "Duration": "1h",
+    "Session": "AM",
+    "Date": "Monday 02 June",
+    "Page": "9"
+  },
+  {
+    "Level": "OL",
+    "Syllabus/Component": "Combined Science (Multiple Choice)",
+    "Code": "5129/12",
+    "Duration": "1h",
+    "Session": "AM",
+    "Date": "Monday 02 June",
+    "Page": "9"
+  },
+  {
+    "Level": "AS",
+    "Syllabus/Component": "Chemistry (Multiple Choice)",
+    "Code": "9701/12",
+    "Duration": "1h 15m",
+    "Session": "AM",
+    "Date": "Monday 02 June",
+    "Page": "9"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Enterprise",
+    "Code": "0454/12",
+    "Duration": "1h 30m",
+    "Session": "PM",
+    "Date": "Monday 02 June",
+    "Page": "9"
+  },
+  {
+    "Level": "OL",
+    "Syllabus/Component": "Commerce (Multiple Choice)",
+    "Code": "7100/12",
+    "Duration": "1h",
+    "Session": "PM",
+    "Date": "Monday 02 June",
+    "Page": "9"
+  },
+  {
+    "Level": "AS",
+    "Syllabus/Component": "Accounting (Multiple Choice)",
+    "Code": "9706/12",
+    "Duration": "1h",
+    "Session": "PM",
+    "Date": "Monday 02 June",
+    "Page": "9"
+  },
+  {
+    "Level": "AL",
+    "Syllabus/Component": "Biblical Studies",
+    "Code": "9484/32",
+    "Duration": "1h 30m",
+    "Session": "PM",
+    "Date": "Monday 02 June",
+    "Page": "9"
+  },
+  {
+    "Level": "AL",
+    "Syllabus/Component": "Hinduism",
+    "Code": "9487/03",
+    "Duration": "1h 30m",
+    "Session": "EV",
+    "Date": "Monday 02 June",
+    "Page": "9"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Economics (Multiple Choice)",
+    "Code": "0455/12",
+    "Duration": "45m",
+    "Session": "AM",
+    "Date": "Monday 02 June",
+    "Page": "9"
+  },
+  {
+    "Level": "OL",
+    "Syllabus/Component": "Economics (Multiple Choice)",
+    "Code": "2281/12",
+    "Duration": "45m",
+    "Session": "AM",
+    "Date": "Monday 02 June",
+    "Page": "9"
+  },
+  {
+    "Level": "AS",
+    "Syllabus/Component": "Physics (Multiple Choice)",
+    "Code": "9702/12",
+    "Duration": "1h 15m",
+    "Session": "AM",
+    "Date": "Monday 02 June",
+    "Page": "9"
+  },
+  {
+    "Level": "AL",
+    "Syllabus/Component": "Law",
+    "Code": "9084/42",
+    "Duration": "1h 30m",
+    "Session": "AM",
+    "Date": "Monday 02 June",
+    "Page": "9"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Design & Technology",
+    "Code": "0445/32",
+    "Duration": "1h",
+    "Session": "PM",
+    "Date": "Monday 02 June",
+    "Page": "9"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Design & Technology",
+    "Code": "0445/42",
+    "Duration": "1h",
+    "Session": "PM",
+    "Date": "Monday 02 June",
+    "Page": "9"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Design & Technology",
+    "Code": "0445/52",
+    "Duration": "1h",
+    "Session": "PM",
+    "Date": "Monday 02 June",
+    "Page": "9"
+  },
+  {
+    "Level": "AS",
+    "Syllabus/Component": "German Language (Multiple Choice)",
+    "Code": "8027/22",
+    "Duration": "1h 30m",
+    "Session": "PM",
+    "Date": "Monday 02 June",
+    "Page": "9"
+  },
+  {
+    "Level": "AS",
+    "Syllabus/Component": "Economics (Multiple Choice)",
+    "Code": "9708/12",
+    "Duration": "1h",
+    "Session": "AM",
+    "Date": "Monday 09 June",
+    "Page": "10"
+  },
+  {
+    "Level": "AL",
+    "Syllabus/Component": "Biblical Studies",
+    "Code": "9484/42",
+    "Duration": "1h 30m",
+    "Session": "PM",
+    "Date": "Monday 09 June",
+    "Page": "10"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Chemistry (Multiple Choice - Core)",
+    "Code": "0620/12",
+    "Duration": "45m",
+    "Session": "AM",
+    "Date": "Monday 09 June",
+    "Page": "10"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Chemistry (Multiple Choice - Extended)",
+    "Code": "0620/22",
+    "Duration": "45m",
+    "Session": "AM",
+    "Date": "Monday 09 June",
+    "Page": "10"
+  },
+  {
+    "Level": "OL",
+    "Syllabus/Component": "Chemistry (Multiple Choice)",
+    "Code": "5070/12",
+    "Duration": "1h",
+    "Session": "AM",
+    "Date": "Monday 09 June",
+    "Page": "10"
+  },
+  {
+    "Level": "AS",
+    "Syllabus/Component": "Biology (Multiple Choice)",
+    "Code": "9700/12",
+    "Duration": "1h 15m",
+    "Session": "AM",
+    "Date": "Monday 09 June",
+    "Page": "10"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Food & Nutrition",
+    "Code": "0648/12",
+    "Duration": "2h",
+    "Session": "PM",
+    "Date": "Monday 09 June",
+    "Page": "10"
+  },
+  {
+    "Level": "OL",
+    "Syllabus/Component": "Food & Nutrition",
+    "Code": "6065/12",
+    "Duration": "2h",
+    "Session": "PM",
+    "Date": "Monday 09 June",
+    "Page": "10"
+  },
+  {
+    "Level": "AL",
+    "Syllabus/Component": "Hinduism",
+    "Code": "9487/04",
+    "Duration": "1h 30m",
+    "Session": "EV",
+    "Date": "Monday 09 June",
+    "Page": "10"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Biology (Multiple Choice - Core)",
+    "Code": "0610/12",
+    "Duration": "45m",
+    "Session": "AM",
+    "Date": "Monday 09 June",
+    "Page": "10"
+  },
+  {
+    "Level": "IG",
+    "Syllabus/Component": "Biology (Multiple Choice - Extended)",
+    "Code": "0610/22",
+    "Duration": "45m",
+    "Session": "AM",
+    "Date": "Monday 09 June",
+    "Page": "10"
+  },
+  {
+    "Level": "OL",
+    "Syllabus/Component": "Biology (Multiple Choice)",
+    "Code": "5090/12",
+    "Duration": "1h",
+    "Session": "AM",
+    "Date": "Monday 09 June",
+    "Page": "10"
+  },
+  {
+    "Level": "AL",
+    "Syllabus/Component": "Economics (Multiple Choice)",
+    "Code": "9708/32",
+    "Duration": "1h 15m",
+    "Session": "AM",
+    "Date": "Monday 09 June",
+    "Page": "10"
+  },
+  {
+    "Level": "A",
+    "Syllabus/Component": "",
+    "Code": "",
+    "Duration": "",
+    "Session": "",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "Accounting (Multiple Choice)",
+    "Syllabus/Component": "0452/12",
+    "Code": "1h 15m",
+    "Duration": "Thursday 29 May 2025",
+    "Session": "AM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "Accounting",
+    "Syllabus/Component": "0452/22",
+    "Code": "1h 45m",
+    "Duration": "Wednesday 21 May 2025",
+    "Session": "AM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "Additional Mathematics",
+    "Syllabus/Component": "0606/12",
+    "Code": "2h",
+    "Duration": "Monday 19 May 2025",
+    "Session": "AM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "Additional Mathematics",
+    "Syllabus/Component": "0606/22",
+    "Code": "2h",
+    "Duration": "Tuesday 27 May 2025",
+    "Session": "AM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "Arabic (Listening - Multiple Choice)",
+    "Syllabus/Component": "0544/12",
+    "Code": "50m",
+    "Duration": "Wednesday 21 May 2025",
+    "Session": "PM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "Arabic",
+    "Syllabus/Component": "0544/22",
+    "Code": "1h",
+    "Duration": "Monday 28 April 2025",
+    "Session": "PM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "Arabic",
+    "Syllabus/Component": "0544/42",
+    "Code": "1h",
+    "Duration": "Wednesday 21 May 2025",
+    "Session": "PM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "B",
+    "Syllabus/Component": "",
+    "Code": "",
+    "Duration": "",
+    "Session": "",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "Bahasa Indonesia",
+    "Syllabus/Component": "0538/01",
+    "Code": "1h 45m",
+    "Duration": "Friday 25 April 2025",
+    "Session": "AM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "Bahasa Indonesia",
+    "Syllabus/Component": "0538/02",
+    "Code": "1h 45m",
+    "Duration": "Monday 26 May 2025",
+    "Session": "AM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "Biology (Multiple Choice - Core)",
+    "Syllabus/Component": "0610/12",
+    "Code": "45m",
+    "Duration": "Wednesday 11 June 2025",
+    "Session": "AM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "Biology (Multiple Choice - Extended)",
+    "Syllabus/Component": "0610/22",
+    "Code": "45m",
+    "Duration": "Wednesday 11 June 2025",
+    "Session": "AM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "Biology (Core)",
+    "Syllabus/Component": "0610/32",
+    "Code": "1h 15m",
+    "Duration": "Tuesday 06 May 2025",
+    "Session": "AM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "Biology (Extended)",
+    "Syllabus/Component": "0610/42",
+    "Code": "1h 15m",
+    "Duration": "Tuesday 06 May 2025",
+    "Session": "AM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "Biology (Practical)",
+    "Syllabus/Component": "0610/52",
+    "Code": "1h 15m",
+    "Duration": "Tuesday 13 May 2025",
+    "Session": "AM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "Biology (Alternative to Practical)",
+    "Syllabus/Component": "0610/62",
+    "Code": "1h",
+    "Duration": "Tuesday 13 May 2025",
+    "Session": "AM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "Business Studies",
+    "Syllabus/Component": "0450/12",
+    "Code": "1h 30m",
+    "Duration": "Friday 16 May 2025",
+    "Session": "AM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "Business Studies",
+    "Syllabus/Component": "0450/22",
+    "Code": "1h 30m",
+    "Duration": "Monday 19 May 2025",
+    "Session": "AM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "C",
+    "Syllabus/Component": "",
+    "Code": "",
+    "Duration": "",
+    "Session": "",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "Cambridge International Mathematics (Core)",
+    "Syllabus/Component": "0607/12",
+    "Code": "1h 15m",
+    "Duration": "Tuesday 29 April 2025",
+    "Session": "AM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "Cambridge International Mathematics (Extended)",
+    "Syllabus/Component": "0607/22",
+    "Code": "1h 30m",
+    "Duration": "Tuesday 29 April 2025",
+    "Session": "AM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "Cambridge International Mathematics (Core)",
+    "Syllabus/Component": "0607/32",
+    "Code": "1h 15m",
+    "Duration": "Monday 05 May 2025",
+    "Session": "AM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "Cambridge International Mathematics (Extended)",
+    "Syllabus/Component": "0607/42",
+    "Code": "1h 30m",
+    "Duration": "Monday 05 May 2025",
+    "Session": "AM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "Cambridge International Mathematics (Core)",
+    "Syllabus/Component": "0607/52",
+    "Code": "1h 15m",
+    "Duration": "Wednesday 07 May 2025",
+    "Session": "AM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "Cambridge International Mathematics (Extended)",
+    "Syllabus/Component": "0607/62",
+    "Code": "1h 30m",
+    "Duration": "Wednesday 07 May 2025",
+    "Session": "AM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "Chemistry (Multiple Choice - Core)",
+    "Syllabus/Component": "0620/12",
+    "Code": "45m",
+    "Duration": "Tuesday 10 June 2025",
+    "Session": "AM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "Chemistry (Multiple Choice - Extended)",
+    "Syllabus/Component": "0620/22",
+    "Code": "45m",
+    "Duration": "Tuesday 10 June 2025",
+    "Session": "AM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "Chemistry (Core)",
+    "Syllabus/Component": "0620/32",
+    "Code": "1h 15m",
+    "Duration": "Wednesday 30 April 2025",
+    "Session": "AM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "Chemistry (Extended)",
+    "Syllabus/Component": "0620/42",
+    "Code": "1h 15m",
+    "Duration": "Wednesday 30 April 2025",
+    "Session": "AM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "Chemistry (Practical)",
+    "Syllabus/Component": "0620/52",
+    "Code": "1h 15m",
+    "Duration": "Thursday 15 May 2025",
+    "Session": "AM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "Chemistry (Alternative to Practical)",
+    "Syllabus/Component": "0620/62",
+    "Code": "1h",
+    "Duration": "Thursday 15 May 2025",
+    "Session": "AM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "Chinese as a Second Language",
+    "Syllabus/Component": "0523/01",
+    "Code": "2h",
+    "Duration": "Tuesday 29 April 2025",
+    "Session": "AM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "Chinese as a Second Language (Listening)",
+    "Syllabus/Component": "0523/02",
+    "Code": "45m",
+    "Duration": "Wednesday 07 May 2025",
+    "Session": "AM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "Combined Science (Multiple Choice - Core)",
+    "Syllabus/Component": "0653/12",
+    "Code": "45m",
+    "Duration": "Wednesday 04 June 2025",
+    "Session": "AM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "Combined Science (Multiple Choice - Extended)",
+    "Syllabus/Component": "0653/22",
+    "Code": "45m",
+    "Duration": "Wednesday 04 June 2025",
+    "Session": "AM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "Combined Science (Core)",
+    "Syllabus/Component": "0653/32",
+    "Code": "1h 15m",
+    "Duration": "Tuesday 06 May 2025",
+    "Session": "AM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "Combined Science (Extended)",
+    "Syllabus/Component": "0653/42",
+    "Code": "1h 15m",
+    "Duration": "Tuesday 06 May 2025",
+    "Session": "AM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "Combined Science (Practical)",
+    "Syllabus/Component": "0653/52",
+    "Code": "1h 15m",
+    "Duration": "Tuesday 13 May 2025",
+    "Session": "AM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "Combined Science (Alternative to Practical)",
+    "Syllabus/Component": "0653/62",
+    "Code": "1h",
+    "Duration": "Tuesday 13 May 2025",
+    "Session": "AM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "Computer Science",
+    "Syllabus/Component": "0478/12",
+    "Code": "1h 45m",
+    "Duration": "Monday 12 May 2025",
+    "Session": "AM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "Computer Science",
+    "Syllabus/Component": "0478/22",
+    "Code": "1h 45m",
+    "Duration": "Wednesday 21 May 2025",
+    "Session": "AM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "Co-ordinated Sciences (Double Award) (Multiple\nChoice - Core)",
+    "Syllabus/Component": "0654/12",
+    "Code": "45m",
+    "Duration": "Wednesday 04 June 2025",
+    "Session": "AM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "Co-ordinated Sciences (Double Award) (Multiple\nChoice - Extended)",
+    "Syllabus/Component": "0654/22",
+    "Code": "45m",
+    "Duration": "Wednesday 04 June 2025",
+    "Session": "AM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "Co-ordinated Sciences (Double Award) (Core)",
+    "Syllabus/Component": "0654/32",
+    "Code": "2h",
+    "Duration": "Tuesday 06 May 2025",
+    "Session": "AM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "Co-ordinated Sciences (Double Award)\n(Extended)",
+    "Syllabus/Component": "0654/42",
+    "Code": "2h",
+    "Duration": "Tuesday 06 May 2025",
+    "Session": "AM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "Co-ordinated Sciences (Double Award) (Practical)",
+    "Syllabus/Component": "0654/52",
+    "Code": "2h",
+    "Duration": "Tuesday 13 May 2025",
+    "Session": "AM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "Co-ordinated Sciences (Double Award)\n(Alternative to Practical)",
+    "Syllabus/Component": "0654/62",
+    "Code": "1h 30m",
+    "Duration": "Tuesday 13 May 2025",
+    "Session": "AM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "D",
+    "Syllabus/Component": "",
+    "Code": "",
+    "Duration": "",
+    "Session": "",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "Design & Technology",
+    "Syllabus/Component": "0445/12",
+    "Code": "1h 15m",
+    "Duration": "Tuesday 13 May 2025",
+    "Session": "PM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "Design & Technology",
+    "Syllabus/Component": "0445/32",
+    "Code": "1h",
+    "Duration": "Thursday 05 June 2025",
+    "Session": "PM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "Design & Technology",
+    "Syllabus/Component": "0445/42",
+    "Code": "1h",
+    "Duration": "Thursday 05 June 2025",
+    "Session": "PM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "Design & Technology",
+    "Syllabus/Component": "0445/52",
+    "Code": "1h",
+    "Duration": "Thursday 05 June 2025",
+    "Session": "PM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "Drama",
+    "Syllabus/Component": "0411/12",
+    "Code": "2h 30m",
+    "Duration": "Tuesday 03 June 2025",
+    "Session": "PM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "E",
+    "Syllabus/Component": "",
+    "Code": "",
+    "Duration": "",
+    "Session": "",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "Economics (Multiple Choice)",
+    "Syllabus/Component": "0455/12",
+    "Code": "45m",
+    "Duration": "Thursday 05 June 2025",
+    "Session": "AM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "Economics",
+    "Syllabus/Component": "0455/22",
+    "Code": "2h 15m",
+    "Duration": "Friday 23 May 2025",
+    "Session": "AM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "English (as an Additional Language) (Listening -\nMultiple Choice)",
+    "Syllabus/Component": "0472/12",
+    "Code": "50m",
+    "Duration": "Thursday 22 May 2025",
+    "Session": "AM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "English (as an Additional Language)",
+    "Syllabus/Component": "0472/22",
+    "Code": "1h",
+    "Duration": "Thursday 08 May 2025",
+    "Session": "AM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "English (as an Additional Language)",
+    "Syllabus/Component": "0472/42",
+    "Code": "1h",
+    "Duration": "Thursday 08 May 2025",
+    "Session": "AM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "English as a Second Language (Speaking\nEndorsement)",
+    "Syllabus/Component": "0510/12",
+    "Code": "2h",
+    "Duration": "Thursday 08 May 2025",
+    "Session": "AM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "English as a Second Language (Speaking\nEndorsement) (Listening)",
+    "Syllabus/Component": "0510/22",
+    "Code": "50m",
+    "Duration": "Thursday 22 May 2025",
+    "Session": "AM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "English as a Second Language (Count-in\nSpeaking)",
+    "Syllabus/Component": "0511/12",
+    "Code": "2h",
+    "Duration": "Thursday 08 May 2025",
+    "Session": "AM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "English as a Second Language (Count-in\nSpeaking) (Listening)",
+    "Syllabus/Component": "0511/22",
+    "Code": "50m",
+    "Duration": "Thursday 22 May 2025",
+    "Session": "AM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "Enterprise",
+    "Syllabus/Component": "0454/12",
+    "Code": "1h 30m",
+    "Duration": "Wednesday 04 June 2025",
+    "Session": "PM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "Environmental Management",
+    "Syllabus/Component": "0680/12",
+    "Code": "1h 45m",
+    "Duration": "Thursday 22 May 2025",
+    "Session": "AM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "Environmental Management",
+    "Syllabus/Component": "0680/22",
+    "Code": "1h 45m",
+    "Duration": "Monday 02 June 2025",
+    "Session": "AM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "F",
+    "Syllabus/Component": "",
+    "Code": "",
+    "Duration": "",
+    "Session": "",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "First Language Arabic",
+    "Syllabus/Component": "0508/01",
+    "Code": "2h",
+    "Duration": "Tuesday 13 May 2025",
+    "Session": "PM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "First Language Arabic",
+    "Syllabus/Component": "0508/02",
+    "Code": "2h",
+    "Duration": "Wednesday 21 May 2025",
+    "Session": "PM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "First Language Chinese",
+    "Syllabus/Component": "0509/12",
+    "Code": "2h 15m",
+    "Duration": "Friday 25 April 2025",
+    "Session": "PM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "First Language Chinese",
+    "Syllabus/Component": "0509/22",
+    "Code": "2h",
+    "Duration": "Monday 28 April 2025",
+    "Session": "PM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "First Language English (Oral Endorsement)",
+    "Syllabus/Component": "0500/12",
+    "Code": "2h",
+    "Duration": "Thursday 08 May 2025",
+    "Session": "AM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "First Language English (Oral Endorsement)",
+    "Syllabus/Component": "0500/22",
+    "Code": "2h",
+    "Duration": "Wednesday 14 May 2025",
+    "Session": "AM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "First Language French",
+    "Syllabus/Component": "0501/01",
+    "Code": "2h",
+    "Duration": "Friday 25 April 2025",
+    "Session": "PM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "First Language French",
+    "Syllabus/Component": "0501/02",
+    "Code": "2h",
+    "Duration": "Tuesday 13 May 2025",
+    "Session": "PM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "First Language German",
+    "Syllabus/Component": "0505/01",
+    "Code": "2h",
+    "Duration": "Friday 16 May 2025",
+    "Session": "PM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "First Language German",
+    "Syllabus/Component": "0505/02",
+    "Code": "2h",
+    "Duration": "Wednesday 21 May 2025",
+    "Session": "PM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "First Language Malay",
+    "Syllabus/Component": "0696/01",
+    "Code": "2h",
+    "Duration": "Monday 28 April 2025",
+    "Session": "AM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "First Language Malay",
+    "Syllabus/Component": "0696/02",
+    "Code": "2h",
+    "Duration": "Monday 05 May 2025",
+    "Session": "AM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "First Language Spanish",
+    "Syllabus/Component": "0502/12",
+    "Code": "2h",
+    "Duration": "Tuesday 27 May 2025",
+    "Session": "AM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "First Language Spanish",
+    "Syllabus/Component": "0502/22",
+    "Code": "2h",
+    "Duration": "Thursday 29 May 2025",
+    "Session": "AM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "First Language Thai",
+    "Syllabus/Component": "0518/01",
+    "Code": "2h",
+    "Duration": "Monday 05 May 2025",
+    "Session": "PM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "First Language Thai",
+    "Syllabus/Component": "0518/02",
+    "Code": "2h",
+    "Duration": "Tuesday 13 May 2025",
+    "Session": "PM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "First Language Turkish",
+    "Syllabus/Component": "0513/01",
+    "Code": "2h",
+    "Duration": "Friday 25 April 2025",
+    "Session": "PM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "First Language Turkish",
+    "Syllabus/Component": "0513/02",
+    "Code": "2h",
+    "Duration": "Tuesday 13 May 2025",
+    "Session": "PM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "First Language Vietnamese",
+    "Syllabus/Component": "0695/01",
+    "Code": "2h",
+    "Duration": "Monday 26 May 2025",
+    "Session": "AM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "First Language Vietnamese",
+    "Syllabus/Component": "0695/02",
+    "Code": "2h",
+    "Duration": "Friday 30 May 2025",
+    "Session": "AM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "Food & Nutrition",
+    "Syllabus/Component": "0648/12",
+    "Code": "2h",
+    "Duration": "Tuesday 10 June 2025",
+    "Session": "PM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "French (Listening - Multiple Choice)",
+    "Syllabus/Component": "0520/12",
+    "Code": "50m",
+    "Duration": "Tuesday 03 June 2025",
+    "Session": "AM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "French",
+    "Syllabus/Component": "0520/22",
+    "Code": "1h",
+    "Duration": "Wednesday 07 May 2025",
+    "Session": "AM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "French",
+    "Syllabus/Component": "0520/42",
+    "Code": "1h",
+    "Duration": "Friday 25 April 2025",
+    "Session": "AM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "G",
+    "Syllabus/Component": "",
+    "Code": "",
+    "Duration": "",
+    "Session": "",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "Geography",
+    "Syllabus/Component": "0460/12",
+    "Code": "1h 45m",
+    "Duration": "Tuesday 06 May 2025",
+    "Session": "PM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "Geography",
+    "Syllabus/Component": "0460/22",
+    "Code": "1h 30m",
+    "Duration": "Thursday 15 May 2025",
+    "Session": "PM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "Geography",
+    "Syllabus/Component": "0460/42",
+    "Code": "1h 30m",
+    "Duration": "Tuesday 20 May 2025",
+    "Session": "PM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "German (Listening - Multiple Choice)",
+    "Syllabus/Component": "0525/12",
+    "Code": "50m",
+    "Duration": "Tuesday 29 April 2025",
+    "Session": "PM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "German",
+    "Syllabus/Component": "0525/22",
+    "Code": "1h",
+    "Duration": "Friday 16 May 2025",
+    "Session": "PM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "German",
+    "Syllabus/Component": "0525/42",
+    "Code": "1h",
+    "Duration": "Tuesday 29 April 2025",
+    "Session": "PM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "Global Perspectives",
+    "Syllabus/Component": "0457/12",
+    "Code": "1h 25m",
+    "Duration": "Thursday 08 May 2025",
+    "Session": "PM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "H",
+    "Syllabus/Component": "",
+    "Code": "",
+    "Duration": "",
+    "Session": "",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "History",
+    "Syllabus/Component": "0470/12",
+    "Code": "2h",
+    "Duration": "Friday 09 May 2025",
+    "Session": "PM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "History",
+    "Syllabus/Component": "0470/22",
+    "Code": "1h 45m",
+    "Duration": "Friday 16 May 2025",
+    "Session": "PM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "History",
+    "Syllabus/Component": "0470/42",
+    "Code": "1h",
+    "Duration": "Monday 19 May 2025",
+    "Session": "PM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "I",
+    "Syllabus/Component": "",
+    "Code": "",
+    "Duration": "",
+    "Session": "",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "Information & Communication Technology",
+    "Syllabus/Component": "0417/12",
+    "Code": "1h 30m",
+    "Duration": "Thursday 08 May 2025",
+    "Session": "PM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "Islamiyat",
+    "Syllabus/Component": "0493/12",
+    "Code": "1h 30m",
+    "Duration": "Friday 25 April 2025",
+    "Session": "AM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "Islamiyat",
+    "Syllabus/Component": "0493/22",
+    "Code": "1h 30m",
+    "Duration": "Wednesday 07 May 2025",
+    "Session": "AM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "Italian (Listening - Multiple Choice)",
+    "Syllabus/Component": "0535/12",
+    "Code": "50m",
+    "Duration": "Monday 28 April 2025",
+    "Session": "PM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "Italian",
+    "Syllabus/Component": "0535/22",
+    "Code": "1h",
+    "Duration": "Wednesday 30 April 2025",
+    "Session": "PM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "Italian",
+    "Syllabus/Component": "0535/42",
+    "Code": "1h",
+    "Duration": "Monday 28 April 2025",
+    "Session": "PM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "L",
+    "Syllabus/Component": "",
+    "Code": "",
+    "Duration": "",
+    "Session": "",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "Latin",
+    "Syllabus/Component": "0480/12",
+    "Code": "1h 30m",
+    "Duration": "Friday 09 May 2025",
+    "Session": "PM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "Latin",
+    "Syllabus/Component": "0480/22",
+    "Code": "1h 30m",
+    "Duration": "Tuesday 13 May 2025",
+    "Session": "PM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "Literature in Spanish",
+    "Syllabus/Component": "0474/12",
+    "Code": "1h 30m",
+    "Duration": "Tuesday 29 April 2025",
+    "Session": "AM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "Literature in Spanish",
+    "Syllabus/Component": "0474/22",
+    "Code": "2h",
+    "Duration": "Tuesday 06 May 2025",
+    "Session": "AM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "Literature in English",
+    "Syllabus/Component": "0475/12",
+    "Code": "1h 30m",
+    "Duration": "Monday 12 May 2025",
+    "Session": "PM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "Literature in English",
+    "Syllabus/Component": "0475/22",
+    "Code": "1h 30m",
+    "Duration": "Wednesday 14 May 2025",
+    "Session": "PM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "Literature in English",
+    "Syllabus/Component": "0475/32",
+    "Code": "45m",
+    "Duration": "Wednesday 14 May 2025",
+    "Session": "PM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "Literature in English",
+    "Syllabus/Component": "0475/42",
+    "Code": "1h 15m",
+    "Duration": "Wednesday 14 May 2025",
+    "Session": "PM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "M",
+    "Syllabus/Component": "",
+    "Code": "",
+    "Duration": "",
+    "Session": "",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "Malay (Listening - Multiple Choice)",
+    "Syllabus/Component": "0546/12",
+    "Code": "50m",
+    "Duration": "Monday 26 May 2025",
+    "Session": "PM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "Malay",
+    "Syllabus/Component": "0546/22",
+    "Code": "1h",
+    "Duration": "Monday 05 May 2025",
+    "Session": "PM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "Malay",
+    "Syllabus/Component": "0546/42",
+    "Code": "1h",
+    "Duration": "Tuesday 13 May 2025",
+    "Session": "PM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "Mandarin Chinese (Listening - Multiple Choice)",
+    "Syllabus/Component": "0547/12",
+    "Code": "40m",
+    "Duration": "Tuesday 29 April 2025",
+    "Session": "AM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "Mandarin Chinese",
+    "Syllabus/Component": "0547/22",
+    "Code": "1h 15m",
+    "Duration": "Thursday 22 May 2025",
+    "Session": "AM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "Mandarin Chinese",
+    "Syllabus/Component": "0547/42",
+    "Code": "1h 15m",
+    "Duration": "Friday 25 April 2025",
+    "Session": "AM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "Marine Science",
+    "Syllabus/Component": "0697/12",
+    "Code": "1h 45m",
+    "Duration": "Tuesday 13 May 2025",
+    "Session": "PM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "Marine Science",
+    "Syllabus/Component": "0697/22",
+    "Code": "1h 45m",
+    "Duration": "Friday 16 May 2025",
+    "Session": "PM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "Mathematics (Without Coursework) (Core)",
+    "Syllabus/Component": "0580/12",
+    "Code": "1h 30m",
+    "Duration": "Friday 02 May 2025",
+    "Session": "PM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "Mathematics (Without Coursework) (Extended)",
+    "Syllabus/Component": "0580/22",
+    "Code": "2h",
+    "Duration": "Friday 02 May 2025",
+    "Session": "PM",
+    "Date": "Thursday 22 May",
+    "Page": "11"
+  },
+  {
+    "Level": "Mathematics (Without Coursework) (Core)",
+    "Syllabus/Component": "0580/32",
+    "Code": "1h 30m",
+    "Duration": "Wednesday 07 May 2025",
+    "Session": "PM",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "Mathematics (Without Coursework) (Extended)",
+    "Syllabus/Component": "0580/42",
+    "Code": "2h",
+    "Duration": "Wednesday 07 May 2025",
+    "Session": "PM",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "Music (Listening)",
+    "Syllabus/Component": "0410/12",
+    "Code": "1h 15m",
+    "Duration": "Thursday 22 May 2025",
+    "Session": "PM",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "P",
+    "Syllabus/Component": "",
+    "Code": "",
+    "Duration": "",
+    "Session": "",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "Pakistan Studies",
+    "Syllabus/Component": "0448/01",
+    "Code": "1h 30m",
+    "Duration": "Tuesday 29 April 2025",
+    "Session": "PM",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "Pakistan Studies",
+    "Syllabus/Component": "0448/02",
+    "Code": "1h 30m",
+    "Duration": "Monday 05 May 2025",
+    "Session": "PM",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "Physical Education",
+    "Syllabus/Component": "0413/12",
+    "Code": "1h 45m",
+    "Duration": "Tuesday 20 May 2025",
+    "Session": "PM",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "Physics (Multiple Choice - Core)",
+    "Syllabus/Component": "0625/12",
+    "Code": "45m",
+    "Duration": "Wednesday 04 June 2025",
+    "Session": "AM",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "Physics (Multiple Choice - Extended)",
+    "Syllabus/Component": "0625/22",
+    "Code": "45m",
+    "Duration": "Wednesday 04 June 2025",
+    "Session": "AM",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "Physics (Core)",
+    "Syllabus/Component": "0625/32",
+    "Code": "1h 15m",
+    "Duration": "Friday 09 May 2025",
+    "Session": "AM",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "Physics (Extended)",
+    "Syllabus/Component": "0625/42",
+    "Code": "1h 15m",
+    "Duration": "Friday 09 May 2025",
+    "Session": "AM",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "Physics (Practical)",
+    "Syllabus/Component": "0625/52",
+    "Code": "1h 15m",
+    "Duration": "Tuesday 20 May 2025",
+    "Session": "AM",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "Physics (Alternative to Practical)",
+    "Syllabus/Component": "0625/62",
+    "Code": "1h",
+    "Duration": "Tuesday 20 May 2025",
+    "Session": "AM",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "S",
+    "Syllabus/Component": "",
+    "Code": "",
+    "Duration": "",
+    "Session": "",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "Sanskrit",
+    "Syllabus/Component": "0499/12",
+    "Code": "1h 30m",
+    "Duration": "Monday 28 April 2025",
+    "Session": "PM",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "Sanskrit",
+    "Syllabus/Component": "0499/22",
+    "Code": "1h 30m",
+    "Duration": "Wednesday 30 April 2025",
+    "Session": "PM",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "Sociology",
+    "Syllabus/Component": "0495/12",
+    "Code": "2h",
+    "Duration": "Thursday 22 May 2025",
+    "Session": "PM",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "Sociology",
+    "Syllabus/Component": "0495/22",
+    "Code": "1h 45m",
+    "Duration": "Tuesday 27 May 2025",
+    "Session": "PM",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "Spanish (Listening - Multiple Choice)",
+    "Syllabus/Component": "0530/12",
+    "Code": "50m",
+    "Duration": "Friday 23 May 2025",
+    "Session": "PM",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "Spanish",
+    "Syllabus/Component": "0530/22",
+    "Code": "1h",
+    "Duration": "Wednesday 21 May 2025",
+    "Session": "PM",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "Spanish",
+    "Syllabus/Component": "0530/42",
+    "Code": "1h",
+    "Duration": "Friday 23 May 2025",
+    "Session": "PM",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "Swahili",
+    "Syllabus/Component": "0262/01",
+    "Code": "2h",
+    "Duration": "Friday 25 April 2025",
+    "Session": "PM",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "Swahili (Listening)",
+    "Syllabus/Component": "0262/02",
+    "Code": "45m",
+    "Duration": "Monday 05 May 2025",
+    "Session": "PM",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "T",
+    "Syllabus/Component": "",
+    "Code": "",
+    "Duration": "",
+    "Session": "",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "Travel & Tourism",
+    "Syllabus/Component": "0471/12",
+    "Code": "1h 30m",
+    "Duration": "Friday 09 May 2025",
+    "Session": "PM",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "Travel & Tourism",
+    "Syllabus/Component": "0471/22",
+    "Code": "2h",
+    "Duration": "Thursday 22 May 2025",
+    "Session": "PM",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "U",
+    "Syllabus/Component": "",
+    "Code": "",
+    "Duration": "",
+    "Session": "",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "Urdu as a Second Language",
+    "Syllabus/Component": "0539/01",
+    "Code": "2h",
+    "Duration": "Tuesday 13 May 2025",
+    "Session": "PM",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "Urdu as a Second Language (Listening)",
+    "Syllabus/Component": "0539/02",
+    "Code": "45m",
+    "Duration": "Wednesday 30 April 2025",
+    "Session": "PM",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "W",
+    "Syllabus/Component": "",
+    "Code": "",
+    "Duration": "",
+    "Session": "",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "World Literature",
+    "Syllabus/Component": "0408/22",
+    "Code": "1h 15m",
+    "Duration": "Monday 12 May 2025",
+    "Session": "AM",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "World Literature",
+    "Syllabus/Component": "0408/32",
+    "Code": "1h 30m",
+    "Duration": "Thursday 15 May 2025",
+    "Session": "AM",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "A",
+    "Syllabus/Component": "",
+    "Code": "",
+    "Duration": "",
+    "Session": "",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "Arabic",
+    "Syllabus/Component": "7180/01",
+    "Code": "1h 30m",
+    "Duration": "Monday 05 May 2025",
+    "Session": "PM",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "Arabic",
+    "Syllabus/Component": "7180/02",
+    "Code": "1h 30m",
+    "Duration": "Tuesday 13 May 2025",
+    "Session": "PM",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "A",
+    "Syllabus/Component": "",
+    "Code": "",
+    "Duration": "",
+    "Session": "",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "Accounting (Multiple Choice)",
+    "Syllabus/Component": "7707/12",
+    "Code": "1h 15m",
+    "Duration": "Thursday 29 May 2025",
+    "Session": "AM",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "Accounting",
+    "Syllabus/Component": "7707/22",
+    "Code": "1h 45m",
+    "Duration": "Wednesday 21 May 2025",
+    "Session": "AM",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "Additional Mathematics",
+    "Syllabus/Component": "4037/12",
+    "Code": "2h",
+    "Duration": "Monday 19 May 2025",
+    "Session": "AM",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "Additional Mathematics",
+    "Syllabus/Component": "4037/22",
+    "Code": "2h",
+    "Duration": "Tuesday 27 May 2025",
+    "Session": "AM",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "Arabic",
+    "Syllabus/Component": "3180/01",
+    "Code": "1h 30m",
+    "Duration": "Monday 05 May 2025",
+    "Session": "PM",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "Arabic",
+    "Syllabus/Component": "3180/02",
+    "Code": "1h 30m",
+    "Duration": "Tuesday 13 May 2025",
+    "Session": "PM",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "B",
+    "Syllabus/Component": "",
+    "Code": "",
+    "Duration": "",
+    "Session": "",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "Bangladesh Studies",
+    "Syllabus/Component": "7094/01",
+    "Code": "1h 30m",
+    "Duration": "Monday 26 May 2025",
+    "Session": "PM",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "Bangladesh Studies",
+    "Syllabus/Component": "7094/02",
+    "Code": "1h 30m",
+    "Duration": "Wednesday 28 May 2025",
+    "Session": "PM",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "Bengali",
+    "Syllabus/Component": "3204/01",
+    "Code": "2h",
+    "Duration": "Friday 25 April 2025",
+    "Session": "PM",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "Bengali",
+    "Syllabus/Component": "3204/02",
+    "Code": "1h 30m",
+    "Duration": "Tuesday 29 April 2025",
+    "Session": "PM",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "Biblical Studies",
+    "Syllabus/Component": "2035/12",
+    "Code": "1h 30m",
+    "Duration": "Wednesday 28 May 2025",
+    "Session": "PM",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "Biblical Studies",
+    "Syllabus/Component": "2035/22",
+    "Code": "1h 30m",
+    "Duration": "Friday 30 May 2025",
+    "Session": "PM",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "Biology (Multiple Choice)",
+    "Syllabus/Component": "5090/12",
+    "Code": "1h",
+    "Duration": "Wednesday 11 June 2025",
+    "Session": "AM",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "Biology",
+    "Syllabus/Component": "5090/22",
+    "Code": "1h 45m",
+    "Duration": "Tuesday 06 May 2025",
+    "Session": "AM",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "Biology (Practical)",
+    "Syllabus/Component": "5090/32",
+    "Code": "1h 30m",
+    "Duration": "Tuesday 13 May 2025",
+    "Session": "AM",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "Biology (Alternative to Practical)",
+    "Syllabus/Component": "5090/42",
+    "Code": "1h",
+    "Duration": "Tuesday 13 May 2025",
+    "Session": "AM",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "Business Studies",
+    "Syllabus/Component": "7115/12",
+    "Code": "1h 30m",
+    "Duration": "Friday 16 May 2025",
+    "Session": "AM",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "Business Studies",
+    "Syllabus/Component": "7115/22",
+    "Code": "1h 30m",
+    "Duration": "Monday 19 May 2025",
+    "Session": "AM",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "C",
+    "Syllabus/Component": "",
+    "Code": "",
+    "Duration": "",
+    "Session": "",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "Chemistry (Multiple Choice)",
+    "Syllabus/Component": "5070/12",
+    "Code": "1h",
+    "Duration": "Tuesday 10 June 2025",
+    "Session": "AM",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "Chemistry",
+    "Syllabus/Component": "5070/22",
+    "Code": "1h 45m",
+    "Duration": "Wednesday 30 April 2025",
+    "Session": "AM",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "Chemistry (Practical)",
+    "Syllabus/Component": "5070/32",
+    "Code": "1h 30m",
+    "Duration": "Thursday 15 May 2025",
+    "Session": "AM",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "Chemistry (Alternative to Practical)",
+    "Syllabus/Component": "5070/42",
+    "Code": "1h",
+    "Duration": "Thursday 15 May 2025",
+    "Session": "AM",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "Combined Science (Multiple Choice)",
+    "Syllabus/Component": "5129/12",
+    "Code": "1h",
+    "Duration": "Wednesday 04 June 2025",
+    "Session": "AM",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "Combined Science",
+    "Syllabus/Component": "5129/22",
+    "Code": "1h 45m",
+    "Duration": "Wednesday 30 April 2025",
+    "Session": "AM",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "Combined Science",
+    "Syllabus/Component": "5129/32",
+    "Code": "1h",
+    "Duration": "Tuesday 06 May 2025",
+    "Session": "AM",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "Commerce (Multiple Choice)",
+    "Syllabus/Component": "7100/12",
+    "Code": "1h",
+    "Duration": "Wednesday 04 June 2025",
+    "Session": "PM",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "Commerce",
+    "Syllabus/Component": "7100/22",
+    "Code": "2h",
+    "Duration": "Thursday 29 May 2025",
+    "Session": "PM",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "Computer Science",
+    "Syllabus/Component": "2210/12",
+    "Code": "1h 45m",
+    "Duration": "Monday 12 May 2025",
+    "Session": "AM",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "Computer Science",
+    "Syllabus/Component": "2210/22",
+    "Code": "1h 45m",
+    "Duration": "Wednesday 21 May 2025",
+    "Session": "AM",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "E",
+    "Syllabus/Component": "",
+    "Code": "",
+    "Duration": "",
+    "Session": "",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "Economics (Multiple Choice)",
+    "Syllabus/Component": "2281/12",
+    "Code": "45m",
+    "Duration": "Thursday 05 June 2025",
+    "Session": "AM",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "Economics",
+    "Syllabus/Component": "2281/22",
+    "Code": "2h 15m",
+    "Duration": "Friday 23 May 2025",
+    "Session": "AM",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "English Language",
+    "Syllabus/Component": "1123/12",
+    "Code": "2h",
+    "Duration": "Thursday 08 May 2025",
+    "Session": "AM",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "English Language",
+    "Syllabus/Component": "1123/22",
+    "Code": "2h",
+    "Duration": "Monday 28 April 2025",
+    "Session": "AM",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "Environmental Management",
+    "Syllabus/Component": "5014/12",
+    "Code": "1h 45m",
+    "Duration": "Thursday 22 May 2025",
+    "Session": "AM",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "Environmental Management",
+    "Syllabus/Component": "5014/22",
+    "Code": "1h 45m",
+    "Duration": "Monday 02 June 2025",
+    "Session": "AM",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "F",
+    "Syllabus/Component": "",
+    "Code": "",
+    "Duration": "",
+    "Session": "",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "Fashion & Textiles",
+    "Syllabus/Component": "6130/01",
+    "Code": "2h",
+    "Duration": "Tuesday 06 May 2025",
+    "Session": "PM",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "First Language Urdu",
+    "Syllabus/Component": "3247/01",
+    "Code": "1h 30m",
+    "Duration": "Monday 28 April 2025",
+    "Session": "PM",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "First Language Urdu",
+    "Syllabus/Component": "3247/02",
+    "Code": "2h",
+    "Duration": "Wednesday 30 April 2025",
+    "Session": "PM",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "Food & Nutrition",
+    "Syllabus/Component": "6065/12",
+    "Code": "2h",
+    "Duration": "Tuesday 10 June 2025",
+    "Session": "PM",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "G",
+    "Syllabus/Component": "",
+    "Code": "",
+    "Duration": "",
+    "Session": "",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "Geography",
+    "Syllabus/Component": "2217/12",
+    "Code": "1h 45m",
+    "Duration": "Tuesday 06 May 2025",
+    "Session": "PM",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "Geography",
+    "Syllabus/Component": "2217/22",
+    "Code": "1h 30m",
+    "Duration": "Thursday 15 May 2025",
+    "Session": "PM",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "Geography",
+    "Syllabus/Component": "2217/32",
+    "Code": "1h 30m",
+    "Duration": "Tuesday 20 May 2025",
+    "Session": "PM",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "Global Perspectives",
+    "Syllabus/Component": "2069/12",
+    "Code": "1h 25m",
+    "Duration": "Thursday 08 May 2025",
+    "Session": "PM",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "H",
+    "Syllabus/Component": "",
+    "Code": "",
+    "Duration": "",
+    "Session": "",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "Hinduism",
+    "Syllabus/Component": "2055/01",
+    "Code": "1h 30m",
+    "Duration": "Monday 19 May 2025",
+    "Session": "PM",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "Hinduism",
+    "Syllabus/Component": "2055/02",
+    "Code": "1h 30m",
+    "Duration": "Monday 02 June 2025",
+    "Session": "PM",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "History",
+    "Syllabus/Component": "2147/12",
+    "Code": "2h",
+    "Duration": "Friday 09 May 2025",
+    "Session": "PM",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "History",
+    "Syllabus/Component": "2147/22",
+    "Code": "1h 45m",
+    "Duration": "Friday 16 May 2025",
+    "Session": "PM",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "I",
+    "Syllabus/Component": "",
+    "Code": "",
+    "Duration": "",
+    "Session": "",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "Islamiyat",
+    "Syllabus/Component": "2058/12",
+    "Code": "1h 30m",
+    "Duration": "Friday 25 April 2025",
+    "Session": "AM",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "Islamiyat",
+    "Syllabus/Component": "2058/22",
+    "Code": "1h 30m",
+    "Duration": "Wednesday 07 May 2025",
+    "Session": "AM",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "Islamic Studies",
+    "Syllabus/Component": "2068/12",
+    "Code": "1h 30m",
+    "Duration": "Friday 25 April 2025",
+    "Session": "PM",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "Islamic Studies",
+    "Syllabus/Component": "2068/22",
+    "Code": "1h 30m",
+    "Duration": "Monday 05 May 2025",
+    "Session": "PM",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "L",
+    "Syllabus/Component": "",
+    "Code": "",
+    "Duration": "",
+    "Session": "",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "Literature in English",
+    "Syllabus/Component": "2010/12",
+    "Code": "1h 30m",
+    "Duration": "Monday 12 May 2025",
+    "Session": "PM",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "Literature in English",
+    "Syllabus/Component": "2010/22",
+    "Code": "1h 30m",
+    "Duration": "Wednesday 14 May 2025",
+    "Session": "PM",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "M",
+    "Syllabus/Component": "",
+    "Code": "",
+    "Duration": "",
+    "Session": "",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "Mathematics Syllabus D",
+    "Syllabus/Component": "4024/12",
+    "Code": "2h",
+    "Duration": "Friday 02 May 2025",
+    "Session": "PM",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "Mathematics Syllabus D",
+    "Syllabus/Component": "4024/22",
+    "Code": "2h",
+    "Duration": "Wednesday 07 May 2025",
+    "Session": "PM",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "P",
+    "Syllabus/Component": "",
+    "Code": "",
+    "Duration": "",
+    "Session": "",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "Pakistan Studies",
+    "Syllabus/Component": "2059/01",
+    "Code": "1h 30m",
+    "Duration": "Tuesday 29 April 2025",
+    "Session": "PM",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "Pakistan Studies",
+    "Syllabus/Component": "2059/02",
+    "Code": "1h 30m",
+    "Duration": "Monday 05 May 2025",
+    "Session": "PM",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "Physics (Multiple Choice)",
+    "Syllabus/Component": "5054/12",
+    "Code": "1h",
+    "Duration": "Wednesday 04 June 2025",
+    "Session": "AM",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "Physics",
+    "Syllabus/Component": "5054/22",
+    "Code": "1h 45m",
+    "Duration": "Monday 05 May 2025",
+    "Session": "AM",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "Physics (Practical)",
+    "Syllabus/Component": "5054/32",
+    "Code": "1h 30m",
+    "Duration": "Tuesday 20 May 2025",
+    "Session": "AM",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "Physics (Alternative to Practical)",
+    "Syllabus/Component": "5054/42",
+    "Code": "1h",
+    "Duration": "Tuesday 20 May 2025",
+    "Session": "AM",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "S",
+    "Syllabus/Component": "",
+    "Code": "",
+    "Duration": "",
+    "Session": "",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "Second Language Urdu",
+    "Syllabus/Component": "3248/01",
+    "Code": "1h 45m",
+    "Duration": "Monday 28 April 2025",
+    "Session": "PM",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "Second Language Urdu",
+    "Syllabus/Component": "3248/02",
+    "Code": "1h 30m",
+    "Duration": "Wednesday 30 April 2025",
+    "Session": "PM",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "Sinhala",
+    "Syllabus/Component": "3205/01",
+    "Code": "1h 30m",
+    "Duration": "Friday 25 April 2025",
+    "Session": "PM",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "Sinhala",
+    "Syllabus/Component": "3205/02",
+    "Code": "1h 30m",
+    "Duration": "Tuesday 29 April 2025",
+    "Session": "PM",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "Sociology",
+    "Syllabus/Component": "2251/12",
+    "Code": "2h",
+    "Duration": "Thursday 22 May 2025",
+    "Session": "PM",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "Sociology",
+    "Syllabus/Component": "2251/22",
+    "Code": "1h 45m",
+    "Duration": "Tuesday 27 May 2025",
+    "Session": "PM",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "T",
+    "Syllabus/Component": "",
+    "Code": "",
+    "Duration": "",
+    "Session": "",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "Tamil",
+    "Syllabus/Component": "3226/01",
+    "Code": "1h 30m",
+    "Duration": "Friday 25 April 2025",
+    "Session": "PM",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "Tamil",
+    "Syllabus/Component": "3226/02",
+    "Code": "1h 30m",
+    "Duration": "Monday 28 April 2025",
+    "Session": "PM",
+    "Date": "Wednesday 07 May",
+    "Page": "12"
+  },
+  {
+    "Level": "A",
+    "Syllabus/Component": "",
+    "Code": "",
+    "Duration": "",
+    "Session": "",
+    "Date": "Wednesday 04 June",
+    "Page": "13"
+  },
+  {
+    "Level": "Accounting (Multiple Choice)",
+    "Syllabus/Component": "9706/12",
+    "Code": "1h",
+    "Duration": "Wednesday 04 June 2025",
+    "Session": "PM",
+    "Date": "Wednesday 04 June",
+    "Page": "13"
+  },
+  {
+    "Level": "Accounting",
+    "Syllabus/Component": "9706/22",
+    "Code": "1h 45m",
+    "Duration": "Tuesday 13 May 2025",
+    "Session": "PM",
+    "Date": "Wednesday 04 June",
+    "Page": "13"
+  },
+  {
+    "Level": "Arabic Language",
+    "Syllabus/Component": "8680/22",
+    "Code": "1h 45m",
+    "Duration": "Thursday 15 May 2025",
+    "Session": "PM",
+    "Date": "Wednesday 04 June",
+    "Page": "13"
+  },
+  {
+    "Level": "Arabic Language",
+    "Syllabus/Component": "8680/32",
+    "Code": "1h 30m",
+    "Duration": "Friday 30 May 2025",
+    "Session": "PM",
+    "Date": "Wednesday 04 June",
+    "Page": "13"
+  },
+  {
+    "Level": "B",
+    "Syllabus/Component": "",
+    "Code": "",
+    "Duration": "",
+    "Session": "",
+    "Date": "Wednesday 04 June",
+    "Page": "13"
+  },
+  {
+    "Level": "Biblical Studies",
+    "Syllabus/Component": "9484/12",
+    "Code": "1h 30m",
+    "Duration": "Monday 26 May 2025",
+    "Session": "PM",
+    "Date": "Wednesday 04 June",
+    "Page": "13"
+  },
+  {
+    "Level": "Biblical Studies",
+    "Syllabus/Component": "9484/22",
+    "Code": "1h 30m",
+    "Duration": "Monday 02 June 2025",
+    "Session": "PM",
+    "Date": "Wednesday 04 June",
+    "Page": "13"
+  },
+  {
+    "Level": "Biology (Multiple Choice)",
+    "Syllabus/Component": "9700/12",
+    "Code": "1h 15m",
+    "Duration": "Tuesday 10 June 2025",
+    "Session": "AM",
+    "Date": "Wednesday 04 June",
+    "Page": "13"
+  },
+  {
+    "Level": "Biology",
+    "Syllabus/Component": "9700/22",
+    "Code": "1h 15m",
+    "Duration": "Thursday 15 May 2025",
+    "Session": "AM",
+    "Date": "Wednesday 04 June",
+    "Page": "13"
+  },
+  {
+    "Level": "Biology (Practical - Advanced)",
+    "Syllabus/Component": "9700/33",
+    "Code": "2h",
+    "Duration": "Thursday 08 May 2025",
+    "Session": "AM",
+    "Date": "Wednesday 04 June",
+    "Page": "13"
+  },
+  {
+    "Level": "Biology (Practical - Advanced)",
+    "Syllabus/Component": "9700/34",
+    "Code": "2h",
+    "Duration": "Tuesday 27 May 2025",
+    "Session": "AM",
+    "Date": "Wednesday 04 June",
+    "Page": "13"
+  },
+  {
+    "Level": "Business",
+    "Syllabus/Component": "9609/12",
+    "Code": "1h 15m",
+    "Duration": "Tuesday 06 May 2025",
+    "Session": "PM",
+    "Date": "Wednesday 04 June",
+    "Page": "13"
+  },
+  {
+    "Level": "Business",
+    "Syllabus/Component": "9609/22",
+    "Code": "1h 30m",
+    "Duration": "Monday 12 May 2025",
+    "Session": "PM",
+    "Date": "Wednesday 04 June",
+    "Page": "13"
+  },
+  {
+    "Level": "C",
+    "Syllabus/Component": "",
+    "Code": "",
+    "Duration": "",
+    "Session": "",
+    "Date": "Wednesday 04 June",
+    "Page": "13"
+  },
+  {
+    "Level": "Chemistry (Multiple Choice)",
+    "Syllabus/Component": "9701/12",
+    "Code": "1h 15m",
+    "Duration": "Wednesday 04 June 2025",
+    "Session": "AM",
+    "Date": "Wednesday 04 June",
+    "Page": "13"
+  },
+  {
+    "Level": "Chemistry",
+    "Syllabus/Component": "9701/22",
+    "Code": "1h 15m",
+    "Duration": "Monday 19 May 2025",
+    "Session": "AM",
+    "Date": "Wednesday 04 June",
+    "Page": "13"
+  },
+  {
+    "Level": "Chemistry (Practical - Advanced)",
+    "Syllabus/Component": "9701/33",
+    "Code": "2h",
+    "Duration": "Tuesday 06 May 2025",
+    "Session": "AM",
+    "Date": "Wednesday 04 June",
+    "Page": "13"
+  },
+  {
+    "Level": "Chemistry (Practical - Advanced)",
+    "Syllabus/Component": "9701/34",
+    "Code": "2h",
+    "Duration": "Thursday 29 May 2025",
+    "Session": "AM",
+    "Date": "Wednesday 04 June",
+    "Page": "13"
+  },
+  {
+    "Level": "Chinese Language (Listening - Multiple Choice)",
+    "Syllabus/Component": "8238/12",
+    "Code": "1h",
+    "Duration": "Monday 26 May 2025",
+    "Session": "AM",
+    "Date": "Wednesday 04 June",
+    "Page": "13"
+  },
+  {
+    "Level": "Chinese Language (Multiple Choice)",
+    "Syllabus/Component": "8238/22",
+    "Code": "1h 30m",
+    "Duration": "Wednesday 28 May 2025",
+    "Session": "AM",
+    "Date": "Wednesday 04 June",
+    "Page": "13"
+  },
+  {
+    "Level": "Chinese Language",
+    "Syllabus/Component": "8238/32",
+    "Code": "1h 30m",
+    "Duration": "Wednesday 30 April 2025",
+    "Session": "AM",
+    "Date": "Wednesday 04 June",
+    "Page": "13"
+  },
+  {
+    "Level": "Computer Science",
+    "Syllabus/Component": "9618/12",
+    "Code": "1h 30m",
+    "Duration": "Friday 09 May 2025",
+    "Session": "PM",
+    "Date": "Wednesday 04 June",
+    "Page": "13"
+  },
+  {
+    "Level": "Computer Science",
+    "Syllabus/Component": "9618/22",
+    "Code": "2h",
+    "Duration": "Thursday 15 May 2025",
+    "Session": "PM",
+    "Date": "Wednesday 04 June",
+    "Page": "13"
+  },
+  {
+    "Level": "D",
+    "Syllabus/Component": "",
+    "Code": "",
+    "Duration": "",
+    "Session": "",
+    "Date": "Wednesday 04 June",
+    "Page": "13"
+  },
+  {
+    "Level": "Design & Technology",
+    "Syllabus/Component": "9705/12",
+    "Code": "2h 15m",
+    "Duration": "Wednesday 30 April 2025",
+    "Session": "PM",
+    "Date": "Wednesday 04 June",
+    "Page": "13"
+  },
+  {
+    "Level": "Drama",
+    "Syllabus/Component": "9482/12",
+    "Code": "2h",
+    "Duration": "Wednesday 21 May 2025",
+    "Session": "PM",
+    "Date": "Wednesday 04 June",
+    "Page": "13"
+  },
+  {
+    "Level": "E",
+    "Syllabus/Component": "",
+    "Code": "",
+    "Duration": "",
+    "Session": "",
+    "Date": "Wednesday 04 June",
+    "Page": "13"
+  },
+  {
+    "Level": "Economics (Multiple Choice)",
+    "Syllabus/Component": "9708/12",
+    "Code": "1h",
+    "Duration": "Monday 09 June 2025",
+    "Session": "AM",
+    "Date": "Wednesday 04 June",
+    "Page": "13"
+  },
+  {
+    "Level": "Economics",
+    "Syllabus/Component": "9708/22",
+    "Code": "2h",
+    "Duration": "Wednesday 14 May 2025",
+    "Session": "AM",
+    "Date": "Wednesday 04 June",
+    "Page": "13"
+  },
+  {
+    "Level": "English General Paper",
+    "Syllabus/Component": "8021/12",
+    "Code": "1h 15m",
+    "Duration": "Tuesday 29 April 2025",
+    "Session": "AM",
+    "Date": "Wednesday 04 June",
+    "Page": "13"
+  },
+  {
+    "Level": "English General Paper",
+    "Syllabus/Component": "8021/22",
+    "Code": "1h 45m",
+    "Duration": "Monday 05 May 2025",
+    "Session": "AM",
+    "Date": "Wednesday 04 June",
+    "Page": "13"
+  },
+  {
+    "Level": "English Language",
+    "Syllabus/Component": "9093/12",
+    "Code": "2h 15m",
+    "Duration": "Wednesday 30 April 2025",
+    "Session": "AM",
+    "Date": "Wednesday 04 June",
+    "Page": "13"
+  },
+  {
+    "Level": "English Language",
+    "Syllabus/Component": "9093/22",
+    "Code": "2h",
+    "Duration": "Monday 05 May 2025",
+    "Session": "AM",
+    "Date": "Wednesday 04 June",
+    "Page": "13"
+  },
+  {
+    "Level": "Environmental Management",
+    "Syllabus/Component": "8291/12",
+    "Code": "1h 45m",
+    "Duration": "Tuesday 29 April 2025",
+    "Session": "PM",
+    "Date": "Wednesday 04 June",
+    "Page": "13"
+  },
+  {
+    "Level": "Environmental Management",
+    "Syllabus/Component": "8291/22",
+    "Code": "1h 45m",
+    "Duration": "Monday 05 May 2025",
+    "Session": "PM",
+    "Date": "Wednesday 04 June",
+    "Page": "13"
+  },
+  {
+    "Level": "F",
+    "Syllabus/Component": "",
+    "Code": "",
+    "Duration": "",
+    "Session": "",
+    "Date": "Wednesday 04 June",
+    "Page": "13"
+  },
+  {
+    "Level": "French Language (Listening - Multiple Choice)",
+    "Syllabus/Component": "8028/12",
+    "Code": "1h",
+    "Duration": "Monday 19 May 2025",
+    "Session": "PM",
+    "Date": "Wednesday 04 June",
+    "Page": "13"
+  },
+  {
+    "Level": "French Language (Multiple Choice)",
+    "Syllabus/Component": "8028/22",
+    "Code": "1h 30m",
+    "Duration": "Thursday 22 May 2025",
+    "Session": "PM",
+    "Date": "Wednesday 04 June",
+    "Page": "13"
+  },
+  {
+    "Level": "French Language",
+    "Syllabus/Component": "8028/32",
+    "Code": "1h 30m",
+    "Duration": "Friday 25 April 2025",
+    "Session": "PM",
+    "Date": "Wednesday 04 June",
+    "Page": "13"
+  },
+  {
+    "Level": "Further Mathematics",
+    "Syllabus/Component": "9231/12",
+    "Code": "2h",
+    "Duration": "Thursday 08 May 2025",
+    "Session": "PM",
+    "Date": "Wednesday 04 June",
+    "Page": "13"
+  },
+  {
+    "Level": "Further Mathematics",
+    "Syllabus/Component": "9231/32",
+    "Code": "1h 30m",
+    "Duration": "Monday 26 May 2025",
+    "Session": "PM",
+    "Date": "Wednesday 04 June",
+    "Page": "13"
+  },
+  {
+    "Level": "Further Mathematics",
+    "Syllabus/Component": "9231/42",
+    "Code": "1h 30m",
+    "Duration": "Friday 30 May 2025",
+    "Session": "PM",
+    "Date": "Wednesday 04 June",
+    "Page": "13"
+  },
+  {
+    "Level": "G",
+    "Syllabus/Component": "",
+    "Code": "",
+    "Duration": "",
+    "Session": "",
+    "Date": "Wednesday 04 June",
+    "Page": "13"
+  },
+  {
+    "Level": "Geography (Core)",
+    "Syllabus/Component": "9696/12",
+    "Code": "1h 30m",
+    "Duration": "Wednesday 07 May 2025",
+    "Session": "AM",
+    "Date": "Wednesday 04 June",
+    "Page": "13"
+  },
+  {
+    "Level": "Geography (Core)",
+    "Syllabus/Component": "9696/22",
+    "Code": "1h 30m",
+    "Duration": "Wednesday 14 May 2025",
+    "Session": "AM",
+    "Date": "Wednesday 04 June",
+    "Page": "13"
+  },
+  {
+    "Level": "German Language (Listening - Multiple Choice)",
+    "Syllabus/Component": "8027/12",
+    "Code": "1h",
+    "Duration": "Tuesday 03 June 2025",
+    "Session": "PM",
+    "Date": "Wednesday 04 June",
+    "Page": "13"
+  },
+  {
+    "Level": "German Language (Multiple Choice)",
+    "Syllabus/Component": "8027/22",
+    "Code": "1h 30m",
+    "Duration": "Thursday 05 June 2025",
+    "Session": "PM",
+    "Date": "Wednesday 04 June",
+    "Page": "13"
+  },
+  {
+    "Level": "German Language",
+    "Syllabus/Component": "8027/32",
+    "Code": "1h 30m",
+    "Duration": "Monday 26 May 2025",
+    "Session": "PM",
+    "Date": "Wednesday 04 June",
+    "Page": "13"
+  },
+  {
+    "Level": "Global Perspectives & Research",
+    "Syllabus/Component": "9239/12",
+    "Code": "1h 30m",
+    "Duration": "Thursday 01 May 2025",
+    "Session": "AM",
+    "Date": "Wednesday 04 June",
+    "Page": "13"
+  },
+  {
+    "Level": "H",
+    "Syllabus/Component": "",
+    "Code": "",
+    "Duration": "",
+    "Session": "",
+    "Date": "Wednesday 04 June",
+    "Page": "13"
+  },
+  {
+    "Level": "Hinduism",
+    "Syllabus/Component": "9487/01",
+    "Code": "1h 30m",
+    "Duration": "Friday 25 April 2025",
+    "Session": "EV",
+    "Date": "Wednesday 04 June",
+    "Page": "13"
+  },
+  {
+    "Level": "Hinduism",
+    "Syllabus/Component": "9487/02",
+    "Code": "1h 30m",
+    "Duration": "Monday 02 June 2025",
+    "Session": "EV",
+    "Date": "Wednesday 04 June",
+    "Page": "13"
+  },
+  {
+    "Level": "History",
+    "Syllabus/Component": "9489/12",
+    "Code": "1h 15m",
+    "Duration": "Tuesday 06 May 2025",
+    "Session": "PM",
+    "Date": "Wednesday 04 June",
+    "Page": "13"
+  },
+  {
+    "Level": "History",
+    "Syllabus/Component": "9489/22",
+    "Code": "1h 45m",
+    "Duration": "Thursday 08 May 2025",
+    "Session": "PM",
+    "Date": "Wednesday 04 June",
+    "Page": "13"
+  },
+  {
+    "Level": "I",
+    "Syllabus/Component": "",
+    "Code": "",
+    "Duration": "",
+    "Session": "",
+    "Date": "Wednesday 04 June",
+    "Page": "13"
+  },
+  {
+    "Level": "Information Technology",
+    "Syllabus/Component": "9626/12",
+    "Code": "1h 45m",
+    "Duration": "Friday 09 May 2025",
+    "Session": "PM",
+    "Date": "Wednesday 04 June",
+    "Page": "13"
+  },
+  {
+    "Level": "Islamic Studies",
+    "Syllabus/Component": "9488/12",
+    "Code": "1h 30m",
+    "Duration": "Friday 25 April 2025",
+    "Session": "PM",
+    "Date": "Wednesday 04 June",
+    "Page": "13"
+  },
+  {
+    "Level": "Islamic Studies",
+    "Syllabus/Component": "9488/22",
+    "Code": "1h 30m",
+    "Duration": "Monday 28 April 2025",
+    "Session": "PM",
+    "Date": "Wednesday 04 June",
+    "Page": "13"
+  },
+  {
+    "Level": "L",
+    "Syllabus/Component": "",
+    "Code": "",
+    "Duration": "",
+    "Session": "",
+    "Date": "Wednesday 04 June",
+    "Page": "13"
+  },
+  {
+    "Level": "Language & Literature in English",
+    "Syllabus/Component": "8695/12",
+    "Code": "2h",
+    "Duration": "Monday 05 May 2025",
+    "Session": "AM",
+    "Date": "Wednesday 04 June",
+    "Page": "13"
+  },
+  {
+    "Level": "Language & Literature in English",
+    "Syllabus/Component": "8695/22",
+    "Code": "2h",
+    "Duration": "Monday 28 April 2025",
+    "Session": "AM",
+    "Date": "Wednesday 04 June",
+    "Page": "13"
+  },
+  {
+    "Level": "Law",
+    "Syllabus/Component": "9084/12",
+    "Code": "1h 30m",
+    "Duration": "Tuesday 27 May 2025",
+    "Session": "AM",
+    "Date": "Wednesday 04 June",
+    "Page": "13"
+  },
+  {
+    "Level": "Law",
+    "Syllabus/Component": "9084/22",
+    "Code": "1h 30m",
+    "Duration": "Thursday 29 May 2025",
+    "Session": "AM",
+    "Date": "Wednesday 04 June",
+    "Page": "13"
+  },
+  {
+    "Level": "Literature in English",
+    "Syllabus/Component": "9695/12",
+    "Code": "2h",
+    "Duration": "Monday 28 April 2025",
+    "Session": "AM",
+    "Date": "Wednesday 04 June",
+    "Page": "13"
+  },
+  {
+    "Level": "Literature in English",
+    "Syllabus/Component": "9695/22",
+    "Code": "2h",
+    "Duration": "Tuesday 13 May 2025",
+    "Session": "AM",
+    "Date": "Wednesday 04 June",
+    "Page": "13"
+  },
+  {
+    "Level": "M",
+    "Syllabus/Component": "",
+    "Code": "",
+    "Duration": "",
+    "Session": "",
+    "Date": "Wednesday 04 June",
+    "Page": "13"
+  },
+  {
+    "Level": "Marine Science",
+    "Syllabus/Component": "9693/12",
+    "Code": "1h 45m",
+    "Duration": "Friday 25 April 2025",
+    "Session": "PM",
+    "Date": "Wednesday 04 June",
+    "Page": "13"
+  },
+  {
+    "Level": "Marine Science",
+    "Syllabus/Component": "9693/22",
+    "Code": "1h 45m",
+    "Duration": "Tuesday 29 April 2025",
+    "Session": "PM",
+    "Date": "Wednesday 04 June",
+    "Page": "13"
+  },
+  {
+    "Level": "Mathematics (Pure Mathematics 1)",
+    "Syllabus/Component": "9709/12",
+    "Code": "1h 50m",
+    "Duration": "Friday 02 May 2025",
+    "Session": "PM",
+    "Date": "Wednesday 04 June",
+    "Page": "13"
+  },
+  {
+    "Level": "Mathematics (Pure Mathematics 2)",
+    "Syllabus/Component": "9709/22",
+    "Code": "1h 15m",
+    "Duration": "Wednesday 07 May 2025",
+    "Session": "PM",
+    "Date": "Wednesday 04 June",
+    "Page": "13"
+  },
+  {
+    "Level": "Mathematics (Mechanics)",
+    "Syllabus/Component": "9709/42",
+    "Code": "1h 15m",
+    "Duration": "Wednesday 07 May 2025",
+    "Session": "PM",
+    "Date": "Wednesday 04 June",
+    "Page": "13"
+  },
+  {
+    "Level": "Mathematics (Probability & Statistics 1)",
+    "Syllabus/Component": "9709/52",
+    "Code": "1h 15m",
+    "Duration": "Wednesday 14 May 2025",
+    "Session": "PM",
+    "Date": "Wednesday 04 June",
+    "Page": "13"
+  },
+  {
+    "Level": "Media Studies",
+    "Syllabus/Component": "9607/22",
+    "Code": "2h",
+    "Duration": "Wednesday 07 May 2025",
+    "Session": "AM",
+    "Date": "Wednesday 04 June",
+    "Page": "13"
+  },
+  {
+    "Level": "Music (Listening)",
+    "Syllabus/Component": "9483/12",
+    "Code": "2h",
+    "Duration": "Tuesday 20 May 2025",
+    "Session": "PM",
+    "Date": "Wednesday 04 June",
+    "Page": "13"
+  },
+  {
+    "Level": "P",
+    "Syllabus/Component": "",
+    "Code": "",
+    "Duration": "",
+    "Session": "",
+    "Date": "Wednesday 04 June",
+    "Page": "13"
+  },
+  {
+    "Level": "Physics (Multiple Choice)",
+    "Syllabus/Component": "9702/12",
+    "Code": "1h 15m",
+    "Duration": "Thursday 05 June 2025",
+    "Session": "AM",
+    "Date": "Wednesday 04 June",
+    "Page": "13"
+  },
+  {
+    "Level": "Physics",
+    "Syllabus/Component": "9702/22",
+    "Code": "1h 15m",
+    "Duration": "Tuesday 20 May 2025",
+    "Session": "AM",
+    "Date": "Wednesday 04 June",
+    "Page": "13"
+  },
+  {
+    "Level": "Physics (Practical - Advanced)",
+    "Syllabus/Component": "9702/33",
+    "Code": "2h",
+    "Duration": "Tuesday 29 April 2025",
+    "Session": "AM",
+    "Date": "Wednesday 04 June",
+    "Page": "13"
+  },
+  {
+    "Level": "Physics (Practical - Advanced)",
+    "Syllabus/Component": "9702/34",
+    "Code": "2h",
+    "Duration": "Thursday 22 May 2025",
+    "Session": "AM",
+    "Date": "Wednesday 04 June",
+    "Page": "13"
+  },
+  {
+    "Level": "Portuguese Language",
+    "Syllabus/Component": "8684/02",
+    "Code": "1h 45m",
+    "Duration": "Monday 05 May 2025",
+    "Session": "EV",
+    "Date": "Wednesday 04 June",
+    "Page": "13"
+  },
+  {
+    "Level": "Portuguese Language",
+    "Syllabus/Component": "8684/03",
+    "Code": "1h 30m",
+    "Duration": "Thursday 08 May 2025",
+    "Session": "EV",
+    "Date": "Wednesday 04 June",
+    "Page": "13"
+  },
+  {
+    "Level": "Psychology",
+    "Syllabus/Component": "9990/12",
+    "Code": "1h 30m",
+    "Duration": "Wednesday 30 April 2025",
+    "Session": "AM",
+    "Date": "Wednesday 04 June",
+    "Page": "13"
+  },
+  {
+    "Level": "Psychology",
+    "Syllabus/Component": "9990/22",
+    "Code": "1h 30m",
+    "Duration": "Tuesday 06 May 2025",
+    "Session": "AM",
+    "Date": "Wednesday 04 June",
+    "Page": "13"
+  },
+  {
+    "Level": "S",
+    "Syllabus/Component": "",
+    "Code": "",
+    "Duration": "",
+    "Session": "",
+    "Date": "Wednesday 04 June",
+    "Page": "13"
+  },
+  {
+    "Level": "Sociology",
+    "Syllabus/Component": "9699/12",
+    "Code": "1h 30m",
+    "Duration": "Tuesday 13 May 2025",
+    "Session": "PM",
+    "Date": "Wednesday 04 June",
+    "Page": "13"
+  },
+  {
+    "Level": "Sociology",
+    "Syllabus/Component": "9699/22",
+    "Code": "1h 30m",
+    "Duration": "Friday 16 May 2025",
+    "Session": "PM",
+    "Date": "Wednesday 04 June",
+    "Page": "13"
+  },
+  {
+    "Level": "Spanish Language (Listening - Multiple Choice)",
+    "Syllabus/Component": "8022/12",
+    "Code": "1h",
+    "Duration": "Friday 09 May 2025",
+    "Session": "PM",
+    "Date": "Wednesday 04 June",
+    "Page": "13"
+  },
+  {
+    "Level": "Spanish Language (Multiple Choice)",
+    "Syllabus/Component": "8022/22",
+    "Code": "1h 30m",
+    "Duration": "Monday 12 May 2025",
+    "Session": "PM",
+    "Date": "Wednesday 04 June",
+    "Page": "13"
+  },
+  {
+    "Level": "Spanish Language",
+    "Syllabus/Component": "8022/32",
+    "Code": "1h 30m",
+    "Duration": "Thursday 01 May 2025",
+    "Session": "PM",
+    "Date": "Wednesday 04 June",
+    "Page": "13"
+  },
+  {
+    "Level": "Sport & Physical Education",
+    "Syllabus/Component": "8386/12",
+    "Code": "1h 45m",
+    "Duration": "Monday 19 May 2025",
+    "Session": "PM",
+    "Date": "Wednesday 04 June",
+    "Page": "13"
+  },
+  {
+    "Level": "T",
+    "Syllabus/Component": "",
+    "Code": "",
+    "Duration": "",
+    "Session": "",
+    "Date": "Wednesday 04 June",
+    "Page": "13"
+  },
+  {
+    "Level": "Tamil Language",
+    "Syllabus/Component": "8689/22",
+    "Code": "1h 45m",
+    "Duration": "Friday 25 April 2025",
+    "Session": "PM",
+    "Date": "Wednesday 04 June",
+    "Page": "13"
+  },
+  {
+    "Level": "Tamil Language",
+    "Syllabus/Component": "8689/32",
+    "Code": "1h 30m",
+    "Duration": "Friday 02 May 2025",
+    "Session": "PM",
+    "Date": "Wednesday 04 June",
+    "Page": "13"
+  },
+  {
+    "Level": "Thinking Skills",
+    "Syllabus/Component": "9694/12",
+    "Code": "1h 30m",
+    "Duration": "Monday 28 April 2025",
+    "Session": "PM",
+    "Date": "Wednesday 04 June",
+    "Page": "13"
+  },
+  {
+    "Level": "Thinking Skills",
+    "Syllabus/Component": "9694/22",
+    "Code": "1h 45m",
+    "Duration": "Thursday 01 May 2025",
+    "Session": "PM",
+    "Date": "Wednesday 04 June",
+    "Page": "13"
+  },
+  {
+    "Level": "Travel & Tourism",
+    "Syllabus/Component": "9395/12",
+    "Code": "2h",
+    "Duration": "Friday 02 May 2025",
+    "Session": "PM",
+    "Date": "Wednesday 04 June",
+    "Page": "13"
+  },
+  {
+    "Level": "U",
+    "Syllabus/Component": "",
+    "Code": "",
+    "Duration": "",
+    "Session": "",
+    "Date": "Wednesday 04 June",
+    "Page": "13"
+  },
+  {
+    "Level": "Urdu Language",
+    "Syllabus/Component": "8686/02",
+    "Code": "1h 45m",
+    "Duration": "Wednesday 30 April 2025",
+    "Session": "PM",
+    "Date": "Wednesday 04 June",
+    "Page": "13"
+  },
+  {
+    "Level": "Urdu Language",
+    "Syllabus/Component": "8686/03",
+    "Code": "1h 30m",
+    "Duration": "Wednesday 21 May 2025",
+    "Session": "PM",
+    "Date": "Wednesday 04 June",
+    "Page": "13"
+  },
+  {
+    "Level": "A",
+    "Syllabus/Component": "",
+    "Code": "",
+    "Duration": "",
+    "Session": "",
+    "Date": "Thursday 15 May",
+    "Page": "14"
+  },
+  {
+    "Level": "Accounting",
+    "Syllabus/Component": "9706/32",
+    "Code": "1h 30m",
+    "Duration": "Thursday 15 May 2025",
+    "Session": "PM",
+    "Date": "Thursday 15 May",
+    "Page": "14"
+  },
+  {
+    "Level": "Accounting",
+    "Syllabus/Component": "9706/42",
+    "Code": "1h",
+    "Duration": "Thursday 22 May 2025",
+    "Session": "PM",
+    "Date": "Thursday 15 May",
+    "Page": "14"
+  },
+  {
+    "Level": "Arabic",
+    "Syllabus/Component": "9680/22",
+    "Code": "1h 45m",
+    "Duration": "Thursday 15 May 2025",
+    "Session": "PM",
+    "Date": "Thursday 15 May",
+    "Page": "14"
+  },
+  {
+    "Level": "Arabic",
+    "Syllabus/Component": "9680/32",
+    "Code": "1h 30m",
+    "Duration": "Friday 30 May 2025",
+    "Session": "PM",
+    "Date": "Thursday 15 May",
+    "Page": "14"
+  },
+  {
+    "Level": "Arabic",
+    "Syllabus/Component": "9680/42",
+    "Code": "2h 30m",
+    "Duration": "Wednesday 28 May 2025",
+    "Session": "PM",
+    "Date": "Thursday 15 May",
+    "Page": "14"
+  },
+  {
+    "Level": "Arabic",
+    "Syllabus/Component": "9680/52",
+    "Code": "45m",
+    "Duration": "Tuesday 03 June 2025",
+    "Session": "PM",
+    "Date": "Thursday 15 May",
+    "Page": "14"
+  },
+  {
+    "Level": "B",
+    "Syllabus/Component": "",
+    "Code": "",
+    "Duration": "",
+    "Session": "",
+    "Date": "Thursday 15 May",
+    "Page": "14"
+  },
+  {
+    "Level": "Biblical Studies",
+    "Syllabus/Component": "9484/32",
+    "Code": "1h 30m",
+    "Duration": "Wednesday 04 June 2025",
+    "Session": "PM",
+    "Date": "Thursday 15 May",
+    "Page": "14"
+  },
+  {
+    "Level": "Biblical Studies",
+    "Syllabus/Component": "9484/42",
+    "Code": "1h 30m",
+    "Duration": "Monday 09 June 2025",
+    "Session": "PM",
+    "Date": "Thursday 15 May",
+    "Page": "14"
+  },
+  {
+    "Level": "Biology",
+    "Syllabus/Component": "9700/42",
+    "Code": "2h",
+    "Duration": "Monday 12 May 2025",
+    "Session": "AM",
+    "Date": "Thursday 15 May",
+    "Page": "14"
+  },
+  {
+    "Level": "Biology",
+    "Syllabus/Component": "9700/52",
+    "Code": "1h 15m",
+    "Duration": "Thursday 15 May 2025",
+    "Session": "AM",
+    "Date": "Thursday 15 May",
+    "Page": "14"
+  },
+  {
+    "Level": "Business",
+    "Syllabus/Component": "9609/32",
+    "Code": "1h 45m",
+    "Duration": "Friday 16 May 2025",
+    "Session": "PM",
+    "Date": "Thursday 15 May",
+    "Page": "14"
+  },
+  {
+    "Level": "Business",
+    "Syllabus/Component": "9609/42",
+    "Code": "1h 15m",
+    "Duration": "Tuesday 20 May 2025",
+    "Session": "PM",
+    "Date": "Thursday 15 May",
+    "Page": "14"
+  },
+  {
+    "Level": "C",
+    "Syllabus/Component": "",
+    "Code": "",
+    "Duration": "",
+    "Session": "",
+    "Date": "Thursday 15 May",
+    "Page": "14"
+  },
+  {
+    "Level": "Chemistry",
+    "Syllabus/Component": "9701/42",
+    "Code": "2h",
+    "Duration": "Friday 09 May 2025",
+    "Session": "AM",
+    "Date": "Thursday 15 May",
+    "Page": "14"
+  },
+  {
+    "Level": "Chemistry",
+    "Syllabus/Component": "9701/52",
+    "Code": "1h 15m",
+    "Duration": "Monday 19 May 2025",
+    "Session": "AM",
+    "Date": "Thursday 15 May",
+    "Page": "14"
+  },
+  {
+    "Level": "Chinese Language & Literature (Multiple Choice)",
+    "Syllabus/Component": "9868/12",
+    "Code": "1h 30m",
+    "Duration": "Monday 26 May 2025",
+    "Session": "AM",
+    "Date": "Thursday 15 May",
+    "Page": "14"
+  },
+  {
+    "Level": "Chinese Language & Literature",
+    "Syllabus/Component": "9868/22",
+    "Code": "2h",
+    "Duration": "Wednesday 30 April 2025",
+    "Session": "AM",
+    "Date": "Thursday 15 May",
+    "Page": "14"
+  },
+  {
+    "Level": "Chinese Language & Literature",
+    "Syllabus/Component": "9868/32",
+    "Code": "2h",
+    "Duration": "Thursday 08 May 2025",
+    "Session": "AM",
+    "Date": "Thursday 15 May",
+    "Page": "14"
+  },
+  {
+    "Level": "Computer Science (Advanced)",
+    "Syllabus/Component": "9618/32",
+    "Code": "1h 30m",
+    "Duration": "Wednesday 21 May 2025",
+    "Session": "PM",
+    "Date": "Thursday 15 May",
+    "Page": "14"
+  },
+  {
+    "Level": "D",
+    "Syllabus/Component": "",
+    "Code": "",
+    "Duration": "",
+    "Session": "",
+    "Date": "Thursday 15 May",
+    "Page": "14"
+  },
+  {
+    "Level": "Design & Technology",
+    "Syllabus/Component": "9705/32",
+    "Code": "2h 30m",
+    "Duration": "Thursday 08 May 2025",
+    "Session": "PM",
+    "Date": "Thursday 15 May",
+    "Page": "14"
+  },
+  {
+    "Level": "E",
+    "Syllabus/Component": "",
+    "Code": "",
+    "Duration": "",
+    "Session": "",
+    "Date": "Thursday 15 May",
+    "Page": "14"
+  },
+  {
+    "Level": "Economics (Multiple Choice)",
+    "Syllabus/Component": "9708/32",
+    "Code": "1h 15m",
+    "Duration": "Wednesday 11 June 2025",
+    "Session": "AM",
+    "Date": "Thursday 15 May",
+    "Page": "14"
+  },
+  {
+    "Level": "Economics",
+    "Syllabus/Component": "9708/42",
+    "Code": "2h",
+    "Duration": "Thursday 22 May 2025",
+    "Session": "AM",
+    "Date": "Thursday 15 May",
+    "Page": "14"
+  },
+  {
+    "Level": "English Language",
+    "Syllabus/Component": "9093/32",
+    "Code": "2h 15m",
+    "Duration": "Monday 12 May 2025",
+    "Session": "AM",
+    "Date": "Thursday 15 May",
+    "Page": "14"
+  },
+  {
+    "Level": "English Language",
+    "Syllabus/Component": "9093/42",
+    "Code": "2h 15m",
+    "Duration": "Friday 23 May 2025",
+    "Session": "AM",
+    "Date": "Thursday 15 May",
+    "Page": "14"
+  },
+  {
+    "Level": "F",
+    "Syllabus/Component": "",
+    "Code": "",
+    "Duration": "",
+    "Session": "",
+    "Date": "Thursday 15 May",
+    "Page": "14"
+  },
+  {
+    "Level": "French Language & Literature (Multiple Choice)",
+    "Syllabus/Component": "9898/12",
+    "Code": "1h 30m",
+    "Duration": "Friday 30 May 2025",
+    "Session": "PM",
+    "Date": "Thursday 15 May",
+    "Page": "14"
+  },
+  {
+    "Level": "French Language & Literature",
+    "Syllabus/Component": "9898/22",
+    "Code": "2h",
+    "Duration": "Friday 25 April 2025",
+    "Session": "PM",
+    "Date": "Thursday 15 May",
+    "Page": "14"
+  },
+  {
+    "Level": "French Language & Literature",
+    "Syllabus/Component": "9898/32",
+    "Code": "2h",
+    "Duration": "Tuesday 27 May 2025",
+    "Session": "PM",
+    "Date": "Thursday 15 May",
+    "Page": "14"
+  },
+  {
+    "Level": "Further Mathematics",
+    "Syllabus/Component": "9231/22",
+    "Code": "2h",
+    "Duration": "Wednesday 28 May 2025",
+    "Session": "PM",
+    "Date": "Thursday 15 May",
+    "Page": "14"
+  },
+  {
+    "Level": "G",
+    "Syllabus/Component": "",
+    "Code": "",
+    "Duration": "",
+    "Session": "",
+    "Date": "Thursday 15 May",
+    "Page": "14"
+  },
+  {
+    "Level": "Geography (Advanced)",
+    "Syllabus/Component": "9696/32",
+    "Code": "1h 30m",
+    "Duration": "Wednesday 21 May 2025",
+    "Session": "AM",
+    "Date": "Thursday 15 May",
+    "Page": "14"
+  },
+  {
+    "Level": "Geography (Advanced)",
+    "Syllabus/Component": "9696/42",
+    "Code": "1h 30m",
+    "Duration": "Friday 23 May 2025",
+    "Session": "AM",
+    "Date": "Thursday 15 May",
+    "Page": "14"
+  },
+  {
+    "Level": "German Language & Literature (Multiple Choice)",
+    "Syllabus/Component": "9897/12",
+    "Code": "1h 30m",
+    "Duration": "Tuesday 03 June 2025",
+    "Session": "PM",
+    "Date": "Thursday 15 May",
+    "Page": "14"
+  },
+  {
+    "Level": "German Language & Literature",
+    "Syllabus/Component": "9897/22",
+    "Code": "2h",
+    "Duration": "Monday 26 May 2025",
+    "Session": "PM",
+    "Date": "Thursday 15 May",
+    "Page": "14"
+  },
+  {
+    "Level": "German Language & Literature",
+    "Syllabus/Component": "9897/32",
+    "Code": "2h",
+    "Duration": "Wednesday 28 May 2025",
+    "Session": "PM",
+    "Date": "Thursday 15 May",
+    "Page": "14"
+  },
+  {
+    "Level": "H",
+    "Syllabus/Component": "",
+    "Code": "",
+    "Duration": "",
+    "Session": "",
+    "Date": "Thursday 15 May",
+    "Page": "14"
+  },
+  {
+    "Level": "Hinduism",
+    "Syllabus/Component": "9487/03",
+    "Code": "1h 30m",
+    "Duration": "Wednesday 04 June 2025",
+    "Session": "EV",
+    "Date": "Thursday 15 May",
+    "Page": "14"
+  },
+  {
+    "Level": "Hinduism",
+    "Syllabus/Component": "9487/04",
+    "Code": "1h 30m",
+    "Duration": "Tuesday 10 June 2025",
+    "Session": "EV",
+    "Date": "Thursday 15 May",
+    "Page": "14"
+  },
+  {
+    "Level": "History",
+    "Syllabus/Component": "9489/32",
+    "Code": "1h 15m",
+    "Duration": "Thursday 15 May 2025",
+    "Session": "PM",
+    "Date": "Thursday 15 May",
+    "Page": "14"
+  },
+  {
+    "Level": "History",
+    "Syllabus/Component": "9489/42",
+    "Code": "1h 45m",
+    "Duration": "Tuesday 20 May 2025",
+    "Session": "PM",
+    "Date": "Thursday 15 May",
+    "Page": "14"
+  },
+  {
+    "Level": "I",
+    "Syllabus/Component": "",
+    "Code": "",
+    "Duration": "",
+    "Session": "",
+    "Date": "Thursday 15 May",
+    "Page": "14"
+  },
+  {
+    "Level": "Information Technology (Advanced)",
+    "Syllabus/Component": "9626/32",
+    "Code": "1h 45m",
+    "Duration": "Wednesday 21 May 2025",
+    "Session": "PM",
+    "Date": "Thursday 15 May",
+    "Page": "14"
+  },
+  {
+    "Level": "Islamic Studies",
+    "Syllabus/Component": "9488/32",
+    "Code": "1h 30m",
+    "Duration": "Monday 05 May 2025",
+    "Session": "PM",
+    "Date": "Thursday 15 May",
+    "Page": "14"
+  },
+  {
+    "Level": "Islamic Studies",
+    "Syllabus/Component": "9488/42",
+    "Code": "1h 30m",
+    "Duration": "Thursday 08 May 2025",
+    "Session": "PM",
+    "Date": "Thursday 15 May",
+    "Page": "14"
+  },
+  {
+    "Level": "L",
+    "Syllabus/Component": "",
+    "Code": "",
+    "Duration": "",
+    "Session": "",
+    "Date": "Thursday 15 May",
+    "Page": "14"
+  },
+  {
+    "Level": "Law",
+    "Syllabus/Component": "9084/32",
+    "Code": "1h 30m",
+    "Duration": "Tuesday 03 June 2025",
+    "Session": "AM",
+    "Date": "Thursday 15 May",
+    "Page": "14"
+  },
+  {
+    "Level": "Law",
+    "Syllabus/Component": "9084/42",
+    "Code": "1h 30m",
+    "Duration": "Thursday 05 June 2025",
+    "Session": "AM",
+    "Date": "Thursday 15 May",
+    "Page": "14"
+  },
+  {
+    "Level": "Literature in English",
+    "Syllabus/Component": "9695/32",
+    "Code": "2h",
+    "Duration": "Wednesday 21 May 2025",
+    "Session": "AM",
+    "Date": "Thursday 15 May",
+    "Page": "14"
+  },
+  {
+    "Level": "Literature in English",
+    "Syllabus/Component": "9695/42",
+    "Code": "2h",
+    "Duration": "Friday 23 May 2025",
+    "Session": "AM",
+    "Date": "Thursday 15 May",
+    "Page": "14"
+  },
+  {
+    "Level": "M",
+    "Syllabus/Component": "",
+    "Code": "",
+    "Duration": "",
+    "Session": "",
+    "Date": "Thursday 15 May",
+    "Page": "14"
+  },
+  {
+    "Level": "Marine Science",
+    "Syllabus/Component": "9693/32",
+    "Code": "1h 45m",
+    "Duration": "Monday 05 May 2025",
+    "Session": "PM",
+    "Date": "Thursday 15 May",
+    "Page": "14"
+  },
+  {
+    "Level": "Marine Science",
+    "Syllabus/Component": "9693/42",
+    "Code": "1h 45m",
+    "Duration": "Thursday 08 May 2025",
+    "Session": "PM",
+    "Date": "Thursday 15 May",
+    "Page": "14"
+  },
+  {
+    "Level": "Mathematics (Pure Mathematics 3)",
+    "Syllabus/Component": "9709/32",
+    "Code": "1h 50m",
+    "Duration": "Monday 19 May 2025",
+    "Session": "PM",
+    "Date": "Thursday 15 May",
+    "Page": "14"
+  },
+  {
+    "Level": "Mathematics (Probability & Statistics 2)",
+    "Syllabus/Component": "9709/62",
+    "Code": "1h 15m",
+    "Duration": "Wednesday 07 May 2025",
+    "Session": "PM",
+    "Date": "Thursday 15 May",
+    "Page": "14"
+  },
+  {
+    "Level": "Media Studies",
+    "Syllabus/Component": "9607/42",
+    "Code": "2h",
+    "Duration": "Monday 19 May 2025",
+    "Session": "AM",
+    "Date": "Thursday 15 May",
+    "Page": "14"
+  },
+  {
+    "Level": "P",
+    "Syllabus/Component": "",
+    "Code": "",
+    "Duration": "",
+    "Session": "",
+    "Date": "Thursday 15 May",
+    "Page": "14"
+  },
+  {
+    "Level": "Physics",
+    "Syllabus/Component": "9702/42",
+    "Code": "2h",
+    "Duration": "Friday 16 May 2025",
+    "Session": "AM",
+    "Date": "Thursday 15 May",
+    "Page": "14"
+  },
+  {
+    "Level": "Physics",
+    "Syllabus/Component": "9702/52",
+    "Code": "1h 15m",
+    "Duration": "Tuesday 20 May 2025",
+    "Session": "AM",
+    "Date": "Thursday 15 May",
+    "Page": "14"
+  },
+  {
+    "Level": "Portuguese",
+    "Syllabus/Component": "9718/02",
+    "Code": "1h 45m",
+    "Duration": "Monday 05 May 2025",
+    "Session": "EV",
+    "Date": "Thursday 15 May",
+    "Page": "14"
+  },
+  {
+    "Level": "Portuguese",
+    "Syllabus/Component": "9718/03",
+    "Code": "1h 30m",
+    "Duration": "Thursday 08 May 2025",
+    "Session": "EV",
+    "Date": "Thursday 15 May",
+    "Page": "14"
+  },
+  {
+    "Level": "Portuguese",
+    "Syllabus/Component": "9718/04",
+    "Code": "2h 30m",
+    "Duration": "Tuesday 03 June 2025",
+    "Session": "EV",
+    "Date": "Thursday 15 May",
+    "Page": "14"
+  },
+  {
+    "Level": "Psychology",
+    "Syllabus/Component": "9990/32",
+    "Code": "1h 30m",
+    "Duration": "Tuesday 13 May 2025",
+    "Session": "AM",
+    "Date": "Thursday 15 May",
+    "Page": "14"
+  },
+  {
+    "Level": "Psychology",
+    "Syllabus/Component": "9990/42",
+    "Code": "1h 30m",
+    "Duration": "Wednesday 21 May 2025",
+    "Session": "AM",
+    "Date": "Thursday 15 May",
+    "Page": "14"
+  },
+  {
+    "Level": "S",
+    "Syllabus/Component": "",
+    "Code": "",
+    "Duration": "",
+    "Session": "",
+    "Date": "Thursday 15 May",
+    "Page": "14"
+  },
+  {
+    "Level": "Sociology",
+    "Syllabus/Component": "9699/32",
+    "Code": "1h 15m",
+    "Duration": "Tuesday 27 May 2025",
+    "Session": "PM",
+    "Date": "Thursday 15 May",
+    "Page": "14"
+  },
+  {
+    "Level": "Sociology",
+    "Syllabus/Component": "9699/42",
+    "Code": "1h 45m",
+    "Duration": "Thursday 29 May 2025",
+    "Session": "PM",
+    "Date": "Thursday 15 May",
+    "Page": "14"
+  },
+  {
+    "Level": "Spanish Language & Literature (Multiple Choice)",
+    "Syllabus/Component": "9844/12",
+    "Code": "1h 30m",
+    "Duration": "Monday 12 May 2025",
+    "Session": "PM",
+    "Date": "Thursday 15 May",
+    "Page": "14"
+  },
+  {
+    "Level": "Spanish Language & Literature",
+    "Syllabus/Component": "9844/22",
+    "Code": "2h",
+    "Duration": "Wednesday 30 April 2025",
+    "Session": "PM",
+    "Date": "Thursday 15 May",
+    "Page": "14"
+  },
+  {
+    "Level": "Spanish Language & Literature",
+    "Syllabus/Component": "9844/32",
+    "Code": "2h",
+    "Duration": "Friday 09 May 2025",
+    "Session": "PM",
+    "Date": "Thursday 15 May",
+    "Page": "14"
+  },
+  {
+    "Level": "T",
+    "Syllabus/Component": "",
+    "Code": "",
+    "Duration": "",
+    "Session": "",
+    "Date": "Thursday 15 May",
+    "Page": "14"
+  },
+  {
+    "Level": "Tamil",
+    "Syllabus/Component": "9689/22",
+    "Code": "1h 45m",
+    "Duration": "Friday 25 April 2025",
+    "Session": "PM",
+    "Date": "Thursday 15 May",
+    "Page": "14"
+  },
+  {
+    "Level": "Tamil",
+    "Syllabus/Component": "9689/32",
+    "Code": "1h 30m",
+    "Duration": "Friday 02 May 2025",
+    "Session": "PM",
+    "Date": "Thursday 15 May",
+    "Page": "14"
+  },
+  {
+    "Level": "Tamil",
+    "Syllabus/Component": "9689/42",
+    "Code": "2h 30m",
+    "Duration": "Wednesday 30 April 2025",
+    "Session": "PM",
+    "Date": "Thursday 15 May",
+    "Page": "14"
+  },
+  {
+    "Level": "Tamil",
+    "Syllabus/Component": "9689/52",
+    "Code": "45m",
+    "Duration": "Tuesday 03 June 2025",
+    "Session": "PM",
+    "Date": "Thursday 15 May",
+    "Page": "14"
+  },
+  {
+    "Level": "Thinking Skills",
+    "Syllabus/Component": "9694/32",
+    "Code": "2h",
+    "Duration": "Wednesday 07 May 2025",
+    "Session": "PM",
+    "Date": "Thursday 15 May",
+    "Page": "14"
+  },
+  {
+    "Level": "Thinking Skills",
+    "Syllabus/Component": "9694/42",
+    "Code": "1h 45m",
+    "Duration": "Monday 12 May 2025",
+    "Session": "PM",
+    "Date": "Thursday 15 May",
+    "Page": "14"
+  },
+  {
+    "Level": "Travel & Tourism",
+    "Syllabus/Component": "9395/32",
+    "Code": "1h 30m",
+    "Duration": "Tuesday 20 May 2025",
+    "Session": "PM",
+    "Date": "Thursday 15 May",
+    "Page": "14"
+  },
+  {
+    "Level": "Travel & Tourism",
+    "Syllabus/Component": "9395/42",
+    "Code": "1h 30m",
+    "Duration": "Thursday 22 May 2025",
+    "Session": "PM",
+    "Date": "Thursday 15 May",
+    "Page": "14"
+  },
+  {
+    "Level": "U",
+    "Syllabus/Component": "",
+    "Code": "",
+    "Duration": "",
+    "Session": "",
+    "Date": "Thursday 15 May",
+    "Page": "14"
+  },
+  {
+    "Level": "Urdu",
+    "Syllabus/Component": "9686/02",
+    "Code": "1h 45m",
+    "Duration": "Wednesday 30 April 2025",
+    "Session": "PM",
+    "Date": "Thursday 15 May",
+    "Page": "14"
+  },
+  {
+    "Level": "Urdu",
+    "Syllabus/Component": "9686/03",
+    "Code": "1h 30m",
+    "Duration": "Wednesday 21 May 2025",
+    "Session": "PM",
+    "Date": "Thursday 15 May",
+    "Page": "14"
+  },
+  {
+    "Level": "Urdu",
+    "Syllabus/Component": "9686/04",
+    "Code": "2h 30m",
+    "Duration": "Thursday 08 May 2025",
+    "Session": "PM",
+    "Date": "Thursday 15 May",
+    "Page": "14"
+  }
+]

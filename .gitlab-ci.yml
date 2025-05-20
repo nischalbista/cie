@@ -1,0 +1,6 @@
+# Handling on AWS Amplify
+
+# include:
+#   - project: 'innovate-tech/infrasturcture/templates'
+#     ref: websites
+#     file: 'websites/main.yaml'

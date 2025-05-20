@@ -1,0 +1,131 @@
+.footer {
+  background-color: $blue;
+
+  .footer__container {
+    padding-block: clamp(30px, 4.5vw, 45px);
+    display: flex;
+    align-items: center;
+    gap: clamp(95px, 5vw, 190px);
+
+    @media screen and (max-width: 991px) {
+      flex-direction: column;
+      align-items: unset;
+      gap: 40px;
+    }
+
+    .footer__logo {
+      max-width: 284px;
+
+      @media screen and (max-width: 991px) {
+        max-width: 220px;
+      }
+
+      img {
+        width: 100%;
+      }
+    }
+
+    .footer__content {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      flex: 1;
+
+      .footer__resources {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+
+        @media screen and (max-width: 768px) {
+          grid-template-columns: repeat(2, 1fr);
+        }
+
+        .footer__list {
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          gap: 12px;
+          grid-column: span 2 / span 2;
+          padding: 0 10px;
+
+          .footer__item {
+            font-weight: 400;
+            font-size: clamp(16px, 1.2vw, 18px);
+            color: $white;
+
+            a {
+              text-decoration: none;
+
+              &:hover {
+                text-decoration: underline;
+              }
+            }
+          }
+        }
+      }
+
+      .footer__legal {
+        .footer__list {
+          display: flex;
+          justify-content: flex-end;
+          flex-wrap: wrap;
+          gap: clamp(20px, 6.5vw, 100px);
+
+          .footer__item {
+            font-weight: 500;
+            font-size: clamp(14px, 1.2vw, 16px);
+            color: $white;
+            cursor: pointer;
+
+            &:hover {
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .footer__contact {
+    padding-bottom: clamp(30px, 4.5vw, 45px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: clamp(95px, 5vw, 190px);
+
+    @media screen and (max-width: 768px) {
+      flex-direction: column;
+      text-align: center;
+      gap: 16px;
+    }
+
+    .footer__copyright {
+      font-weight: 400;
+      font-size: clamp(14px, 1.2vw, 15px);
+      color: $white;
+    }
+
+    .social__icons {
+      display: flex;
+      gap: clamp(8px, 2.5vw, 16px);
+
+      li {
+        a {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 40px;
+          height: 40px;
+          border-radius: 50%;
+          background-color: $white;
+          color: $blue;
+          font-size: clamp(16px, 1.2vw, 18px);
+          transition: all 0.3s ease;
+
+          &:hover {
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+            transform: translateY(-2px);
+          }
+        }
+      }
+    }
+  }
+}

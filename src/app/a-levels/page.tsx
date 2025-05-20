@@ -1,0 +1,268 @@
+import ImageBanner from "@/src/components/common/ImageBanner";
+import FAQSection from "@/src/components/home/FAQSection";
+import SearchableSubjects from "@/src/components/levels/SearchableSubjects";
+import { gql } from "@apollo/client";
+import { createApolloClient } from "@/src/apollo-client";
+
+// export const metadata = {
+//   title: "AS and A level past paper | CIE past paper",
+//   description:
+//     "Updated collection of CIE Past Papers for AS and A Level subjects like Physics, Chemistry, Biology, Mathematics, Economics, and more.",
+// };
+
+export const metadata = {
+  title: "AS and A level past paper | CIE past paper",
+  description:
+    "Updated collection of CIE Past Papers for AS and A Level subjects like Physics, Chemistry, Biology, Mathematics, Economics, and more.",
+  robots: "index, follow",
+  alternates: {
+    canonical: "https://www.ciepastpapers.com/a-levels/",
+  },
+  openGraph: {
+    title: "AS and A level past paper | CIE past paper",
+    description:
+      "Updated collection of CIE Past Papers for AS and A Level subjects like Physics, Chemistry, Biology, Mathematics, Economics, and more.",
+    type: "website",
+    url: "https://www.ciepastpapers.com/a-levels/",
+    images: [
+      {
+        url: "https://www.ciepastpapers.com/og.jpg",
+        width: 1200,
+        height: 630,
+        alt: "A-Level Past Papers Preview",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "AS and A level past paper | CIE past paper",
+    description:
+      "Updated collection of CIE Past Papers for AS and A Level subjects like Physics, Chemistry, Biology, Mathematics, Economics, and more.",
+    images: ["https://www.ciepastpapers.com/og.jpg"],
+  },
+};
+
+const faqData = [
+  {
+    question: "What are Alevels Past Papers?",
+    answer:
+      "A-Level past papers are previous exam papers available for students for practice. Students get familiar with the exam format and identify areas for improvement.",
+  },
+  {
+    question: "Are your A-Level past papers free to download?",
+    answer:
+      "Yes, our A-Level past papers are free to download and can be accessed offline.",
+  },
+  {
+    question: "Do you provide mark schemes with A-Level past papers?",
+    answer:
+      "Yes, we provide mark schemes with A-Level past papers to help students evaluate their work and understand how it is graded.",
+  },
+  {
+    question: "Can I use the past papers to prepare for both AS and A2 exams?",
+    answer:
+      "Yes, we offer past papers for both AS and A2 Levels, covering a range of previous year papers to suit your preparation needs.",
+  },
+  {
+    question: "How can I use A- Level past papers for exam revision?",
+    answer:
+      "A- Level past papers helps students familiarise themselves with the exam format and identify the most repeated questions. Students can view the past papers from our website and practise for their exams.",
+  },
+  {
+    question: "Are your A-Level past papers organised by session?",
+    answer:
+      "Our past papers are organised by exam year. We also provide filters to help you find papers by specific subjects such as Physics, Biology, Chemistry, and Maths.",
+  },
+  {
+    question: "Are the A-Level past papers organised by subject and year?",
+    answer:
+      "A-Level past papers are neatly organised by subject, year and session, making it super easy for students to find exactly what they need.",
+  },
+  {
+    question: "Do you provide mark schemes with A-Level past papers?",
+    answer:
+      "Yes, we provide mark schemes with A-Level past papers to help students evaluate their work and understand how it is graded.",
+  },
+  {
+    question: "Do you offer A-Levels past papers for all exam boards?",
+    answer:
+      "Currently, we offer past paper for CIE board only. We are continually working to expand our resources and may include past papers for other exam boards in the future.",
+  },
+];
+
+const faqSchema = {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  mainEntity: [
+    {
+      "@type": "Question",
+      name: "What are Alevels Past Papers?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "A-Level past papers are previous exam papers available for students for practice. Students get familiar with the exam format and identify areas for improvement.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Are your A-Level past papers free to download?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Yes, our A-Level past papers are free to download and can be accessed offline.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Do you provide mark schemes with A-Level past papers?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Yes, we provide mark schemes with A-Level past papers to help students evaluate their work and understand how it is graded.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Can I use the past papers to prepare for both AS and A2 exams?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Yes, we offer past papers for both AS and A2 Levels, covering a range of previous year papers to suit your preparation needs.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "How can I use A- Level past papers for exam revision?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "A- Level past papers helps students familiarise themselves with the exam format and identify the most repeated questions. Students can view the past papers from our website and practise for their exams.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Are your A-Level past papers organised by session?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Our past papers are organised by exam year. We also provide filters to help you find papers by specific subjects such as Physics, Biology, Chemistry, and Maths.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Are the A-Level past papers organised by subject and year?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "A-Level past papers are neatly organised by subject, year and session, making it super easy for students to find exactly what they need.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Do you provide mark schemes with A-Level past papers?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Yes, we provide mark schemes with A-Level past papers to help students evaluate their work and understand how it is graded.",
+      },
+    },
+    {
+      "@type": "Question",
+      name: "Do you offer A-Levels past papers for all exam boards?",
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: "Currently, we offer past paper for CIE board only. We are continually working to expand our resources and may include past papers for other exam boards in the future.",
+      },
+    },
+  ],
+};
+
+// GraphQL query to fetch all episodes
+const FETCH_SUBJECTS = gql`
+  query FetchSubjects {
+    subjects {
+      id
+      name
+      slug
+      grade
+      faq {
+        data
+        type
+      }
+    }
+  }
+`;
+
+async function fetchSubjectsData() {
+  const client = createApolloClient();
+  const { data } = await client.query({ query: FETCH_SUBJECTS });
+  return data.subjects;
+}
+
+export default async function Level() {
+  const subjectsData = await fetchSubjectsData();
+
+  // Filter the subjects to include only "A Levels" grade subjects
+  const alevelsSubjects = subjectsData.filter(
+    (subject) => subject.grade === "A Levels"
+  );
+
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+
+      <div className="level">
+        <ImageBanner
+          src="/images/grade/revision-notes-grade.png"
+          mobileSrc="/images/grade/revision-notes-grade-mobile.png"
+          link="https://app.homeschool.asia/signup?utm_source=ciepastpaper&utm_medium=alevels_top"
+        />
+
+        <div className="level__content">
+          <div className="blob-c">
+            <div className="shape-blob one"></div>
+            <div className="shape-blob two"></div>
+          </div>
+
+          <div className="level__container container">
+            <div className="level__header">
+              <h1 className="level__title">AS and A level Past Papers</h1>
+
+              <p className="level__description">
+                Find the latest <strong>AS and A Level Past Papers</strong> for
+                subjects like Physics, Chemistry, Biology, Mathematics,
+                Accounting, and Economics. Easily browse and download these Past
+                Papers for effective exam preparation.
+              </p>
+            </div>
+
+            {/* Pass the filtered A-Levels subjects data to SearchableSubjects */}
+            <SearchableSubjects subjects={alevelsSubjects} />
+
+            <p className="level__description">
+              These <strong>AS and A Level Past Papers</strong> and the marking
+              schemes are available from 2020 to the most recent session,
+              organised by year and session for each subject. Practicing with
+              past papers helps you get familiar with the exam formats and
+              question types of the Cambridge syllabus.
+            </p>
+          </div>
+        </div>
+
+        <ImageBanner
+          src="/images/grade/ivy-grade.png"
+          mobileSrc="/images/grade/ivy-grade-mobile.png"
+          link="https://app.homeschool.asia/signup?utm_source=ciepastpaper&utm_medium=alevels_mid"
+        />
+
+        <div className="gradient__container">
+          <div className="blob-c">
+            <div className="shape-blob one"></div>
+            <div className="shape-blob two"></div>
+          </div>
+
+          <FAQSection faqData={faqData} paddingVertical />
+
+          {/* <div className="live-support__container container">
+          <ImageBanner src="/images/live-support-orange.png" />
+        </div> */}
+        </div>
+      </div>
+    </>
+  );
+}

@@ -1,0 +1,56 @@
+.prefooter {
+  background: linear-gradient(
+    217deg,
+    #95e2d7 0%,
+    #d2ede4 45.44%,
+    #f2f2df 80.14%
+  );
+
+  padding: clamp(30px, 3vw, 44px) 0;
+
+  .prefooter__container {
+    width: 100%;
+    max-width: 1031px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: clamp(30px, 4.5vw, 90px);
+
+    .prefooter__logo {
+      width: 100%;
+      max-width: clamp(150px, 12.5vw, 250px);
+
+      img {
+        width: 100%;
+      }
+    }
+
+    @media screen and (max-width: 991px) {
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .prefooter__content {
+      display: flex;
+      flex-direction: column;
+      gap: clamp(12px, 1.3vw, 20px);
+
+      .prefooter__title {
+        color: $dark-gray;
+        font-size: clamp(20px, 2.5vw, 40px);
+        font-style: normal;
+        font-weight: 600;
+        line-height: 1.2;
+        letter-spacing: -1.44px;
+      }
+
+      .prefooter__description {
+        color: $light-gray;
+        font-size: clamp(16px, 1.3vw, 20px);
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.4;
+      }
+    }
+  }
+}
