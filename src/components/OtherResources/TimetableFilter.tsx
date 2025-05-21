@@ -64,10 +64,18 @@ const TimetableFilter = () => {
     const dates = [...new Set(examData.map((item) => item.Date))];
     const grades = [...new Set(examData.map((item) => item.Grade))];
 
+    // Filter subjects based on selected grades
+    let filteredExamData = examData;
+    if (selectedGrades.length > 0) {
+      filteredExamData = examData.filter((item) =>
+        selectedGrades.includes(item.Grade)
+      );
+    }
+
     // Get unique base subject names (without the part in brackets)
     const subjects = [
       ...new Set(
-        examData.map((item) => {
+        filteredExamData.map((item) => {
           const subject = item["Syllabus/Component"];
           return subject.split(" (")[0];
         })
@@ -79,7 +87,7 @@ const TimetableFilter = () => {
       grades,
       subjects,
     };
-  }, [selectedZone, selectedYear, selectedExamSession]);
+  }, [selectedZone, selectedYear, selectedExamSession, selectedGrades]);
 
   // Filter subjects based on search
   const filteredSubjects = useMemo(() => {
