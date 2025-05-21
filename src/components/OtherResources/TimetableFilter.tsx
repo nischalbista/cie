@@ -187,6 +187,30 @@ const TimetableFilter = () => {
 
   const showTable = selectedYear && selectedExamSession && selectedZone;
 
+  // Add new component for selected tags
+  const SelectedTags = ({
+    items,
+    onRemove,
+  }: {
+    items: string[];
+    onRemove: (item: string) => void;
+  }) => (
+    <div className="timetable-filter__selected-tags">
+      {items.map((item) => (
+        <div key={item} className="timetable-filter__selected-tag">
+          <span>{item}</span>
+          <button
+            className="timetable-filter__remove-tag"
+            onClick={() => onRemove(item)}
+            aria-label={`Remove ${item}`}
+          >
+            ×
+          </button>
+        </div>
+      ))}
+    </div>
+  );
+
   return (
     <div className="timetable-filter">
       <div className="timetable-filter__header">
@@ -281,12 +305,20 @@ const TimetableFilter = () => {
                 onFocus={() => setIsGradeDropdownOpen(true)}
                 placeholder={
                   selectedGrades.length > 0
-                    ? selectedGrades.join(", ")
+                    ? `${selectedGrades.length} grade${
+                        selectedGrades.length > 1 ? "s" : ""
+                      } selected`
                     : "Search grades..."
                 }
                 className="timetable-filter__search-input"
                 disabled={!showTable}
               />
+              {selectedGrades.length > 0 && (
+                <SelectedTags
+                  items={selectedGrades}
+                  onRemove={(grade) => handleGradeSelect(grade)}
+                />
+              )}
               {isGradeDropdownOpen && showTable && (
                 <div className="timetable-filter__dropdown">
                   {filteredGrades.map((grade: string) => (
@@ -328,12 +360,20 @@ const TimetableFilter = () => {
                 onFocus={() => setIsSubjectDropdownOpen(true)}
                 placeholder={
                   selectedSubjects.length > 0
-                    ? selectedSubjects.join(", ")
+                    ? `${selectedSubjects.length} subject${
+                        selectedSubjects.length > 1 ? "s" : ""
+                      } selected`
                     : "Search subjects..."
                 }
                 className="timetable-filter__search-input"
                 disabled={!showTable}
               />
+              {selectedSubjects.length > 0 && (
+                <SelectedTags
+                  items={selectedSubjects}
+                  onRemove={(subject) => handleSubjectSelect(subject)}
+                />
+              )}
               {isSubjectDropdownOpen && showTable && (
                 <div className="timetable-filter__dropdown">
                   {filteredSubjects.map((subject: string) => (

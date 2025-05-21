@@ -1348,11 +1348,15 @@ input {
   color: #4299e1;
   font-weight: bold;
 }
-.timetable-filter__selected-subjects {
+.timetable-filter__selected-tags {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem;
   margin-top: 0.75rem;
+  padding: 0.5rem;
+  background: #f8fafc;
+  border-radius: 8px;
+  min-height: 2.5rem;
 }
 .timetable-filter__selected-tag {
   display: inline-flex;
@@ -1364,6 +1368,10 @@ input {
   border-radius: 6px;
   font-size: 0.875rem;
   color: #2b6cb0;
+  transition: all 0.2s ease;
+}
+.timetable-filter__selected-tag:hover {
+  background: #bee3f8;
 }
 .timetable-filter__remove-tag {
   background: none;
@@ -1379,9 +1387,15 @@ input {
   width: 16px;
   height: 16px;
   border-radius: 50%;
+  transition: all 0.2s ease;
 }
 .timetable-filter__remove-tag:hover {
   background: rgba(43, 108, 176, 0.1);
+  transform: scale(1.1);
+}
+.timetable-filter__remove-tag:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(43, 108, 176, 0.2);
 }
 
 @media (max-width: 1400px) {
