@@ -25,7 +25,7 @@ const TimetableFilter = () => {
   const subjectDropdownRef = React.useRef<HTMLDivElement>(null);
   const gradeDropdownRef = React.useRef<HTMLDivElement>(null);
 
-  const examSessions = ["Oct/Nov"];
+  const examSessions = ["May/June", "Oct/Nov"];
   const zones = ["Zone 1", "Zone 2", "Zone 3", "Zone 4", "Zone 5", "Zone 6"];
   const years = Object.keys(extractedExamsData["Zone 1"] || {});
 
@@ -230,11 +230,7 @@ const TimetableFilter = () => {
             <select
               id="year"
               value={selectedYear}
-              onChange={(e) => {
-                setSelectedYear(e.target.value);
-                setSelectedExamSession("");
-                setSelectedZone("");
-              }}
+              onChange={(e) => setSelectedYear(e.target.value)}
               className="timetable-filter__select"
             >
               <option value="">Select Year</option>
@@ -253,10 +249,7 @@ const TimetableFilter = () => {
             <select
               id="examSession"
               value={selectedExamSession}
-              onChange={(e) => {
-                setSelectedExamSession(e.target.value);
-                setSelectedZone("");
-              }}
+              onChange={(e) => setSelectedExamSession(e.target.value)}
               className="timetable-filter__select"
             >
               <option value="">Select Session</option>
