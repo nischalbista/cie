@@ -1224,8 +1224,46 @@ input {
 }
 .timetable-filter__actions {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
+  align-items: center;
   margin-top: 1rem;
+  gap: 1rem;
+}
+.timetable-filter__view-toggle {
+  display: flex;
+  gap: 0.5rem;
+}
+.timetable-filter__view-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.25rem;
+  background: #f7fafc;
+  color: #4a5568;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+.timetable-filter__view-button:hover {
+  background: #edf2f7;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.08);
+}
+.timetable-filter__view-button.active {
+  background: #4299e1;
+  color: white;
+  border-color: #4299e1;
+  box-shadow: 0 2px 4px rgba(66, 153, 225, 0.2);
+}
+.timetable-filter__view-button.active:hover {
+  background: #2c8dde;
+}
+.timetable-filter__view-button svg {
+  font-size: 1.1rem;
 }
 .timetable-filter__print-button {
   display: inline-flex;
@@ -1397,11 +1435,648 @@ input {
   outline: none;
   box-shadow: 0 0 0 2px rgba(43, 108, 176, 0.2);
 }
+.timetable-filter__calendar-wrapper {
+  background: white;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  padding: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  margin-top: 1rem;
+  width: 100%;
+  overflow: hidden;
+}
+.timetable-filter__calendar-wrapper .rbc-calendar {
+  font-family: inherit;
+  min-height: 600px;
+  width: 100%;
+  overflow: hidden;
+}
+.timetable-filter__calendar-wrapper .rbc-calendar .rbc-event {
+  background-color: #4299e1;
+  border: none;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 4px rgba(66, 153, 225, 0.2);
+  margin: 0.25rem;
+  border-left: 4px solid #2b6cb0;
+  max-width: calc(100% - 0.5rem);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  position: relative;
+  z-index: 1;
+}
+.timetable-filter__calendar-wrapper .rbc-calendar .rbc-event:hover {
+  background-color: #2c8dde;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 6px rgba(66, 153, 225, 0.3);
+  z-index: 5;
+  white-space: normal;
+  overflow: visible;
+  min-height: -moz-fit-content;
+  min-height: fit-content;
+}
+.timetable-filter__calendar-wrapper .rbc-calendar .rbc-event.rbc-event-allday {
+  padding: 0.35rem 0.5rem;
+  font-size: 0.85rem;
+  max-width: calc(100% - 0.5rem);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: block;
+  position: relative;
+  z-index: 1;
+}
+.timetable-filter__calendar-wrapper .rbc-calendar .rbc-event.rbc-event-allday:hover {
+  white-space: normal;
+  overflow: visible;
+  z-index: 5;
+  min-height: -moz-fit-content;
+  min-height: fit-content;
+}
+.timetable-filter__calendar-wrapper .rbc-calendar .rbc-month-view .rbc-event {
+  margin: 0.15rem;
+  padding: 0.35rem 0.5rem;
+  font-size: 0.85rem;
+  max-width: calc(100% - 0.3rem);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  position: relative;
+  z-index: 1;
+}
+.timetable-filter__calendar-wrapper .rbc-calendar .rbc-month-view .rbc-event:hover {
+  white-space: normal;
+  overflow: visible;
+  z-index: 5;
+  min-height: -moz-fit-content;
+  min-height: fit-content;
+}
+.timetable-filter__calendar-wrapper .rbc-calendar .rbc-month-view .rbc-row-content {
+  z-index: 4;
+  position: relative;
+}
+.timetable-filter__calendar-wrapper .rbc-calendar .rbc-month-view .rbc-row-segment {
+  padding: 0 0.15rem;
+}
+.timetable-filter__calendar-wrapper .rbc-calendar .rbc-time-view .rbc-event {
+  padding: 0.35rem 0.5rem;
+  font-size: 0.85rem;
+  max-width: calc(100% - 0.5rem);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  position: relative;
+  z-index: 1;
+}
+.timetable-filter__calendar-wrapper .rbc-calendar .rbc-time-view .rbc-event:hover {
+  white-space: normal;
+  overflow: visible;
+  z-index: 5;
+  min-height: -moz-fit-content;
+  min-height: fit-content;
+}
+.timetable-filter__calendar-wrapper .rbc-calendar .rbc-time-view .rbc-time-content {
+  position: relative;
+  z-index: 1;
+}
+.timetable-filter__calendar-wrapper .rbc-calendar .rbc-day-slot .rbc-event {
+  padding: 0.35rem 0.5rem;
+  font-size: 0.85rem;
+  max-width: calc(100% - 0.5rem);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  position: relative;
+  z-index: 1;
+}
+.timetable-filter__calendar-wrapper .rbc-calendar .rbc-day-slot .rbc-event:hover {
+  white-space: normal;
+  overflow: visible;
+  z-index: 5;
+  min-height: -moz-fit-content;
+  min-height: fit-content;
+}
+.timetable-filter__calendar-wrapper .rbc-header {
+  padding: 1rem;
+  font-weight: 600;
+  color: #2d3748;
+  border-bottom: 2px solid #e2e8f0;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  letter-spacing: 0.5px;
+  background: linear-gradient(to bottom, #f7fafc, #edf2f7);
+}
+.timetable-filter__calendar-wrapper .rbc-month-view {
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  overflow: hidden;
+  height: auto !important;
+  min-height: 500px;
+}
+.timetable-filter__calendar-wrapper .rbc-month-row {
+  border-top: 1px solid #e2e8f0;
+  min-height: 100px;
+}
+.timetable-filter__calendar-wrapper .rbc-row-content {
+  z-index: 4;
+}
+.timetable-filter__calendar-wrapper .rbc-time-view {
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  overflow: hidden;
+  height: auto !important;
+  min-height: 500px;
+}
+.timetable-filter__calendar-wrapper .rbc-time-content {
+  border-top: 1px solid #e2e8f0;
+  overflow-y: auto;
+  max-height: 500px;
+}
+.timetable-filter__calendar-wrapper .rbc-toolbar {
+  margin-bottom: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.timetable-filter__calendar-wrapper .rbc-toolbar .rbc-toolbar-label {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #2d3748;
+  padding: 0.5rem 1rem;
+  background: linear-gradient(to bottom, #f7fafc, #edf2f7);
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+  white-space: nowrap;
+}
+.timetable-filter__calendar-wrapper .rbc-toolbar .rbc-btn-group {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+.timetable-filter__calendar-wrapper .rbc-toolbar button {
+  color: #4a5568;
+  border: 1px solid #e2e8f0;
+  padding: 0.75rem 1.25rem;
+  font-size: 0.95rem;
+  font-weight: 500;
+  border-radius: 8px;
+  background: white;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+.timetable-filter__calendar-wrapper .rbc-toolbar button:hover {
+  background: #f7fafc;
+  border-color: #4299e1;
+  color: #4299e1;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.08);
+}
+.timetable-filter__calendar-wrapper .rbc-toolbar button.rbc-active {
+  background: #4299e1;
+  color: white;
+  border-color: #4299e1;
+  box-shadow: 0 2px 4px rgba(66, 153, 225, 0.2);
+}
+.timetable-filter__calendar-wrapper .rbc-toolbar button.rbc-active:hover {
+  background: #2c8dde;
+}
+.timetable-filter__calendar-wrapper .rbc-today {
+  background-color: #ebf8ff;
+  position: relative;
+}
+.timetable-filter__calendar-wrapper .rbc-today::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border: 2px solid #4299e1;
+  border-radius: 4px;
+  pointer-events: none;
+}
+.timetable-filter__calendar-wrapper .rbc-off-range-bg {
+  background-color: #f7fafc;
+}
+.timetable-filter__calendar-wrapper .rbc-off-range {
+  color: #a0aec0;
+}
+.timetable-filter__calendar-wrapper .rbc-toolbar {
+  margin-bottom: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+  justify-content: space-between;
+}
+.timetable-filter__calendar-wrapper .rbc-toolbar .rbc-toolbar-label {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #2d3748;
+  padding: 0.5rem 1rem;
+  background: linear-gradient(to bottom, #f7fafc, #edf2f7);
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+}
+.timetable-filter__calendar-wrapper .rbc-toolbar .rbc-btn-group {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+.timetable-filter__calendar-wrapper .rbc-toolbar button {
+  color: #4a5568;
+  border: 1px solid #e2e8f0;
+  padding: 0.75rem 1.25rem;
+  font-size: 0.95rem;
+  font-weight: 500;
+  border-radius: 8px;
+  background: white;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+.timetable-filter__calendar-wrapper .rbc-toolbar button:hover {
+  background: #f7fafc;
+  border-color: #4299e1;
+  color: #4299e1;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.08);
+}
+.timetable-filter__calendar-wrapper .rbc-toolbar button.rbc-active {
+  background: #4299e1;
+  color: white;
+  border-color: #4299e1;
+  box-shadow: 0 2px 4px rgba(66, 153, 225, 0.2);
+}
+.timetable-filter__calendar-wrapper .rbc-toolbar button.rbc-active:hover {
+  background: #2c8dde;
+}
+.timetable-filter__calendar-wrapper .rbc-month-view {
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.timetable-filter__calendar-wrapper .rbc-month-row {
+  border-top: 1px solid #e2e8f0;
+}
+.timetable-filter__calendar-wrapper .rbc-day-bg {
+  transition: background-color 0.2s ease;
+}
+.timetable-filter__calendar-wrapper .rbc-day-bg:hover {
+  background-color: #f7fafc;
+}
+.timetable-filter__calendar-wrapper .rbc-time-view {
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.timetable-filter__calendar-wrapper .rbc-time-header {
+  border-bottom: 2px solid #e2e8f0;
+}
+.timetable-filter__calendar-wrapper .rbc-time-content {
+  border-top: 1px solid #e2e8f0;
+}
+.timetable-filter__calendar-wrapper .rbc-timeslot-group {
+  border-bottom: 1px solid #e2e8f0;
+}
+.timetable-filter__calendar-wrapper .rbc-time-slot {
+  border-top: 1px solid #e2e8f0;
+}
+.timetable-filter__calendar-wrapper .rbc-time-gutter {
+  background: linear-gradient(to bottom, #f7fafc, #edf2f7);
+}
+.timetable-filter__calendar-wrapper .rbc-time-header-content {
+  border-left: 1px solid #e2e8f0;
+}
+.timetable-filter__calendar-wrapper .rbc-time-header-cell {
+  padding: 0.75rem;
+  font-weight: 600;
+  color: #2d3748;
+  background: linear-gradient(to bottom, #f7fafc, #edf2f7);
+}
+.timetable-filter__calendar-wrapper .rbc-agenda-view {
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.timetable-filter__calendar-wrapper .rbc-agenda-date-cell {
+  padding: 0.75rem;
+  font-weight: 500;
+  color: #2d3748;
+}
+.timetable-filter__calendar-wrapper .rbc-agenda-time-cell {
+  padding: 0.75rem;
+  color: #4a5568;
+}
+.timetable-filter__calendar-wrapper .rbc-agenda-event-cell {
+  padding: 0.75rem;
+  color: #2d3748;
+}
+.timetable-filter__calendar-wrapper .rbc-agenda-content {
+  border-top: 1px solid #e2e8f0;
+}
+.timetable-filter__calendar-wrapper .rbc-agenda-date-cell,
+.timetable-filter__calendar-wrapper .rbc-agenda-time-cell,
+.timetable-filter__calendar-wrapper .rbc-agenda-event-cell {
+  border-bottom: 1px solid #e2e8f0;
+}
+.timetable-filter__calendar-views {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  background: #f7fafc;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+}
+.timetable-filter__calendar-view-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.25rem;
+  background: white;
+  color: #4a5568;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+.timetable-filter__calendar-view-button:hover {
+  background: #f7fafc;
+  border-color: #4299e1;
+  color: #4299e1;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.08);
+}
+.timetable-filter__calendar-view-button.active {
+  background: #4299e1;
+  color: white;
+  border-color: #4299e1;
+  box-shadow: 0 2px 4px rgba(66, 153, 225, 0.2);
+}
+.timetable-filter__calendar-view-button.active:hover {
+  background: #2c8dde;
+}
+.timetable-filter__calendar-view-button svg {
+  font-size: 1.1rem;
+}
+.timetable-filter__event-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+  -webkit-backdrop-filter: blur(4px);
+          backdrop-filter: blur(4px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+  padding: 1rem;
+  opacity: 0;
+  animation: overlayFadeIn 0.3s ease forwards;
+}
+.timetable-filter__event-modal-content {
+  background: white;
+  border-radius: 16px;
+  padding: 2.5rem;
+  max-width: 550px;
+  width: 100%;
+  position: relative;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  animation: modalSlideIn 0.3s ease;
+  max-height: 90vh;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #cbd5e0 #f7fafc;
+}
+.timetable-filter__event-modal-content::-webkit-scrollbar {
+  width: 8px;
+}
+.timetable-filter__event-modal-content::-webkit-scrollbar-track {
+  background: #f7fafc;
+  border-radius: 4px;
+}
+.timetable-filter__event-modal-content::-webkit-scrollbar-thumb {
+  background-color: #cbd5e0;
+  border-radius: 4px;
+  border: 2px solid #f7fafc;
+}
+.timetable-filter__event-modal-content::-webkit-scrollbar-thumb:hover {
+  background-color: #a0aec0;
+}
+.timetable-filter__event-modal-close {
+  position: absolute;
+  top: 1.25rem;
+  right: 1.25rem;
+  background: #f7fafc;
+  border: none;
+  width: 32px;
+  height: 32px;
+  font-size: 1.5rem;
+  color: #4a5568;
+  cursor: pointer;
+  padding: 0;
+  line-height: 1;
+  border-radius: 50%;
+  transition: all 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+.timetable-filter__event-modal-close:hover {
+  background: #edf2f7;
+  color: #2d3748;
+  transform: scale(1.1) rotate(90deg);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.timetable-filter__event-modal-close:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(66, 153, 225, 0.2);
+}
+.timetable-filter__event-modal-title {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #2d3748;
+  margin-bottom: 2rem;
+  padding-right: 2.5rem;
+  line-height: 1.3;
+  background: linear-gradient(135deg, #2d3748 0%, #4a5568 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.timetable-filter__event-modal-details {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+.timetable-filter__event-modal-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.25rem;
+  background: #f8fafc;
+  border-radius: 12px;
+  border: 1px solid #e2e8f0;
+  transition: all 0.2s ease;
+}
+.timetable-filter__event-modal-row:hover {
+  background: #edf2f7;
+  transform: translateX(4px);
+  border-color: #cbd5e0;
+}
+.timetable-filter__event-modal-label {
+  font-weight: 600;
+  color: #4a5568;
+  font-size: 1.05rem;
+}
+.timetable-filter__event-modal-value {
+  color: #2d3748;
+  font-weight: 500;
+  text-align: right;
+  padding-left: 1rem;
+}
+.timetable-filter__source-line {
+  display: flex;
+  align-items: center;
+  margin-top: 24px;
+  padding: 0 0 8px 8px;
+  font-size: 15px;
+  color: #2d3748;
+}
+.timetable-filter__session-legend {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.timetable-filter__session-badge {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  border-radius: 6px;
+  padding: 2px 10px;
+  font-weight: 600;
+  font-size: 13px;
+}
+.timetable-filter__session-badge--am {
+  background: #fff9db;
+  color: #ffc107;
+}
+.timetable-filter__session-badge--pm {
+  background: #ffe7c2;
+  color: #ff8f00;
+}
+.timetable-filter__session-badge--ev {
+  background: #2c5282;
+  color: #e0e7ff;
+}
+.timetable-filter__calendar-event {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  border-radius: 6px;
+  padding: 2px 6px;
+  font-weight: 600;
+  font-size: 13px;
+  height: 100%;
+  box-shadow: 0 1px 4px rgba(226, 232, 240, 0.3333333333);
+}
+.timetable-filter__calendar-event--am {
+  background: #fff9db;
+  color: #ffc107;
+}
+.timetable-filter__calendar-event--pm {
+  background: #ffe7c2;
+  color: #ff8f00;
+}
+.timetable-filter__calendar-event--ev {
+  background: #2c5282;
+  color: #e0e7ff;
+}
+.timetable-filter__calendar-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+}
+.timetable-filter__calendar-toolbar-left {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.timetable-filter__calendar-navigation {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.timetable-filter__calendar-button {
+  padding: 6px 12px;
+  border: 1px solid #e2e8f0;
+  border-radius: 4px;
+  background-color: white;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.2s;
+}
+.timetable-filter__calendar-button:hover {
+  background-color: #f1f5f9;
+}
+.timetable-filter__calendar-title {
+  font-size: 16px;
+  font-weight: 600;
+  min-width: 150px;
+  text-align: center;
+}
+@keyframes overlayFadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes modalSlideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 
 @media (max-width: 1400px) {
   .timetable-filter__filters-grid {
     grid-template-columns: repeat(3, 1fr);
     gap: 1.5rem;
+  }
+  .timetable-filter__calendar-wrapper .rbc-toolbar {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .timetable-filter__calendar-wrapper .rbc-toolbar .rbc-toolbar-label {
+    text-align: center;
+  }
+  .timetable-filter__calendar-wrapper .rbc-toolbar .rbc-btn-group {
+    justify-content: center;
   }
 }
 @media (max-width: 1024px) {
@@ -1423,6 +2098,16 @@ input {
   .timetable-filter__message-step {
     width: 100%;
     max-width: 300px;
+  }
+  .timetable-filter__calendar-wrapper {
+    padding: 1rem;
+  }
+  .timetable-filter__calendar-wrapper .rbc-month-view,
+  .timetable-filter__calendar-wrapper .rbc-time-view {
+    min-height: 400px;
+  }
+  .timetable-filter__calendar-wrapper .rbc-time-content {
+    max-height: 400px;
   }
 }
 @media (max-width: 768px) {
@@ -1452,7 +2137,81 @@ input {
     width: 100%;
     justify-content: center;
   }
+  .timetable-filter__calendar-wrapper {
+    padding: 0.75rem;
+  }
+  .timetable-filter__calendar-wrapper .rbc-toolbar {
+    margin-bottom: 1rem;
+  }
+  .timetable-filter__calendar-wrapper .rbc-toolbar .rbc-toolbar-label {
+    font-size: 1.1rem;
+    padding: 0.5rem;
+  }
+  .timetable-filter__calendar-wrapper .rbc-toolbar button {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+  }
+  .timetable-filter__calendar-wrapper .rbc-month-view,
+  .timetable-filter__calendar-wrapper .rbc-time-view {
+    min-height: 350px;
+  }
+  .timetable-filter__calendar-wrapper .rbc-time-content {
+    max-height: 350px;
+  }
+  .timetable-filter__calendar-wrapper .rbc-event {
+    font-size: 0.8rem;
+    padding: 0.35rem 0.5rem;
+  }
+  .timetable-filter__calendar-views {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .timetable-filter__calendar-view-button {
+    flex: 1;
+    min-width: 120px;
+    justify-content: center;
+  }
+  .timetable-filter__event-modal {
+    padding: 0.75rem;
+  }
+  .timetable-filter__event-modal-content {
+    padding: 1.75rem;
+    max-height: 85vh;
+  }
+  .timetable-filter__event-modal-title {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    padding-right: 2rem;
+  }
+  .timetable-filter__event-modal-row {
+    padding: 0.875rem 1rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+  .timetable-filter__event-modal-label {
+    font-size: 0.95rem;
+  }
+  .timetable-filter__event-modal-value {
+    font-size: 0.95rem;
+    text-align: left;
+    padding-left: 0;
+    color: #4a5568;
+  }
+  .timetable-filter__event-modal-close {
+    top: 1rem;
+    right: 1rem;
+    width: 28px;
+    height: 28px;
+    font-size: 1.25rem;
+  }
 }
+.rbc-overlay {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
 .home {
   position: relative;
   margin-top: 74px;
