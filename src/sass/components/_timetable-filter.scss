@@ -211,20 +211,37 @@
     background: linear-gradient(to bottom, #ffffff, #f8fafc);
     border: 1px solid #e2e8f0;
     border-radius: 12px;
-    overflow: hidden;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
     transition: all 0.3s ease;
-
-    &:hover {
-      box-shadow: 0 6px 8px rgba(0, 0, 0, 0.08);
-    }
+    position: relative;
+    overflow: hidden;
+    width: 100%;
   }
 
   &__table {
-    width: 100%;
     border-collapse: separate;
     border-spacing: 0;
-    min-width: 600px;
+    overflow-x: auto;
+    width: 100%;
+    min-width: 100%;
+  }
+
+  .date-cell,
+  &__table-cell.date-cell {
+    position: sticky;
+    left: 0;
+    background: #f7fafc;
+    z-index: 2;
+    min-width: 100px;
+    max-width: 170px;
+    width: 150px;
+    white-space: nowrap;
+    border-right: 1px solid #e2e8f0;
+    font-weight: 600;
+  }
+
+  thead .date-cell {
+    z-index: 3;
   }
 
   &__table-head-row {
@@ -232,24 +249,80 @@
   }
 
   &__table-head-cell {
-    padding: 1.25rem 1rem;
+    padding: clamp(0.75rem, 2vw, 1.25rem) clamp(0.75rem, 2vw, 1rem);
     text-align: left;
     font-weight: 600;
     color: #2d3748;
     border-bottom: 2px solid #e2e8f0;
-    font-size: 0.95rem;
+    font-size: clamp(0.8rem, 2vw, 0.95rem);
     white-space: nowrap;
   }
 
   &__table-cell {
-    padding: 1.25rem 1rem;
+    padding: clamp(0.75rem, 2vw, 1.25rem) clamp(0.75rem, 2vw, 1rem);
     border-bottom: 1px solid #e2e8f0;
     color: #4a5568;
-    font-size: 0.95rem;
+    font-size: clamp(0.8rem, 2vw, 0.95rem);
     line-height: 1.5;
     transition: background-color 0.2s ease;
+  }
+
+  &__table-body-row--duplicate {
+    &.color-1 {
+      background-color: #fef2f2;
+      &:hover {
+        background-color: #fde8e8 !important; // red tint
+        transition: background-color 0.2s ease;
+      }
+    }
+    &.color-2 {
+      background-color: #e6f4ea; // green tint
+      &:hover {
+        background-color: #c8e6c9 !important;
+        transition: background-color 0.2s ease;
+      }
+    }
+    &.color-3 {
+      background-color: #e8f1fd; // blue tint
+      &:hover {
+        background-color: #cfe2ff !important;
+        transition: background-color 0.2s ease;
+      }
+    }
+    &.color-4 {
+      background-color: #fffbe6; // yellow tint
+      &:hover {
+        background-color: #fff3cd !important;
+        transition: background-color 0.2s ease;
+      }
+    }
+    &.color-5 {
+      background-color: #f3e8fd; // purple tint
+      &:hover {
+        background-color: #e9d5ff !important;
+        transition: background-color 0.2s ease;
+      }
+    }
+    &.color-6 {
+      background-color: #e0f2f1; // teal tint
+      &:hover {
+        background-color: #b2dfdb !important;
+        transition: background-color 0.2s ease;
+      }
+    }
+    &.color-7 {
+      background-color: #f0fdf4; // mint tint
+      &:hover {
+        background-color: #bbf7d0 !important;
+        transition: background-color 0.2s ease;
+      }
+    }
+  }
+
+  &__table-body-row {
     &:hover {
-      background-color: #f7fafc;
+      background-color: #f7fcff;
+      transition: background-color 0.2s ease;
     }
   }
 
@@ -257,8 +330,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
     margin-top: 1rem;
     gap: 1rem;
+    svg {
+      width: clamp(15px, 2vw, 20px);
+      height: clamp(15px, 2vw, 20px);
+    }
   }
 
   &__view-toggle {
@@ -269,13 +347,13 @@
   &__view-button {
     display: inline-flex;
     align-items: center;
-    gap: 0.5rem;
-    padding: 0.75rem 1.25rem;
+    gap: clamp(0.5rem, 1vw, 0.75rem);
+    padding: clamp(0.5rem, 2vw, 0.75rem) clamp(0.5rem, 2vw, 0.75rem);
     background: #f7fafc;
     color: #4a5568;
     border: 1px solid #e2e8f0;
     border-radius: 8px;
-    font-size: 0.95rem;
+    font-size: clamp(0.7rem, 1.5vw, 1rem);
     font-weight: 600;
     cursor: pointer;
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -305,14 +383,15 @@
 
   &__print-button {
     display: inline-flex;
+    width: fit-content !important;
     align-items: center;
-    gap: 0.75rem;
-    padding: 1rem 2rem;
+    gap: clamp(0.5rem, 1vw, 0.75rem);
+    padding: clamp(0.5rem, 2vw, 0.75rem) clamp(0.5rem, 2vw, 0.75rem);
     background: linear-gradient(135deg, #2d3748 0%, #1a202c 100%);
     color: white;
     border: none;
     border-radius: 8px;
-    font-size: 0.95rem;
+    font-size: clamp(0.8rem, 1.5vw, 1rem);
     font-weight: 600;
     cursor: pointer;
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -1103,7 +1182,9 @@
 
   &__session-legend {
     display: flex;
-    gap: 8px;
+    flex-wrap: wrap;
+    gap: clamp(6px, 1vw, 12px);
+    padding-left: 10px;
     align-items: center;
     margin-bottom: 10px;
     margin-top: 10px;
@@ -1115,9 +1196,9 @@
     align-items: center;
     gap: 6px;
     border-radius: 6px;
-    padding: 2px 10px;
+    padding: 5px 10px;
     font-weight: 600;
-    font-size: 13px;
+    font-size: clamp(11px, 1vw, 13px);
     &--am {
       background: #fff9db;
       color: #ffc107;
@@ -1252,12 +1333,19 @@
     }
 
     &__table-wrapper {
-      overflow-x: auto;
       -webkit-overflow-scrolling: touch;
     }
 
     &__table {
-      min-width: 800px;
+      overflow-x: auto;
+      &::-webkit-scrollbar {
+        height: 3px;
+      }
+      &::-webkit-scrollbar-thumb {
+        background: #cbd5e0;
+        border-radius: 3px;
+      }
+      display: block;
     }
 
     &__message-steps {
@@ -1408,4 +1496,40 @@
   display: flex;
   flex-direction: column;
   gap: 6px;
+}
+
+tbody{
+  position: relative;
+}
+
+.timetable-filter__hover-tooltip--custom {
+  background: #1c1a43;
+  border-radius: 14px;
+  transition: opacity 0.2s ease-in-out;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0;
+  min-width: 0;
+  max-width: 320px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.18);
+  text-align: center;
+  font-family: inherit;
+  pointer-events: none;
+  opacity: 1;
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.timetable-filter__hover-tooltip-content {
+  color: #fff;
+  font-size: 0.7rem;
+  font-weight: 300;
+  padding: 10px;
+  border-radius: 14px;
+  white-space: pre-line;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
 }

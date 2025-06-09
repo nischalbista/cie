@@ -1186,48 +1186,118 @@ input {
   background: linear-gradient(to bottom, #ffffff, #f8fafc);
   border: 1px solid #e2e8f0;
   border-radius: 12px;
-  overflow: hidden;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
   transition: all 0.3s ease;
-}
-.timetable-filter__table-wrapper:hover {
-  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.08);
+  position: relative;
+  overflow: hidden;
+  width: 100%;
 }
 .timetable-filter__table {
-  width: 100%;
   border-collapse: separate;
   border-spacing: 0;
-  min-width: 600px;
+  overflow-x: auto;
+  width: 100%;
+  min-width: 100%;
+}
+.timetable-filter .date-cell, .timetable-filter__table-cell.date-cell {
+  position: sticky;
+  left: 0;
+  background: #f7fafc;
+  z-index: 2;
+  min-width: 100px;
+  max-width: 170px;
+  width: 150px;
+  white-space: nowrap;
+  border-right: 1px solid #e2e8f0;
+  font-weight: 600;
+}
+.timetable-filter thead .date-cell {
+  z-index: 3;
 }
 .timetable-filter__table-head-row {
   background: linear-gradient(to bottom, #f7fafc, #edf2f7);
 }
 .timetable-filter__table-head-cell {
-  padding: 1.25rem 1rem;
+  padding: clamp(0.75rem, 2vw, 1.25rem) clamp(0.75rem, 2vw, 1rem);
   text-align: left;
   font-weight: 600;
   color: #2d3748;
   border-bottom: 2px solid #e2e8f0;
-  font-size: 0.95rem;
+  font-size: clamp(0.8rem, 2vw, 0.95rem);
   white-space: nowrap;
 }
 .timetable-filter__table-cell {
-  padding: 1.25rem 1rem;
+  padding: clamp(0.75rem, 2vw, 1.25rem) clamp(0.75rem, 2vw, 1rem);
   border-bottom: 1px solid #e2e8f0;
   color: #4a5568;
-  font-size: 0.95rem;
+  font-size: clamp(0.8rem, 2vw, 0.95rem);
   line-height: 1.5;
   transition: background-color 0.2s ease;
 }
-.timetable-filter__table-cell:hover {
-  background-color: #f7fafc;
+.timetable-filter__table-body-row--duplicate.color-1 {
+  background-color: #fef2f2;
+}
+.timetable-filter__table-body-row--duplicate.color-1:hover {
+  background-color: #fde8e8 !important;
+  transition: background-color 0.2s ease;
+}
+.timetable-filter__table-body-row--duplicate.color-2 {
+  background-color: #e6f4ea;
+}
+.timetable-filter__table-body-row--duplicate.color-2:hover {
+  background-color: #c8e6c9 !important;
+  transition: background-color 0.2s ease;
+}
+.timetable-filter__table-body-row--duplicate.color-3 {
+  background-color: #e8f1fd;
+}
+.timetable-filter__table-body-row--duplicate.color-3:hover {
+  background-color: #cfe2ff !important;
+  transition: background-color 0.2s ease;
+}
+.timetable-filter__table-body-row--duplicate.color-4 {
+  background-color: #fffbe6;
+}
+.timetable-filter__table-body-row--duplicate.color-4:hover {
+  background-color: #fff3cd !important;
+  transition: background-color 0.2s ease;
+}
+.timetable-filter__table-body-row--duplicate.color-5 {
+  background-color: #f3e8fd;
+}
+.timetable-filter__table-body-row--duplicate.color-5:hover {
+  background-color: #e9d5ff !important;
+  transition: background-color 0.2s ease;
+}
+.timetable-filter__table-body-row--duplicate.color-6 {
+  background-color: #e0f2f1;
+}
+.timetable-filter__table-body-row--duplicate.color-6:hover {
+  background-color: #b2dfdb !important;
+  transition: background-color 0.2s ease;
+}
+.timetable-filter__table-body-row--duplicate.color-7 {
+  background-color: #f0fdf4;
+}
+.timetable-filter__table-body-row--duplicate.color-7:hover {
+  background-color: #bbf7d0 !important;
+  transition: background-color 0.2s ease;
+}
+.timetable-filter__table-body-row:hover {
+  background-color: #f7fcff;
+  transition: background-color 0.2s ease;
 }
 .timetable-filter__actions {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
   margin-top: 1rem;
   gap: 1rem;
+}
+.timetable-filter__actions svg {
+  width: clamp(15px, 2vw, 20px);
+  height: clamp(15px, 2vw, 20px);
 }
 .timetable-filter__view-toggle {
   display: flex;
@@ -1236,13 +1306,13 @@ input {
 .timetable-filter__view-button {
   display: inline-flex;
   align-items: center;
-  gap: 0.5rem;
-  padding: 0.75rem 1.25rem;
+  gap: clamp(0.5rem, 1vw, 0.75rem);
+  padding: clamp(0.5rem, 2vw, 0.75rem) clamp(0.5rem, 2vw, 0.75rem);
   background: #f7fafc;
   color: #4a5568;
   border: 1px solid #e2e8f0;
   border-radius: 8px;
-  font-size: 0.95rem;
+  font-size: clamp(0.7rem, 1.5vw, 1rem);
   font-weight: 600;
   cursor: pointer;
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -1267,14 +1337,16 @@ input {
 }
 .timetable-filter__print-button {
   display: inline-flex;
+  width: -moz-fit-content !important;
+  width: fit-content !important;
   align-items: center;
-  gap: 0.75rem;
-  padding: 1rem 2rem;
+  gap: clamp(0.5rem, 1vw, 0.75rem);
+  padding: clamp(0.5rem, 2vw, 0.75rem) clamp(0.5rem, 2vw, 0.75rem);
   background: linear-gradient(135deg, #2d3748 0%, #1a202c 100%);
   color: white;
   border: none;
   border-radius: 8px;
-  font-size: 0.95rem;
+  font-size: clamp(0.8rem, 1.5vw, 1rem);
   font-weight: 600;
   cursor: pointer;
   transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -1960,7 +2032,9 @@ input {
 }
 .timetable-filter__session-legend {
   display: flex;
-  gap: 8px;
+  flex-wrap: wrap;
+  gap: clamp(6px, 1vw, 12px);
+  padding-left: 10px;
   align-items: center;
   margin-bottom: 10px;
   margin-top: 10px;
@@ -1971,9 +2045,9 @@ input {
   align-items: center;
   gap: 6px;
   border-radius: 6px;
-  padding: 2px 10px;
+  padding: 5px 10px;
   font-weight: 600;
-  font-size: 13px;
+  font-size: clamp(11px, 1vw, 13px);
 }
 .timetable-filter__session-badge--am {
   background: #fff9db;
@@ -2085,11 +2159,18 @@ input {
     gap: 1.25rem;
   }
   .timetable-filter__table-wrapper {
-    overflow-x: auto;
     -webkit-overflow-scrolling: touch;
   }
   .timetable-filter__table {
-    min-width: 800px;
+    overflow-x: auto;
+    display: block;
+  }
+  .timetable-filter__table::-webkit-scrollbar {
+    height: 3px;
+  }
+  .timetable-filter__table::-webkit-scrollbar-thumb {
+    background: #cbd5e0;
+    border-radius: 3px;
   }
   .timetable-filter__message-steps {
     flex-direction: column;
@@ -2210,6 +2291,41 @@ input {
   display: flex;
   flex-direction: column;
   gap: 6px;
+}
+
+tbody {
+  position: relative;
+}
+
+.timetable-filter__hover-tooltip--custom {
+  background: #1c1a43;
+  border-radius: 14px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 0;
+  min-width: 0;
+  max-width: 320px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.18);
+  text-align: center;
+  font-family: inherit;
+  pointer-events: none;
+  opacity: 1;
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.timetable-filter__hover-tooltip-content {
+  color: #fff;
+  font-size: 0.7rem;
+  font-weight: 300;
+  padding: 10px;
+  border-radius: 14px;
+  white-space: pre-line;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
 }
 
 .home {

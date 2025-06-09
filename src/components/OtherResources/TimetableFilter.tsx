@@ -350,6 +350,24 @@ const TimetableFilter = () => {
     EV: "Evening",
   };
 
+  // Tooltip state for mouse position and visibility (move to top-level of component)
+  const [tooltip, setTooltip] = React.useState<{
+    visible: boolean;
+    x: number;
+    y: number;
+    message: string;
+  }>({ visible: false, x: 0, y: 0, message: "" });
+
+  // Hide tooltip on scroll or mouse leave (move to top-level of component)
+  React.useEffect(() => {
+    const hide = () => setTooltip((t) => ({ ...t, visible: false }));
+    window.addEventListener("scroll", hide, true);
+    return () => window.removeEventListener("scroll", hide, true);
+  }, []);
+
+  // Delay timer ref (move to top-level of component)
+  const tooltipTimer = React.useRef<number | null>(null);
+
   return (
     <div className="timetable-filter">
       <div className="timetable-filter__header">
@@ -606,7 +624,9 @@ const TimetableFilter = () => {
               <table id="printable-table" className="timetable-filter__table">
                 <thead>
                   <tr className="timetable-filter__table-head-row">
-                    <th className="timetable-filter__table-head-cell">Date</th>
+                    <th className="timetable-filter__table-head-cell date-cell">
+                      Date
+                    </th>
                     <th className="timetable-filter__table-head-cell">Day</th>
                     <th className="timetable-filter__table-head-cell">
                       Syllabus/Component
@@ -625,62 +645,171 @@ const TimetableFilter = () => {
                   </tr>
                 </thead>
                 <tbody>
-                  {filteredData.map((item, index) => {
-                    const [day, ...dateParts] = item.Date.split(" ");
-                    const date = dateParts.join(" ");
+                  {(() => {
+                    const groupColorMap = new Map<string, number>();
+                    let colorCounter = 1;
+                    const maxColors = 7;
+
+                    const duplicateGroupIds: (string | null)[] =
+                      filteredData.map((item) => {
+                        let duplicateGroupId: string | null = null;
+                        let count = 0;
+                        for (let j = 0; j < filteredData.length; j++) {
+                          if (
+                            item.Date === filteredData[j].Date &&
+                            item.Day === filteredData[j].Day &&
+                            item["Syllabus/Component"] ===
+                              filteredData[j]["Syllabus/Component"] &&
+                            item["Subject Code"] ===
+                              filteredData[j]["Subject Code"] &&
+                            item.Session === filteredData[j].Session
+                          ) {
+                            count++;
+                          }
+                        }
+                        if (count > 1) {
+                          duplicateGroupId =
+                            item.Date +
+                            "|" +
+                            item.Day +
+                            "|" +
+                            item["Syllabus/Component"] +
+                            "|" +
+                            item["Subject Code"] +
+                            "|" +
+                            item.Session;
+                        }
+                        return duplicateGroupId;
+                      });
+
                     return (
-                      <tr
-                        key={index}
-                        className="timetable-filter__table-body-row"
-                      >
-                        <td className="timetable-filter__table-cell">
-                          {item.Date}
-                        </td>
-                        <td className="timetable-filter__table-cell">
-                          {item.Day}
-                        </td>
-                        <td className="timetable-filter__table-cell">
-                          {item["Syllabus/Component"]}
-                        </td>
-                        <td className="timetable-filter__table-cell">
-                          {item["Subject Code"]}
-                        </td>
-                        <td className="timetable-filter__table-cell">
-                          {item.Paper}
-                        </td>
-                        <td className="timetable-filter__table-cell">
-                          {item.Duration}
-                        </td>
-                        <td className="timetable-filter__table-cell">
-                          <SessionTooltip
-                            text={`${
-                              sessionFullName[item.Session] || item.Session
-                            } (${item.Session})`}
-                          >
-                            {getSessionIcon(item.Session)}
-                            <span
-                              style={{
-                                color:
-                                  item.Session === "AM"
-                                    ? "#ffc107"
-                                    : item.Session === "PM"
-                                    ? "#ff8f00"
-                                    : item.Session === "EV"
-                                    ? "#e0e7ff"
-                                    : "#e2e8f0",
-                                fontWeight: 600,
-                              }}
+                      <>
+                        {filteredData.map((item, index) => {
+                          const duplicateGroupId = duplicateGroupIds[index];
+                          let colorClass = "";
+                          if (duplicateGroupId) {
+                            if (!groupColorMap.has(duplicateGroupId)) {
+                              groupColorMap.set(duplicateGroupId, colorCounter);
+                              colorCounter = (colorCounter % maxColors) + 1;
+                            }
+                            const colorIdx =
+                              groupColorMap.get(duplicateGroupId);
+                            colorClass = `color-${colorIdx}`;
+                          }
+
+                          // Tooltip for duplicate row
+                          const duplicateTooltip = duplicateGroupId
+                            ? "Similar row detected: This row has the same class as another. Please check for possible confusion."
+                            : "";
+
+                          // Mouse event handlers for tooltip
+                          const handleMouseEnter = (
+                            e: React.MouseEvent<HTMLTableRowElement>
+                          ) => {
+                            if (!duplicateGroupId) return;
+                            if (tooltipTimer.current)
+                              window.clearTimeout(tooltipTimer.current);
+                            const target = e.currentTarget as HTMLElement;
+                            const rect = target.getBoundingClientRect();
+                            tooltipTimer.current = window.setTimeout(() => {
+                              setTooltip({
+                                visible: true,
+                                x: rect.left + rect.width / 2,
+                                y: rect.top,
+                                message: duplicateTooltip,
+                              });
+                            }, 350);
+                          };
+                          const handleMouseLeave = () => {
+                            if (tooltipTimer.current)
+                              window.clearTimeout(tooltipTimer.current);
+                            setTooltip((t) => ({ ...t, visible: false }));
+                          };
+
+                          return (
+                            <tr
+                              key={index}
+                              className={`timetable-filter__table-body-row${
+                                duplicateGroupId
+                                  ? " timetable-filter__table-body-row--duplicate " +
+                                    colorClass
+                                  : ""
+                              }`}
+                              onMouseEnter={handleMouseEnter}
+                              onMouseLeave= {handleMouseLeave}
                             >
-                              {sessionFullName[item.Session] || item.Session}
-                            </span>
-                          </SessionTooltip>
-                        </td>
-                        <td className="timetable-filter__table-cell">
-                          {item.Grade}
-                        </td>
-                      </tr>
+                              <td className="timetable-filter__table-cell date-cell">
+                                {item.Date}
+                              </td>
+                              <td className="timetable-filter__table-cell">
+                                {item.Day}
+                              </td>
+                              <td className="timetable-filter__table-cell">
+                                {item["Syllabus/Component"]}
+                              </td>
+                              <td className="timetable-filter__table-cell">
+                                {item["Subject Code"]}
+                              </td>
+                              <td className="timetable-filter__table-cell">
+                                {item.Paper}
+                              </td>
+                              <td className="timetable-filter__table-cell">
+                                {item.Duration}
+                              </td>
+                              <td className="timetable-filter__table-cell">
+                                <SessionTooltip
+                                  text={`${
+                                    sessionFullName[item.Session] ||
+                                    item.Session
+                                  } (${item.Session})`}
+                                >
+                                  {getSessionIcon(item.Session)}
+                                  <span
+                                    style={{
+                                      color:
+                                        item.Session === "AM"
+                                          ? "#ffc107"
+                                          : item.Session === "PM"
+                                          ? "#ff8f00"
+                                          : item.Session === "EV"
+                                          ? "#e0e7ff"
+                                          : "#e2e8f0",
+                                      fontWeight: 600,
+                                    }}
+                                  >
+                                    {sessionFullName[item.Session] ||
+                                      item.Session}
+                                  </span>
+                                </SessionTooltip>
+                              </td>
+                              <td className="timetable-filter__table-cell">
+                                {item.Grade}
+                              </td>
+                              {/* No info icon cell */}
+                            </tr>
+                          );
+                        })}
+                        {/* Tooltip element */}
+                        {tooltip.visible && (
+                          <div
+                            className="timetable-filter__hover-tooltip timetable-filter__hover-tooltip--custom"
+                            style={{
+                              position: "fixed",
+                              left: tooltip.x,
+                              top: tooltip.y - 12,
+                              zIndex: 9999,
+                              pointerEvents: "none",
+                              transform: "translate(-50%, -100%)",
+                            }}
+                          >
+                            <div className="timetable-filter__hover-tooltip-content">
+                              {tooltip.message}
+                            </div>
+                          </div>
+                        )}
+                      </>
                     );
-                  })}
+                  })()}
                 </tbody>
               </table>
               <div className="timetable-filter__source-line">
