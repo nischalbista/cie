@@ -143,7 +143,7 @@
 
   &__filters-grid {
     display: grid;
-    grid-template-columns: 200px 200px 200px 1fr 1fr;
+    grid-template-columns: 200px 200px 1fr 1fr 1fr;
     gap: 1rem;
     align-items: start;
   }
@@ -1554,4 +1554,25 @@ tbody {
   white-space: pre-line;
   line-height: 1.5;
   letter-spacing: 0.01em;
+}
+
+// Hacks
+.timetable-filter__calendar-wrapper .rbc-today::after {
+  border-color: #59bf98;
+}
+
+.timetable-filter__calendar-wrapper .rbc-today {
+  background-color: #59bf9850;
+}
+
+.timetable-filter__calendar-wrapper .rbc-today:hover {
+  background-color: #59bf9850;
+}
+
+.rbc-show-more {
+  color: #59bf98 !important;
+}
+
+.rbc-show-more:hover {
+  color: #59bf98 !important;
 }

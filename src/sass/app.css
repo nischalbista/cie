@@ -1124,7 +1124,7 @@ input {
 }
 .timetable-filter__filters-grid {
   display: grid;
-  grid-template-columns: 200px 200px 200px 1fr 1fr;
+  grid-template-columns: 200px 200px 1fr 1fr 1fr;
   gap: 1rem;
   align-items: start;
 }
@@ -2342,6 +2342,26 @@ tbody {
   white-space: pre-line;
   line-height: 1.5;
   letter-spacing: 0.01em;
+}
+
+.timetable-filter__calendar-wrapper .rbc-today::after {
+  border-color: #59bf98;
+}
+
+.timetable-filter__calendar-wrapper .rbc-today {
+  background-color: rgba(89, 191, 152, 0.3137254902);
+}
+
+.timetable-filter__calendar-wrapper .rbc-today:hover {
+  background-color: rgba(89, 191, 152, 0.3137254902);
+}
+
+.rbc-show-more {
+  color: #59bf98 !important;
+}
+
+.rbc-show-more:hover {
+  color: #59bf98 !important;
 }
 
 .home {
