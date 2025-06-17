@@ -1182,6 +1182,24 @@ input {
   opacity: 0.7;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='%23a0aec0'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M19 9l-7 7-7-7'%3E%3C/path%3E%3C/svg%3E");
 }
+.timetable-filter__zone-display {
+  padding: 0.5rem;
+  padding-block: 0;
+  background-color: #f7fafc;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.timetable-filter__zone-label {
+  color: #4a5568;
+  font-weight: 500;
+}
+.timetable-filter__zone-value {
+  color: #2b6cb0;
+  font-weight: 600;
+}
 .timetable-filter__table-wrapper {
   background: linear-gradient(to bottom, #ffffff, #f8fafc);
   border: 1px solid #e2e8f0;
@@ -1524,7 +1542,7 @@ input {
   overflow: hidden;
 }
 .timetable-filter__calendar-wrapper .rbc-calendar .rbc-event {
-  background-color: #4299e1;
+  background-color: transparent;
   border: none;
   padding: 0.5rem 0.75rem;
   font-size: 0.9rem;
@@ -2050,39 +2068,36 @@ input {
   font-size: clamp(11px, 1vw, 13px);
 }
 .timetable-filter__session-badge--am {
-  background: #fff9db;
-  color: #ffc107;
+  background: #e3b73e;
+  color: #fff;
 }
 .timetable-filter__session-badge--pm {
-  background: #ffe7c2;
-  color: #ff8f00;
+  background: #fb8e33;
+  color: #fff;
 }
 .timetable-filter__session-badge--ev {
-  background: #2c5282;
-  color: #e0e7ff;
+  background: #5445a0;
+  color: #fff;
 }
 .timetable-filter__calendar-event {
   display: flex;
   align-items: center;
   gap: 6px;
-  border-radius: 6px;
   padding: 2px 6px;
   font-weight: 600;
   font-size: 13px;
   height: 100%;
   box-shadow: 0 1px 4px rgba(226, 232, 240, 0.3333333333);
+  color: white;
 }
 .timetable-filter__calendar-event--am {
-  background: #fff9db;
-  color: #ffc107;
+  background: #e3b73e;
 }
 .timetable-filter__calendar-event--pm {
-  background: #ffe7c2;
-  color: #ff8f00;
+  background: #fb8e33;
 }
 .timetable-filter__calendar-event--ev {
-  background: #2c5282;
-  color: #e0e7ff;
+  background: #5445a0;
 }
 .timetable-filter__calendar-toolbar {
   display: flex;
@@ -2300,6 +2315,7 @@ tbody {
 .timetable-filter__hover-tooltip--custom {
   background: #1c1a43;
   border-radius: 14px;
+  transition: opacity 0.2s ease-in-out;
   position: absolute;
   left: 50%;
   transform: translate(-50%, -50%);

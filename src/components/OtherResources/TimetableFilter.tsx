@@ -18,6 +18,8 @@ import CalendarEvent from "./TimetableFilter/CalendarEvent";
 import EventDetailsModal from "./TimetableFilter/EventDetailsModal";
 import SelectedTags from "./TimetableFilter/SelectedTags";
 import SessionTooltip from "./TimetableFilter/SessionTooltip";
+import { getZoneFromLocation } from "@/src/utils/getZoneFromLocation";
+import TimeTableDropdownData from "@/src/components/OtherResources/TimeTableDropdownData";
 
 const locales = {
   "en-US": require("date-fns/locale/en-US"),
@@ -67,12 +69,12 @@ const localizer = dateFnsLocalizer({
 const getSessionIcon = (session: string) => {
   if (session === "AM") {
     return (
-      <LuSunrise style={{ color: "#ffc107", marginRight: 4 }} title="AM" />
+      <LuSunrise style={{ color: "#e3b73e", marginRight: 4 }} title="AM" />
     );
   } else if (session === "PM") {
-    return <FaSun style={{ color: "#ff8f00", marginRight: 4 }} title="PM" />;
+    return <FaSun style={{ color: "#fb8e33", marginRight: 4 }} title="PM" />;
   } else if (session === "EV") {
-    return <IoMoon style={{ color: "#e0e7ff", marginRight: 4 }} title="EV" />;
+    return <IoMoon style={{ color: "#5445a0", marginRight: 4 }} title="EV" />;
   } else {
     return null;
   }
@@ -82,6 +84,7 @@ const TimetableFilter = () => {
   const [selectedYear, setSelectedYear] = useState("");
   const [selectedExamSession, setSelectedExamSession] = useState("");
   const [selectedZone, setSelectedZone] = useState("");
+  const [selectedCountry, setSelectedCountry] = useState("");
   const [selectedGrades, setSelectedGrades] = useState<string[]>([]);
   const [selectedSubjects, setSelectedSubjects] = useState<string[]>([]);
   const [subjectSearch, setSubjectSearch] = useState("");
@@ -99,8 +102,19 @@ const TimetableFilter = () => {
   const [selectedEvent, setSelectedEvent] = useState<any>(null);
 
   const examSessions = ["May/June", "Oct/Nov"];
-  const zones = ["Zone 1", "Zone 2", "Zone 3", "Zone 4", "Zone 5", "Zone 6"];
   const years = Object.keys(extractedExamsData["Zone 1"] || {});
+
+  // Handle country selection and map to zone
+  const handleCountryChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
+    const selectedText = e.target.options[e.target.selectedIndex].text;
+    const [locationPart] = selectedText.split(" - ");
+    const [country, capital] = locationPart
+      .split(",")
+      .map((str: string) => str.trim());
+    const zone = getZoneFromLocation(country, capital);
+    setSelectedCountry(e.target.value);
+    setSelectedZone(zone);
+  };
 
   // Handle click outside for both dropdowns
   React.useEffect(() => {
@@ -419,22 +433,26 @@ const TimetableFilter = () => {
           </div>
 
           <div className="timetable-filter__form-group">
-            <label htmlFor="zone" className="timetable-filter__label">
-              Zone
+            <label htmlFor="country" className="timetable-filter__label">
+              Country
             </label>
             <select
-              id="zone"
-              value={selectedZone}
-              onChange={(e) => setSelectedZone(e.target.value)}
+              id="country"
+              value={selectedCountry}
+              onChange={handleCountryChange}
               className="timetable-filter__select"
             >
-              <option value="">Select Zone</option>
-              {zones.map((zone: string) => (
-                <option key={`zone-${zone}`} value={zone}>
-                  {zone}
-                </option>
-              ))}
+              <option value="">Select Country</option>
+              <TimeTableDropdownData />
             </select>
+            {selectedZone && (
+              <div className="timetable-filter__zone-display">
+                <span className="timetable-filter__zone-label">Zone:</span>
+                <span className="timetable-filter__zone-value">
+                  {selectedZone}
+                </span>
+              </div>
+            )}
           </div>
 
           <div className="timetable-filter__form-group">
@@ -568,7 +586,7 @@ const TimetableFilter = () => {
             </div>
             <div className="timetable-filter__message-step">
               <span className="timetable-filter__step-number">3.</span>
-              <span className="timetable-filter__step-text">Zone</span>
+              <span className="timetable-filter__step-text">Country</span>
             </div>
           </div>
           <p className="timetable-filter__message-footer">
@@ -736,7 +754,7 @@ const TimetableFilter = () => {
                                   : ""
                               }`}
                               onMouseEnter={handleMouseEnter}
-                              onMouseLeave= {handleMouseLeave}
+                              onMouseLeave={handleMouseLeave}
                             >
                               <td className="timetable-filter__table-cell date-cell">
                                 {item.Date}
@@ -768,11 +786,11 @@ const TimetableFilter = () => {
                                     style={{
                                       color:
                                         item.Session === "AM"
-                                          ? "#ffc107"
+                                          ? "#e3b73e"
                                           : item.Session === "PM"
-                                          ? "#ff8f00"
+                                          ? "#fb8e33"
                                           : item.Session === "EV"
-                                          ? "#e0e7ff"
+                                          ? "#5445a0"
                                           : "#e2e8f0",
                                       fontWeight: 600,
                                     }}
@@ -785,33 +803,32 @@ const TimetableFilter = () => {
                               <td className="timetable-filter__table-cell">
                                 {item.Grade}
                               </td>
-                              {/* No info icon cell */}
                             </tr>
                           );
                         })}
-                        {/* Tooltip element */}
-                        {tooltip.visible && (
-                          <div
-                            className="timetable-filter__hover-tooltip timetable-filter__hover-tooltip--custom"
-                            style={{
-                              position: "fixed",
-                              left: tooltip.x,
-                              top: tooltip.y - 12,
-                              zIndex: 9999,
-                              pointerEvents: "none",
-                              transform: "translate(-50%, -100%)",
-                            }}
-                          >
-                            <div className="timetable-filter__hover-tooltip-content">
-                              {tooltip.message}
-                            </div>
-                          </div>
-                        )}
                       </>
                     );
                   })()}
                 </tbody>
               </table>
+              {/* Tooltip element moved outside of table */}
+              {tooltip.visible && (
+                <div
+                  className="timetable-filter__hover-tooltip timetable-filter__hover-tooltip--custom"
+                  style={{
+                    position: "fixed",
+                    left: tooltip.x,
+                    top: tooltip.y - 12,
+                    zIndex: 9999,
+                    pointerEvents: "none",
+                    transform: "translate(-50%, -100%)",
+                  }}
+                >
+                  <div className="timetable-filter__hover-tooltip-content">
+                    {tooltip.message}
+                  </div>
+                </div>
+              )}
               <div className="timetable-filter__source-line">
                 <FaInfoCircle style={{ marginRight: 6, color: "#3182ce" }} />
                 <span>
@@ -860,17 +877,17 @@ const TimetableFilter = () => {
                     className: "",
                     style: {
                       background: isAM
-                        ? "#FFF9DB" // light yellow for morning
+                        ? "#e3b73e" // light yellow for morning
                         : isPM
-                        ? "#FFE7C2" // warm light tan-orange for afternoon
+                        ? "#fb8e33" // warm light tan-orange for afternoon
                         : isEV
-                        ? "#2C5282" // dark blue for evening
+                        ? "#5445a0" // dark blue for evening
                         : "#e2e8f0", // default/fallback
 
                       color: isAM
-                        ? "#FFC107" // bright amber for AM
+                        ? "#e3b73e" // bright amber for AM
                         : isPM
-                        ? "#FF8F00" // deep amber for PM
+                        ? "#fb8e33" // deep amber for PM
                         : isEV
                         ? "#E0E7FF" // pale/light blue for EV text contrast
                         : "#2d3748", // fallback
@@ -878,11 +895,11 @@ const TimetableFilter = () => {
                       borderRadius: 6,
 
                       borderLeft: isAM
-                        ? "4px solid #ECC94B" // sun yellow border
+                        ? "4px solid #a07a1c" // sun yellow border
                         : isPM
-                        ? "4px solid #F6AD55" // orange border
+                        ? "4px solid #b2540f" // orange border
                         : isEV
-                        ? "4px solid #90CDF4" // light blue border for contrast
+                        ? "4px solid #2b226b" // light blue border for contrast
                         : "4px solid #e2e8f0",
 
                       fontWeight: 600,

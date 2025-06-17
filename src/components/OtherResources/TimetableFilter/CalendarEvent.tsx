@@ -17,25 +17,26 @@ const CalendarEvent: React.FC<CalendarEventProps> = ({ event }) => {
   else if (isPM) badgeClass += " timetable-filter__calendar-event--pm";
   else if (isEV) badgeClass += " timetable-filter__calendar-event--ev";
   const textColor = isAM
-    ? "#ffc107"
+    ? "#e3b73e"
     : isPM
-    ? "#ff8f00"
+    ? "#fb8e33"
     : isEV
-    ? "#C05621"
+    ? "#5445a0"
     : "#2d3748";
-  const icon = isAM ? (
-    <LuSunrise style={{ color: "#ffc107", width: 14, minWidth: 14 }} />
-  ) : isPM ? (
-    <FaSun style={{ color: "#ff8f00", width: 14, minWidth: 14 }} />
-  ) : isEV ? (
-    <IoMoon style={{ color: "#e0e7ff", width: 14, minWidth: 14 }} />
-  ) : null;
+  // const icon = isAM ? (
+  //   <LuSunrise style={{ color: "#a07a1c", width: 14, minWidth: 14 }} />
+  // ) : isPM ? (
+  //   <FaSun style={{ color: "#fb8e33", width: 14, minWidth: 14 }} />
+  // ) : isEV ? (
+  //   <IoMoon style={{ color: "#5445a0", width: 14, minWidth: 14 }} />
+  // ) : null;
   return (
     <div className={badgeClass}>
-      {icon}
+      {/* {icon} */}
       <span
         style={{
-          color: textColor,
+          // color: textColor,
+          fontWeight: 400,
           whiteSpace: "nowrap",
           overflow: "hidden",
           textOverflow: "ellipsis",
