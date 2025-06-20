@@ -1124,7 +1124,7 @@ input {
 }
 .timetable-filter__filters-grid {
   display: grid;
-  grid-template-columns: 200px 200px 1fr 1fr 1fr;
+  grid-template-columns: 200px 200px 1fr 1fr;
   gap: 1rem;
   align-items: start;
 }
@@ -1148,6 +1148,27 @@ input {
   height: 4px;
   background-color: #4299e1;
   border-radius: 50%;
+}
+.timetable-filter__selected-subjects-info p {
+  color: #4a5568;
+  margin-left: 12px;
+  font-size: 0.9rem;
+}
+.timetable-filter__subject-heading-container {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.timetable-filter__subject-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #4a5568;
+}
+.timetable-filter__subject-description {
+  font-size: 0.95rem;
+  font-weight: 400;
+  color: #6c7483;
 }
 .timetable-filter__select {
   padding: 0.875rem 1rem;
@@ -1183,9 +1204,7 @@ input {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke='%23a0aec0'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M19 9l-7 7-7-7'%3E%3C/path%3E%3C/svg%3E");
 }
 .timetable-filter__zone-display {
-  padding: 0.5rem;
   padding-block: 0;
-  background-color: #f7fafc;
   border-radius: 6px;
   font-size: 0.9rem;
   display: flex;
@@ -1434,7 +1453,6 @@ input {
   color: #2d3748;
   font-size: 0.95rem;
   display: flex;
-  justify-content: space-between;
   align-items: center;
 }
 .timetable-filter__dropdown-option:hover {
@@ -1472,19 +1490,35 @@ input {
 .timetable-filter__multi-option--selected:hover {
   background: #2c8dde;
 }
+.timetable-filter__check-box {
+  width: 16px;
+  height: 16px;
+  border: 2px solid #4299e1;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 8px;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+}
 .timetable-filter__check-mark {
   color: #4299e1;
   font-weight: bold;
 }
 .timetable-filter__selected-tags {
   display: flex;
+  align-items: center;
   flex-wrap: wrap;
   gap: 0.5rem;
   margin-top: 0.75rem;
-  padding: 0.5rem;
-  background: #f8fafc;
   border-radius: 8px;
   min-height: 2.5rem;
+}
+.timetable-filter__selected-tags .additional-subject-info {
+  color: #4a5568;
+  font-size: 0.8rem;
 }
 .timetable-filter__selected-tag {
   display: inline-flex;

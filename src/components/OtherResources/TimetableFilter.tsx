@@ -179,10 +179,42 @@ const TimetableFilter = () => {
   // Filter subjects based on search
   const filteredSubjects = useMemo(() => {
     if (!subjectSearch) return filterOptions.subjects;
-    return filterOptions.subjects.filter((subject: string) =>
-      subject.toLowerCase().includes(subjectSearch.toLowerCase())
-    );
-  }, [filterOptions.subjects, subjectSearch]);
+    const searchLower = subjectSearch.toLowerCase();
+
+    const subjectCodeMap: Record<string, Set<string>> = {};
+    if (selectedZone && selectedYear && selectedExamSession) {
+      const examData =
+        extractedExamsData[selectedZone]?.[selectedYear]?.[
+          selectedExamSession
+        ] || [];
+      examData.forEach((item: any) => {
+        const subjectName = item["Syllabus/Component"].split(" (")[0];
+        const subjectCode = item["Subject Code"];
+        if (!subjectCodeMap[subjectName])
+          subjectCodeMap[subjectName] = new Set();
+        subjectCodeMap[subjectName].add(subjectCode);
+      });
+    }
+
+    return filterOptions.subjects.filter((subject: string) => {
+      // Match subject name
+      if (subject.toLowerCase().includes(searchLower)) return true;
+      // Match subject code(s)
+      const codes = subjectCodeMap[subject];
+      if (codes) {
+        for (const code of codes) {
+          if (code && code.toLowerCase().includes(searchLower)) return true;
+        }
+      }
+      return false;
+    });
+  }, [
+    filterOptions.subjects,
+    subjectSearch,
+    selectedZone,
+    selectedYear,
+    selectedExamSession,
+  ]);
 
   // Filter grades based on search
   const filteredGrades = useMemo(() => {
@@ -484,6 +516,7 @@ const TimetableFilter = () => {
               {selectedGrades.length > 0 && (
                 <SelectedTags
                   items={selectedGrades}
+                  section="grade"
                   onRemove={(grade) => handleGradeSelect(grade)}
                 />
               )}
@@ -509,60 +542,84 @@ const TimetableFilter = () => {
               )}
             </div>
           </div>
-
-          <div className="timetable-filter__form-group">
-            <label htmlFor="subject" className="timetable-filter__label">
-              Subject
-            </label>
-            <div
-              className="timetable-filter__searchable-select"
-              ref={subjectDropdownRef}
+        </div>
+        <div className="timetable-filter__form-group">
+          <div className="timetable-filter__subject-heading-container">
+            <label
+              htmlFor="subject"
+              className="timetable-filter__subject-title"
             >
-              <input
-                type="text"
-                value={subjectSearch}
-                onChange={(e) => {
-                  setSubjectSearch(e.target.value);
-                  setIsSubjectDropdownOpen(true);
-                }}
-                onFocus={() => setIsSubjectDropdownOpen(true)}
-                placeholder={
-                  selectedSubjects.length > 0
-                    ? `${selectedSubjects.length} subject${
-                        selectedSubjects.length > 1 ? "s" : ""
-                      } selected`
-                    : "Search subjects..."
-                }
-                className="timetable-filter__search-input"
-                disabled={!showTable}
-              />
-              {selectedSubjects.length > 0 && (
-                <SelectedTags
-                  items={selectedSubjects}
-                  onRemove={(subject) => handleSubjectSelect(subject)}
-                />
-              )}
-              {isSubjectDropdownOpen && showTable && (
-                <div className="timetable-filter__dropdown">
-                  {filteredSubjects.map((subject: string) => (
-                    <div
-                      key={`subject-${subject}`}
-                      className={`timetable-filter__dropdown-option ${
-                        selectedSubjects.includes(subject)
-                          ? "timetable-filter__dropdown-option--selected"
-                          : ""
-                      }`}
-                      onClick={() => handleSubjectSelect(subject)}
-                    >
-                      {subject}
+              Subject Selection
+            </label>
+            <p className="timetable-filter__subject-description">
+              Choose the subjects you want to view in your examination schedule
+            </p>
+          </div>
+
+          <label htmlFor="subject" className="timetable-filter__label">
+            Subject
+          </label>
+
+          <div
+            className="timetable-filter__selected-subjects-info"
+            style={{
+              marginBottom: "-0.75rem",
+            }}
+          >
+            {selectedSubjects.length > 0 && (
+              <p>
+                Selected Subject{selectedSubjects.length > 1 ? "s" : ""} (
+                {selectedSubjects.length})
+              </p>
+            )}
+          </div>
+
+          {selectedSubjects.length > 0 && (
+            <SelectedTags
+              items={selectedSubjects}
+              section="subjects"
+              onRemove={(subject) => handleSubjectSelect(subject)}
+            />
+          )}
+          <div
+            className="timetable-filter__searchable-select"
+            ref={subjectDropdownRef}
+          >
+            <input
+              type="text"
+              value={subjectSearch}
+              onChange={(e) => {
+                setSubjectSearch(e.target.value);
+                setIsSubjectDropdownOpen(true);
+              }}
+              onFocus={() => setIsSubjectDropdownOpen(true)}
+              placeholder={"Search by subject name or code..."}
+              className="timetable-filter__search-input"
+              disabled={!showTable}
+            />
+
+            {isSubjectDropdownOpen && showTable && (
+              <div className="timetable-filter__dropdown">
+                {filteredSubjects.map((subject: string) => (
+                  <div
+                    key={`subject-${subject}`}
+                    className={`timetable-filter__dropdown-option ${
+                      selectedSubjects.includes(subject)
+                        ? "timetable-filter__dropdown-option--selected"
+                        : ""
+                    }`}
+                    onClick={() => handleSubjectSelect(subject)}
+                  >
+                    <span className="timetable-filter__check-box">
                       {selectedSubjects.includes(subject) && (
                         <span className="timetable-filter__check-mark">✓</span>
                       )}
-                    </div>
-                  ))}
-                </div>
-              )}
-            </div>
+                    </span>
+                    {subject}
+                  </div>
+                ))}
+              </div>
+            )}
           </div>
         </div>
       </div>
