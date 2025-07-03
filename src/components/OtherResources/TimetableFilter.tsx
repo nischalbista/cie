@@ -625,31 +625,56 @@ const TimetableFilter = () => {
       </div>
 
       {!showTable ? (
-        <div className="timetable-filter__message">
-          <div className="timetable-filter__message-title">
-            Welcome to the Examination Timetable
+        <div className="timetable-stepper-container">
+          <h2 className="timetable-stepper-title">
+            Select the filters to view your examination schedule and timetable
+            in a detailed format
+          </h2>
+
+          <div className="timetable-stepper">
+            <div className="timetable-stepper-step ">
+              <div className="timetable-stepper-circle">1</div>
+              <div className="timetable-stepper-label">Select Year</div>
+            </div>
+            <div className="timetable-stepper-line"></div>
+            <div className="timetable-stepper-step active">
+              <div className="timetable-stepper-circle">2</div>
+              <div className="timetable-stepper-label">
+                Select Exam
+                <br />
+                Session
+              </div>
+            </div>
+            <div className="timetable-stepper-line"></div>
+            <div className="timetable-stepper-step active">
+              <div className="timetable-stepper-circle">3</div>
+              <div className="timetable-stepper-label">Select Country</div>
+            </div>
+            <div className="timetable-stepper-line"></div>
+            <div className="timetable-stepper-step active">
+              <div className="timetable-stepper-circle">4</div>
+              <div className="timetable-stepper-label">Select Grade</div>
+            </div>
+            <div className="timetable-stepper-line"></div>
+            <div className="timetable-stepper-step active">
+              <div className="timetable-stepper-circle">5</div>
+              <div className="timetable-stepper-label">Select Subject</div>
+            </div>
+            <div className="timetable-stepper-line"></div>
+            <div className="timetable-stepper-step done">
+              <div className="timetable-stepper-circle done">Done</div>
+              <div className="timetable-stepper-label done-label">
+                Examination Schedule
+                <br />
+                and Timetable
+              </div>
+            </div>
           </div>
-          <p className="timetable-filter__message-text">
-            To view the examination schedule, please select:
-          </p>
-          <div className="timetable-filter__message-steps">
-            <div className="timetable-filter__message-step">
-              <span className="timetable-filter__step-number">1.</span>
-              <span className="timetable-filter__step-text">Year</span>
-            </div>
-            <div className="timetable-filter__message-step">
-              <span className="timetable-filter__step-number">2.</span>
-              <span className="timetable-filter__step-text">Exam Session</span>
-            </div>
-            <div className="timetable-filter__message-step">
-              <span className="timetable-filter__step-number">3.</span>
-              <span className="timetable-filter__step-text">Country</span>
-            </div>
+
+          <div className="timetable-stepper-note">
+            Your zone will be automatically set when you choose country,
+            according to cambridge timezone.
           </div>
-          <p className="timetable-filter__message-footer">
-            After selecting these, you can further filter by Grade and Subject
-            to find specific examination schedules.
-          </p>
         </div>
       ) : (
         <>
