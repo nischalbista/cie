@@ -29,38 +29,41 @@ export default function PastPapers() {
 
   const [searchTerm] = useState("");
 
-  const [selectedZone, setSelectedZone] = useState("Zone 4");
+  const [selectedZone, setSelectedZone] = useState("");
 
-  const handleShare = (platform: string) => {
-    const encodedUrl = encodeURIComponent(currentUrl);
+  // Define the default option value for the dropdown
+  const defaultOptionValue = "";
 
-    let shareUrl = "";
+  // const handleShare = (platform: string) => {
+  //   const encodedUrl = encodeURIComponent(currentUrl);
 
-    switch (platform) {
-      case "facebook":
-        shareUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodedUrl}`;
-        break;
-      case "twitter":
-        shareUrl = `https://twitter.com/intent/tweet?url=${encodedUrl}`;
-        break;
-      case "whatsapp":
-        shareUrl = `https://api.whatsapp.com/send?text=${encodedUrl}`;
-        break;
-      case "copy":
-        navigator.clipboard.writeText(currentUrl).then(() => {
-          setCopied(true);
+  //   let shareUrl = "";
 
-          setTimeout(() => {
-            setCopied(false);
-          }, 1000);
-        });
-        return;
-      default:
-        return;
-    }
+  //   switch (platform) {
+  //     case "facebook":
+  //       shareUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodedUrl}`;
+  //       break;
+  //     case "twitter":
+  //       shareUrl = `https://twitter.com/intent/tweet?url=${encodedUrl}`;
+  //       break;
+  //     case "whatsapp":
+  //       shareUrl = `https://api.whatsapp.com/send?text=${encodedUrl}`;
+  //       break;
+  //     case "copy":
+  //       navigator.clipboard.writeText(currentUrl).then(() => {
+  //         setCopied(true);
 
-    window.open(shareUrl, "_blank");
-  };
+  //         setTimeout(() => {
+  //           setCopied(false);
+  //         }, 1000);
+  //       });
+  //       return;
+  //     default:
+  //       return;
+  //   }
+
+  //   window.open(shareUrl, "_blank");
+  // };
 
   useEffect(() => {
     if (!showDownloadPopup && downloadInProgress) {
@@ -125,6 +128,12 @@ export default function PastPapers() {
   };
 
   function handleChange(e) {
+    const selectedValue = e.target.value;
+    if (selectedValue === "default") {
+      setSelectedZone("");
+      return;
+    }
+
     const selectedText = e.target.options[e.target.selectedIndex].text;
 
     // Split on the first hyphen to remove the timezone
@@ -134,6 +143,12 @@ export default function PastPapers() {
     const [country, capital] = locationPart
       .split(",")
       .map((str: string) => str.trim());
+
+    // Add null/undefined check before calling getZoneFromLocation
+    if (!country || !capital) {
+      setSelectedZone(""); // or set to a default/fallback value
+      return;
+    }
 
     const zone = getZoneFromLocation(country, capital);
     setSelectedZone(zone); // Set the selected zone
@@ -248,7 +263,8 @@ export default function PastPapers() {
             </div>
           </div>
 
-          <div className="past-papers__share-section">
+          {/* Share this page section */}
+          {/* <div className="past-papers__share-section">
             <div className="past-papers__share-box">
               <h3 className="past-papers__share-title">Share this page</h3>
 
@@ -296,7 +312,7 @@ export default function PastPapers() {
             <div className="past-papers__share-image">
               <img src="/images/video-for-all.png" alt="" />
             </div>
-          </div>
+          </div> */}
         </div>
 
         <TimetableFilter />

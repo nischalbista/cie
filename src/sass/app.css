@@ -1230,9 +1230,6 @@ input {
   width: 100%;
 }
 .timetable-filter__table {
-  border-collapse: separate;
-  border-spacing: 0;
-  overflow-x: auto;
   width: 100%;
   min-width: 100%;
 }
@@ -2215,11 +2212,20 @@ input {
     display: block;
   }
   .timetable-filter__table::-webkit-scrollbar {
-    height: 3px;
+    height: 8px;
+  }
+  .timetable-filter__table::-webkit-scrollbar-track {
+    background: #f0f0f0;
+    border-radius: 4px;
   }
   .timetable-filter__table::-webkit-scrollbar-thumb {
-    background: #cbd5e0;
-    border-radius: 3px;
+    background: #59bf98;
+    border-radius: 4px;
+  }
+  .timetable-filter__table::-webkit-scrollbar-thumb:hover {
+    background: #41ae84;
+    -webkit-transition: background 0.2s ease;
+    transition: background 0.2s ease;
   }
   .timetable-filter__message-steps {
     flex-direction: column;
@@ -2399,7 +2405,10 @@ tbody {
 }
 
 .timetable-stepper-container {
-  padding-block: 100px;
+  padding-top: 100px;
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   gap: 60px;
@@ -2479,7 +2488,7 @@ tbody {
 
 @media screen and (max-width: 700px) {
   .timetable-stepper-container {
-    padding-block: 100px;
+    padding-top: 50px;
     flex-direction: column;
     align-items: center;
     gap: 30px;
@@ -2534,8 +2543,10 @@ tbody {
   .timetable-stepper-container .timetable-stepper .timetable-stepper-step .timetable-stepper-label {
     color: #000;
     text-align: center;
+    margin-top: 20px;
+    background-color: white;
+    padding: 5px;
     font-size: clamp(0.875rem, 1vw + 0.6rem, 1rem);
-    font-weight: 600;
   }
   .timetable-stepper-container .timetable-stepper .timetable-stepper-step .timetable-stepper-label.done-label {
     color: #e4b103;

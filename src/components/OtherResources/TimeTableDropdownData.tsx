@@ -3,6 +3,9 @@ import React from "react";
 const TimeTableDropdownData = () => {
   return (
     <>
+      <option value="default">
+        Please choose your location
+      </option>
       <option value="Kabul">
         Afghanistan, Kabul - Afghanistan Standard Time
       </option>
