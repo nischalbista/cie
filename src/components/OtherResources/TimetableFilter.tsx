@@ -417,7 +417,7 @@ const TimetableFilter = () => {
   return (
     <div className="timetable-filter">
       <div className="timetable-filter__header">
-        <h1 className="timetable-filter__title">Examination Timetable</h1>
+        {/* <h1 className="timetable-filter__title">Examination Timetable</h1> */}
         <p className="timetable-filter__subtitle">
           View and filter examination schedules for different subjects and
           grades

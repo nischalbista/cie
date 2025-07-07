@@ -54,9 +54,9 @@
 
       .past-papers__syllabus-container {
         width: 100%;
-        display: flex;
-        flex-direction: column;
-        gap: 40px;
+        // display: flex;
+        // flex-direction: column;
+        // gap: 40px;
 
         .past-papers__syllabus {
           display: flex;
@@ -78,126 +78,126 @@
             font-weight: 300;
           }
 
-          .past-papers__button-group {
-            display: flex;
-            align-items: center;
-            gap: 14px;
+          // .past-papers__button-group {
+          //   display: flex;
+          //   align-items: center;
+          //   gap: 14px;
 
-            button {
-              border-radius: 20px;
-              background: #54bd95;
-              padding: 8px clamp(12px, 1.3vw, 18px);
-              box-shadow: 0px 0px 5px 0px rgba(112, 112, 112, 0.1);
-              color: #f5f5f5;
-              font-size: clamp(13px, 1.5vw, 16px);
-              font-weight: 500;
-              line-height: 1.5;
-              transition: all 0.3s ease;
+          //   button {
+          //     border-radius: 20px;
+          //     background: #54bd95;
+          //     padding: 8px clamp(12px, 1.3vw, 18px);
+          //     box-shadow: 0px 0px 5px 0px rgba(112, 112, 112, 0.1);
+          //     color: #f5f5f5;
+          //     font-size: clamp(13px, 1.5vw, 16px);
+          //     font-weight: 500;
+          //     line-height: 1.5;
+          //     transition: all 0.3s ease;
 
-              &.active {
-                background: #0a734b;
-              }
+          //     &.active {
+          //       background: #0a734b;
+          //     }
 
-              &:hover {
-                background: #0a734b;
-              }
-            }
-          }
+          //     &:hover {
+          //       background: #0a734b;
+          //     }
+          //   }
+          // }
         }
 
-        .past-papers__search {
-          width: 100%;
-          display: flex;
-          flex-direction: column;
-          gap: 10px;
+        // .past-papers__search {
+        //   width: 100%;
+        //   display: flex;
+        //   flex-direction: column;
+        //   gap: 10px;
 
-          .level__search-title {
-            color: #3a3535;
-            font-size: 16px;
-            font-weight: 500;
-            line-height: 1.4;
-          }
+        //   .level__search-title {
+        //     color: #3a3535;
+        //     font-size: 16px;
+        //     font-weight: 500;
+        //     line-height: 1.4;
+        //   }
 
-          .level__search-input {
-            width: 100%;
-            border-radius: 14.56px;
-            border: 1px solid rgba(0, 0, 0, 0.25);
-            background: #fff;
-            padding: clamp(12px, 1.5vw, 18px);
-            display: flex;
-            align-items: center;
-            gap: clamp(8px, 1vw, 12px);
+        //   .level__search-input {
+        //     width: 100%;
+        //     border-radius: 14.56px;
+        //     border: 1px solid rgba(0, 0, 0, 0.25);
+        //     background: #fff;
+        //     padding: clamp(12px, 1.5vw, 18px);
+        //     display: flex;
+        //     align-items: center;
+        //     gap: clamp(8px, 1vw, 12px);
 
-            .level__search-icon {
-              width: 22px;
-              height: 22px;
-              color: #545969;
+        //     .level__search-icon {
+        //       width: 22px;
+        //       height: 22px;
+        //       color: #545969;
 
-              @media screen and (max-width: 991px) {
-                width: 18px;
-                height: 18px;
-              }
-            }
+        //       @media screen and (max-width: 991px) {
+        //         width: 18px;
+        //         height: 18px;
+        //       }
+        //     }
 
-            .level__search-field {
-              flex: 1;
-              font-size: clamp(15px, 1.5vw, 18px);
-              font-weight: 400;
+        //     .level__search-field {
+        //       flex: 1;
+        //       font-size: clamp(15px, 1.5vw, 18px);
+        //       font-weight: 400;
 
-              &::placeholder {
-                color: #757575;
-              }
-            }
-          }
+        //       &::placeholder {
+        //         color: #757575;
+        //       }
+        //     }
+        //   }
 
-          .past-papers__dropdown-wrapper {
-            position: relative;
-            display: grid;
+        //   .past-papers__dropdown-wrapper {
+        //     position: relative;
+        //     display: grid;
 
-            @media screen and (max-width: 991px) {
-              .past-papers__mobile-dropdown {
-                width: 100%;
-              }
-            }
+        //     @media screen and (max-width: 991px) {
+        //       .past-papers__mobile-dropdown {
+        //         width: 100%;
+        //       }
+        //     }
 
-            .past-papers__mobile-dropdown {
-              background: white;
-              font-size: clamp(14px, 1.5vw, 16px);
-              font-family: inherit;
-              font-weight: 500;
-              color: #7b7b7b;
-              // appearance: none;
-              // -webkit-appearance: none;
-              // -moz-appearance: none;
-              // background: transparent;
-              // background-image: url("/svgs/right-arrow.svg");
-              // background-repeat: no-repeat;
-              // background-position-x: calc(100% - 10px);
-              // background-position-y: 50%;
-              border: 1px solid #00000033;
-              border-radius: 24px;
-              padding: clamp(5px, 1.3vw, 10px) clamp(14px, 1.5vw, 20px);
-              outline: none;
-              cursor: pointer;
-              transition: all 0.3s ease;
+        //     .past-papers__mobile-dropdown {
+        //       background: white;
+        //       font-size: clamp(14px, 1.5vw, 16px);
+        //       font-family: inherit;
+        //       font-weight: 500;
+        //       color: #7b7b7b;
+        //       // appearance: none;
+        //       // -webkit-appearance: none;
+        //       // -moz-appearance: none;
+        //       // background: transparent;
+        //       // background-image: url("/svgs/right-arrow.svg");
+        //       // background-repeat: no-repeat;
+        //       // background-position-x: calc(100% - 10px);
+        //       // background-position-y: 50%;
+        //       border: 1px solid #00000033;
+        //       border-radius: 24px;
+        //       padding: clamp(5px, 1.3vw, 10px) clamp(14px, 1.5vw, 20px);
+        //       outline: none;
+        //       cursor: pointer;
+        //       transition: all 0.3s ease;
 
-              &:hover {
-                background: #f5f5f5;
-              }
-            }
-          }
+        //       &:hover {
+        //         background: #f5f5f5;
+        //       }
+        //     }
+        //   }
 
-          .past-papers__zone-text {
-            font-size: clamp(18px, 1.5vw, 20px);
-            color: #333;
-            font-weight: 500;
-            margin-top: 10px;
+        //   .past-papers__zone-text {
+        //     font-size: clamp(18px, 1.5vw, 20px);
+        //     color: #333;
+        //     font-weight: 500;
+        //     margin-top: 10px;
 
-            strong {
-              color: #d32f2f;
-            }
-          }
-        }
+        //     strong {
+        //       color: #d32f2f;
+        //     }
+        //   }
+        // }
 
         .past-papers__paper-section {
           border-radius: 7px;

@@ -173,7 +173,7 @@ export default function PastPapers() {
         <div className="past-papers__container">
           <div className="past-papers__syllabus-container">
             <div className="past-papers__syllabus">
-              <h1 className="title">Timetable</h1>
+              <h1 className="title">Examination Timetable</h1>
               <p className="description">
                 View the accurate exam timetable for your Cambridge IGCSE or
                 AS/A Levels examinations, tailored to your specific
@@ -182,7 +182,7 @@ export default function PastPapers() {
               </p>
             </div>
 
-            <div className="past-papers__search">
+            {/* <div className="past-papers__search">
               <h2 className="level__search-title">
                 Please select your location below to check which administrative
                 zone you are in.
@@ -202,7 +202,7 @@ export default function PastPapers() {
                   <strong>Your Zone:</strong> {selectedZone}
                 </p>
               )}
-            </div>
+            </div> */}
 
             <div className="past-papers__paper-section">
               <div className="past-papers__file-options">

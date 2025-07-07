@@ -1003,24 +1003,12 @@ input {
   display: flex;
   flex-direction: column;
   gap: clamp(1rem, 2vw, 1.5rem);
-  padding: 2rem;
   min-height: 600px;
-  padding-top: clamp(50px, 5.5vw, 100px);
+  padding-top: clamp(50px, 5.5vw, 70px);
 }
 .timetable-filter__header {
   text-align: center;
   margin-bottom: 2rem;
-}
-.timetable-filter__title {
-  font-size: clamp(24px, 3.5vw, 32px);
-  font-weight: 700;
-  line-height: 1.4;
-  color: #1a202c;
-  margin-bottom: 0.75rem;
-  background: linear-gradient(135deg, #2d3748 0%, #4a5568 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
 }
 .timetable-filter__subtitle {
   color: #718096;
@@ -3043,14 +3031,6 @@ tbody {
 .past-papers .past-papers__content .past-papers__container .past-papers__header .past-papers__header-heading .past-papers__header-title.physics {
   color: #fb8573;
 }
-.past-papers .past-papers__content .past-papers__container .past-papers__description {
-  color: #000;
-  font-size: clamp(14px, 1.5vw, 16px);
-  font-weight: 300;
-  max-width: 890px;
-  margin: 0 auto;
-  text-align: center;
-}
 .past-papers .past-papers__content .past-papers__container .past-papers__paper-section {
   border-radius: 7px;
   background: rgba(255, 255, 255, 0.7);
@@ -3775,9 +3755,6 @@ tbody {
 }
 .past-papers-syllabus .past-papers__content .past-papers__container .past-papers__syllabus-container {
   width: 100%;
-  display: flex;
-  flex-direction: column;
-  gap: 40px;
 }
 .past-papers-syllabus .past-papers__content .past-papers__container .past-papers__syllabus-container .past-papers__syllabus {
   display: flex;
@@ -3796,106 +3773,6 @@ tbody {
   color: #000;
   font-size: 16px;
   font-weight: 300;
-}
-.past-papers-syllabus .past-papers__content .past-papers__container .past-papers__syllabus-container .past-papers__syllabus .past-papers__button-group {
-  display: flex;
-  align-items: center;
-  gap: 14px;
-}
-.past-papers-syllabus .past-papers__content .past-papers__container .past-papers__syllabus-container .past-papers__syllabus .past-papers__button-group button {
-  border-radius: 20px;
-  background: #54bd95;
-  padding: 8px clamp(12px, 1.3vw, 18px);
-  box-shadow: 0px 0px 5px 0px rgba(112, 112, 112, 0.1);
-  color: #f5f5f5;
-  font-size: clamp(13px, 1.5vw, 16px);
-  font-weight: 500;
-  line-height: 1.5;
-  transition: all 0.3s ease;
-}
-.past-papers-syllabus .past-papers__content .past-papers__container .past-papers__syllabus-container .past-papers__syllabus .past-papers__button-group button.active {
-  background: #0a734b;
-}
-.past-papers-syllabus .past-papers__content .past-papers__container .past-papers__syllabus-container .past-papers__syllabus .past-papers__button-group button:hover {
-  background: #0a734b;
-}
-.past-papers-syllabus .past-papers__content .past-papers__container .past-papers__syllabus-container .past-papers__search {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-.past-papers-syllabus .past-papers__content .past-papers__container .past-papers__syllabus-container .past-papers__search .level__search-title {
-  color: #3a3535;
-  font-size: 16px;
-  font-weight: 500;
-  line-height: 1.4;
-}
-.past-papers-syllabus .past-papers__content .past-papers__container .past-papers__syllabus-container .past-papers__search .level__search-input {
-  width: 100%;
-  border-radius: 14.56px;
-  border: 1px solid rgba(0, 0, 0, 0.25);
-  background: #fff;
-  padding: clamp(12px, 1.5vw, 18px);
-  display: flex;
-  align-items: center;
-  gap: clamp(8px, 1vw, 12px);
-}
-.past-papers-syllabus .past-papers__content .past-papers__container .past-papers__syllabus-container .past-papers__search .level__search-input .level__search-icon {
-  width: 22px;
-  height: 22px;
-  color: #545969;
-}
-@media screen and (max-width: 991px) {
-  .past-papers-syllabus .past-papers__content .past-papers__container .past-papers__syllabus-container .past-papers__search .level__search-input .level__search-icon {
-    width: 18px;
-    height: 18px;
-  }
-}
-.past-papers-syllabus .past-papers__content .past-papers__container .past-papers__syllabus-container .past-papers__search .level__search-input .level__search-field {
-  flex: 1;
-  font-size: clamp(15px, 1.5vw, 18px);
-  font-weight: 400;
-}
-.past-papers-syllabus .past-papers__content .past-papers__container .past-papers__syllabus-container .past-papers__search .level__search-input .level__search-field::-moz-placeholder {
-  color: #757575;
-}
-.past-papers-syllabus .past-papers__content .past-papers__container .past-papers__syllabus-container .past-papers__search .level__search-input .level__search-field::placeholder {
-  color: #757575;
-}
-.past-papers-syllabus .past-papers__content .past-papers__container .past-papers__syllabus-container .past-papers__search .past-papers__dropdown-wrapper {
-  position: relative;
-  display: grid;
-}
-@media screen and (max-width: 991px) {
-  .past-papers-syllabus .past-papers__content .past-papers__container .past-papers__syllabus-container .past-papers__search .past-papers__dropdown-wrapper .past-papers__mobile-dropdown {
-    width: 100%;
-  }
-}
-.past-papers-syllabus .past-papers__content .past-papers__container .past-papers__syllabus-container .past-papers__search .past-papers__dropdown-wrapper .past-papers__mobile-dropdown {
-  background: white;
-  font-size: clamp(14px, 1.5vw, 16px);
-  font-family: inherit;
-  font-weight: 500;
-  color: #7b7b7b;
-  border: 1px solid rgba(0, 0, 0, 0.2);
-  border-radius: 24px;
-  padding: clamp(5px, 1.3vw, 10px) clamp(14px, 1.5vw, 20px);
-  outline: none;
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
-.past-papers-syllabus .past-papers__content .past-papers__container .past-papers__syllabus-container .past-papers__search .past-papers__dropdown-wrapper .past-papers__mobile-dropdown:hover {
-  background: #f5f5f5;
-}
-.past-papers-syllabus .past-papers__content .past-papers__container .past-papers__syllabus-container .past-papers__search .past-papers__zone-text {
-  font-size: clamp(18px, 1.5vw, 20px);
-  color: #333;
-  font-weight: 500;
-  margin-top: 10px;
-}
-.past-papers-syllabus .past-papers__content .past-papers__container .past-papers__syllabus-container .past-papers__search .past-papers__zone-text strong {
-  color: #d32f2f;
 }
 .past-papers-syllabus .past-papers__content .past-papers__container .past-papers__syllabus-container .past-papers__paper-section {
   border-radius: 7px;
