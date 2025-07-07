@@ -248,7 +248,7 @@ export default function PastPapers() {
             </div>
           </div>
 
-          <div className="past-papers__share-section">
+          {/* <div className="past-papers__share-section">
             <div className="past-papers__share-box">
               <h3 className="past-papers__share-title">Share this page</h3>
 
@@ -296,15 +296,15 @@ export default function PastPapers() {
             <div className="past-papers__share-image">
               <img src="/images/video-for-all.png" alt="" />
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
 
       <ImageBanner
-          src="/images/grade/ivy-grade.png"
-          mobileSrc="/images/grade/ivy-grade-mobile.png"
-          link="https://app.homeschool.asia/signup?utm_source=ciepastpaper&utm_medium=igcse_mid"
-        />
+        src="/images/grade/ivy-grade.png"
+        mobileSrc="/images/grade/ivy-grade-mobile.png"
+        link="https://app.homeschool.asia/signup?utm_source=ciepastpaper&utm_medium=igcse_mid"
+      />
 
       {/* <div className="gradient__container">
         <div className="blob-c">
