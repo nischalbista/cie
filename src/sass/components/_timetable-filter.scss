@@ -8,11 +8,11 @@
   flex-direction: column;
   gap: clamp(1rem, 2vw, 1.5rem);
   min-height: 600px;
-  padding-top: clamp(50px, 5.5vw, 70px);
+  padding-top: clamp(30px, 4.5vw, 50px);
 
   &__header {
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
   }
 
   // &__title {
@@ -33,7 +33,7 @@
     font-size: clamp(15px, 1.5vw, 16px);
     font-weight: 400;
     line-height: 1.6;
-    max-width: 600px;
+    // max-width: 600px;
     margin: 0 auto;
   }
 
@@ -1634,7 +1634,7 @@ tbody {
 }
 
 .timetable-stepper-container {
-  padding-top: 100px;
+  padding-top: clamp(60px, 5vw, 80px);
   max-width: 1100px;
   width: 100%;
   margin: 0 auto;

@@ -173,12 +173,14 @@ export default function PastPapers() {
         <div className="past-papers__container">
           <div className="past-papers__syllabus-container">
             <div className="past-papers__syllabus">
-              <h1 className="title">Examination Timetable</h1>
+              <h1 className="title">
+                Exam timetables for Cambridge IGCSE, O Level and A Level
+              </h1>
               <p className="description">
-                View the accurate exam timetable for your Cambridge IGCSE or
-                AS/A Levels examinations, tailored to your specific
-                administrative zone. Download the exam timetable you need to
-                plan your study routine, making learning more organised.
+                View the accurate exam timetables for your Cambridge IGCSE, O
+                Level and A Level examinations, tailored to your specific
+                country and administrative zone. Download the exam timetable you
+                need to plan your study routine, making learning more organised.
               </p>
             </div>
 
