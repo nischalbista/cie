@@ -417,7 +417,6 @@ const TimetableFilter = () => {
   return (
     <div className="timetable-filter">
       <div className="timetable-filter__header">
-        {/* <h1 className="timetable-filter__title">Examination Timetable</h1> */}
         <p className="timetable-filter__subtitle">
           Select the filters to view your examination schedule and timetable in
           a detailed format
@@ -626,10 +625,10 @@ const TimetableFilter = () => {
 
       {!showTable ? (
         <div className="timetable-stepper-container">
-          <h2 className="timetable-stepper-title">
+          {/* <h2 className="timetable-stepper-title">
             Select the filters to view your examination schedule and timetable
             in a detailed format
-          </h2>
+          </h2> */}
 
           <div className="timetable-stepper">
             <div className="timetable-stepper-step ">

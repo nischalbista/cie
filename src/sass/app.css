@@ -2398,7 +2398,7 @@ tbody {
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  gap: 60px;
+  gap: clamp(20px, 3.5vw, 30px);
 }
 .timetable-stepper-container .timetable-stepper-title {
   color: #000;
