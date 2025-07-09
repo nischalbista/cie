@@ -299,7 +299,7 @@ export default function FlashcardPage() {
         </Swiper>
 
         <div className="card-action-buttons-container">
-          <div className="card-action-buttons-container__buttons-layout">
+          <div className="card-action-buttons-container__buttons-layout play-buttons">
             <button
               className={`btn ${isPlaying && "active-div"}`}
               onClick={() => {
@@ -354,11 +354,11 @@ export default function FlashcardPage() {
             </button>
           </div>
 
-          <div className="card-action-buttons-container__buttons-layout">
+          {/* <div className="card-action-buttons-container__buttons-layout">
             <button className="btn">
               <MdFullscreen size={26} fill="#586380" />
             </button>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
