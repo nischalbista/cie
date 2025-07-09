@@ -17,41 +17,44 @@ export default function FlashcardPage() {
   const qaData = useMemo(
     () => [
       {
-        question: "Who created Champagne and what year?",
-        answer: "Dom Perignon, 1688",
-      },
-      { question: "Who painted the Mona Lisa?", answer: "Leonardo da Vinci" },
-      { question: "What is the capital of Japan?", answer: "Tokyo" },
-      { question: "What is the chemical symbol for gold?", answer: "Au" },
-      { question: "When did the Berlin Wall fall?", answer: "1989" },
-      { question: "Who wrote 'Pride and Prejudice'?", answer: "Jane Austen" },
-      {
-        question: "What is the tallest mountain in the world?",
-        answer: "Mount Everest",
-      },
-      { question: "Which planet is known as the Red Planet?", answer: "Mars" },
-      {
-        question: "Who developed the theory of relativity?",
-        answer: "Albert Einstein",
-      },
-      { question: "What is the smallest prime number?", answer: "2" },
-      {
-        question: "What is the largest ocean on Earth?",
-        answer: "Pacific Ocean",
+        question:
+          "Are the functions of microtubules and centrioles related to spindle fibres?",
+        answer:
+          "Yes. The microtubules make cilia and spindle fibres. Centrioles assemble the spindle fibres during nuclear division.",
       },
       {
-        question: "Who is known as the Father of Computers?",
-        answer: "Charles Babbage",
-      },
-      { question: "What is the hardest natural substance?", answer: "Diamond" },
-      { question: "Who discovered penicillin?", answer: "Alexander Fleming" },
-      {
-        question: "What is the longest river in the world?",
-        answer: "Nile River",
+        question:
+          "What are plasmodesmata as seen in an eukaryotic cell? What is their main function?",
+        answer:
+          "Plasmodesmata are the channels present in a cell wall that connect the neighbouring cells. Their main function is to allow molecules and substances to freely move back and forth as needed.",
       },
       {
-        question: "Who was the first person to walk on the moon?",
-        answer: "Neil Armstrong",
+        question: "What is the name of the outer membrane of a vacuole?",
+        answer:
+          "The outer membrane of a vacuole is called tonoplast. Alternatively, it can also be referred to as a vacuolar membrane.",
+      },
+      {
+        question:
+          "In a eukaryotic cell, what is the site of gas exchange and active transport?",
+        answer:
+          "In a eukaryotic cell, the cell surface membrane and mitochondrial membrane are the sites for gas exchange. Active transport of molecules or ions are also carried out by the tonoplast/vacuolar membrane, nuclear envelope or nuclear membrane besides the cell surface membrane and the mitochondrial membrane.",
+      },
+      {
+        question: "Are viruses living or non-living entities?",
+        answer:
+          "Viruses are placed at the borderline of living and non-living things due to their dual nature. Within a living host organism, they behave as living organisms and can replicate but outside a living host they remain as dead particles.",
+      },
+      {
+        question:
+          "Do viruses have both deoxyribose and ribose sugars in their nucleotides like bacteria?",
+        answer:
+          "No. This is the very basic nature of all viruses. They have either DNA or RNA as their nucleic acid but never both.",
+      },
+      {
+        question:
+          "Are triglycerides polar or nonpolar molecules? Why are they not soluble in water?",
+        answer:
+          "Triglycerides are non-polar and hydrophobic in nature. Being non-polar, they possess no net charge in them. Since they are hydrophobic they are not soluble in water.",
       },
     ],
     []
@@ -136,7 +139,10 @@ export default function FlashcardPage() {
 
   return (
     <div className="container flashcard-page">
-      <h1 className="flashcard-page__heading">A Level - Biology Flashcards</h1>
+      <h1 className="flashcard-page__heading">
+        CIE A Level - Biology Flashcards
+      </h1>
+      <h2 className="flashcard-page__subheading">Cell Structure</h2>
       <div className="header-card-container">
         <div className="header-card-container__head-cards">
           {[

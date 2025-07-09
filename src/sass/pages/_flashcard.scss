@@ -5,6 +5,12 @@
 
   &__heading {
     text-align: center;
+    padding-bottom: 1rem;
+    color: #348163;
+  }
+
+  &__subheading {
+    text-align: center;
     padding-bottom: 4rem;
     color: #348163;
   }
@@ -193,7 +199,7 @@
 }
 
 .main-text {
-  font-size: 32px;
+  font-size: 26px;
   font-weight: 400;
   padding: 0.5rem;
   text-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
@@ -358,5 +364,9 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 1rem;
+  }
+
+  .main-text {
+    font-size: 1.4rem;
   }
 }
